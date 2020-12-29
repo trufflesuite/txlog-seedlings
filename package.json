@@ -1,0 +1,23 @@
+{
+  "name": "txlog-seedlings",
+  "description": "Truffle contracts for planting",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "rm -rf build && truffle compile",
+    "ganache": "./scripts/start-ganache.zsh",
+    "txns": "node scripts/txns.js | grep -iv done",
+    "seq": "node ~/work/truffle/packages/core/cli.js run tx2seq --short-participant-names",
+    "seql": "node ~/work/truffle/packages/core/cli.js run tx2seq",
+    "seq:d": "node --inspect-brk ~/work/truffle/packages/core/cli.js run tx2seq",
+    "umls": "./scripts/make-umls",
+    "bn": "./scripts/bn.awk",
+    "md": "./scripts/md.zsh"
+  },
+  "devDependencies": {
+    "chai": "^4.3.0",
+    "truffle-assertions": "^0.9.2"
+  }
+}

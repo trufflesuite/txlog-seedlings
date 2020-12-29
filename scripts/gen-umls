@@ -1,0 +1,12 @@
+#! /usr/bin/env zsh
+CPU_CORES=1
+case $(uname) in
+  Darwin)
+    CPU_CORES=$(sysctl -n hw.ncpu)
+  ;;
+  Linux)
+    CPU_CORES=$(grep 'cpu cores' /proc/cpuinfo | uniq | cut -d ':' -f2)
+  ;;
+esac
+
+cat txns.out |grep '^0x' | xargs -n 1 -P ${CPU_CORES} ./scripts/trace-txn.zsh
