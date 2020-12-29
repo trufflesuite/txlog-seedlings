@@ -28,7 +28,7 @@ Truffle project to test `txlog-to-plantuml`
    ```
 1. Migrate the contracts.
    ```sh
-   $ yarn ganache
+   $ truffle migrate --reset
    ```
 1. Seed one or more transactions depending on your needs. The output of the
    exec script will give you the full command you need to execute; and you're
