@@ -1,0 +1,14 @@
+{
+  "name": "txlog-seedlings",
+  "description": "Truffle contracts for planting",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "ganache" : "ganache-cli --noVMErrorsOnRPCResponse"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.2.0"
+  }
+}
