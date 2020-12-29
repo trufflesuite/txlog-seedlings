@@ -6,10 +6,11 @@ module.exports = async function(callback) {
   let res;
   try {
     res = await foo.tryAndCatchRevert(9);
+    console.log('tx hash:', res.tx);  // exception raised before res was assigned :(
+    console.log(`truffle run tx2seq ${res.tx} `);
   } catch (error) {
-    console.log('Yum, consumed expected error');
-    console.log('tx hash:', error.tx);  // exception raised before res was assigned :(
-    console.log(`truffle run tx2seq ${error.tx} `);
+    console.log(error);
+    console.log('um... something went wrong');
   } finally {
     callback();
   }

@@ -24,7 +24,7 @@ contract Foo {
   }
 
   function tryAndCatchRevert(uint x) public returns(uint) {
-    uint tmp = bar.incRevert(x);
-    return bar.incRevert(tmp);
+    uint tmp = bar.tryAndCatchRevert(x);
+    return bar.inc(tmp);
   }
 }
