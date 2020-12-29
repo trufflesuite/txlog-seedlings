@@ -21,6 +21,7 @@ contract Bar {
 
   function incRevert(uint x) public returns (uint) {
     lastValue = spam.doubleRevert(x) + 1;
+    lastValue = inside(lastValue);
     return lastValue;
   }
 
