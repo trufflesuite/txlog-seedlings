@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity >=0.4.22 <0.8.0;
+pragma solidity >=0.4.22 <0.9.0;
 
 import "./Bar.sol";
 
@@ -7,9 +7,7 @@ import "./Bar.sol";
 contract Foo {
   Bar bar;
 
-  constructor(Bar _bar) public {
-    bar = _bar;
-  }
+  constructor(Bar _bar) { bar = _bar; }
 
   function testBar(uint x) public returns(uint) {
     return bar.inc(x);
@@ -21,6 +19,11 @@ contract Foo {
   }
 
   function testBarTwiceRevert(uint x) public returns(uint) {
+    uint tmp = bar.incRevert(x);
+    return bar.incRevert(tmp);
+  }
+
+  function tryAndCatchRevert(uint x) public returns(uint) {
     uint tmp = bar.incRevert(x);
     return bar.incRevert(tmp);
   }

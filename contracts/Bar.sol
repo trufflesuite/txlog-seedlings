@@ -7,7 +7,7 @@ contract Bar {
   Spam spam;
   uint public lastValue;
 
-  constructor(Spam _spam) public { spam = _spam; }
+  constructor(Spam _spam) { spam = _spam; }
 
   function inside(uint x) pure internal returns (uint) {
     return x + 1;
@@ -20,8 +20,19 @@ contract Bar {
   }
 
   function incRevert(uint x) public returns (uint) {
-    lastValue = spam.doubleRevert(x) + 1;
+    lastValue = spam.doubleRevert(x);
     lastValue = inside(lastValue);
+    return lastValue;
+  }
+
+  function tryAndCatchRevert(uint x) public returns(uint) {
+    try spam.doubleRevert(x) returns (uint twice) {
+      lastValue = twice;
+    } catch Error(string memory /*someReason*/) {
+      lastValue = inside(lastValue + lastValue);
+    } catch(bytes memory /*crypticData*/) {
+      lastValue = inside(lastValue + lastValue);
+    }
     return lastValue;
   }
 

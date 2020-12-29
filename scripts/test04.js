@@ -5,7 +5,7 @@ module.exports = async function(callback) {
   const foo = await Foo.deployed();
   let res;
   try {
-    res = await foo.testBarTwiceRevert(9);
+    res = await foo.tryAndCatchRevert(9);
   } catch (error) {
     console.log('Yum, consumed expected error');
     console.log('tx hash:', error.tx);  // exception raised before res was assigned :(
@@ -14,4 +14,3 @@ module.exports = async function(callback) {
     callback();
   }
 }
-
