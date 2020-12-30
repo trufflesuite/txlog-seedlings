@@ -44,6 +44,11 @@ Truffle project to test `txlog-to-plantuml`
 
 ## Gallery or Test cases
 
+The Solidity contracts used for testing:
+  * [Foo](contracts/Foo.sol) - the entry point for all the tests. It calls bar.
+  * [Bar](contracts/Bar.sol) - an intermediary contract, it sometimes handles exceptions calling Spam.
+  * [Spam](contracts/Spam.sol) - Spam has methods for reverting or not reverting.
+  * have to be renamed sometime :see_no_evil: :thinking:
 ### 01 happy path across 3 contracts
 
 
