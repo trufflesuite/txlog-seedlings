@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.4.22 <0.9.0;
 
-contract Spam {
+contract Second {
 
-  function doubleRevert(uint x) public pure returns (uint) {
-    require(x == 42, 'rats!');
+  function double_revert(uint x) public pure returns (uint) {
+    require(false, 'rats! imperfect conditions!');
     return 2 * x;
   }
 
