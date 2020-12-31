@@ -1,9 +1,9 @@
-const Bar = artifacts.require("Bar");
-const Foo = artifacts.require("Foo");
-const Spam = artifacts.require("Spam");
+const First = artifacts.require("First");
+const Entry = artifacts.require("Entry");
+const Second = artifacts.require("Second");
 
 module.exports = async function(deployer) {
-  await deployer.deploy(Spam);
-  await deployer.deploy(Bar, Spam.address);
-  await deployer.deploy(Foo, Bar.address);
+  await deployer.deploy(Second);
+  await deployer.deploy(First, Second.address);
+  await deployer.deploy(Entry, First.address);
 };

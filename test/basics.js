@@ -1,13 +1,37 @@
-const foo = artifacts.require("foo");
+const Entry = artifacts.require("Entry");
+const First = artifacts.require("First");
+const Second = artifacts.require("Second");
 
-/*
- * uncomment accounts to access the test accounts made available by the
- * Ethereum client
- * See docs: https://www.trufflesuite.com/docs/truffle/testing/writing-tests-in-javascript
- */
-contract("foo", function (/* accounts */) {
-  it("should assert true", async function () {
-    await foo.deployed();
-    return assert.isTrue(true);
+contract("Entry", async function (accounts) {
+  let instance;
+  before(async () => {
+    const second = await Second.new();
+    const first = await First.new(second.address);
+    instance = await Entry.new(first.address);
+  });
+
+  it("tests a call: x -> 2x + 1", async () => {
+    await instance.test_a_call(9);
+    assert.equal(await instance.value(), 10);
+  });
+
+  it("tests a call twice: x -> 2(2x + 1) + 1", async () => {
+    await instance.test_a_call_twice(9);
+    assert.equal(await instance.value(), 11);
+  });
+
+  it("reverts an entire transaction", async () => {
+    const originalValue = (await instance.value()).toNumber();
+    try {
+      await instance.test_a_revert(9);
+    } catch(err) {
+      assert.equal(true, true);
+    }
+    assert.equal(await instance.value(), originalValue);
+  });
+
+  it("catches a revert", async () => {
+    await instance.test_a_catch(3);
+    assert.equal(await instance.value(), 5);
   });
 });
