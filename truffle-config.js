@@ -13,7 +13,24 @@ module.exports = {
   },
 
   // Configure your compilers
-  compilers: {
+  /*
+  TODO: investigate
+  Truffle test fails if solidty version is set to 0.8.0
+  > Compiling ./test/TestMultipleGuardedFunctionsOneStack.sol
+
+TypeError: Explicit type conversion not allowed from "int256" to "uint8".
+   --> truffle/AssertInt.sol:247:30:
+    |
+247 |             bts[i++] = _utoa(uint8(n % radix)); // Turn it to ascii.
+    |                              ^^^^^^^^^^^^^^^^
+
+,TypeError: Explicit type conversion not allowed from "int256" to "uint8".
+   --> truffle/AssertIntArray.sol:176:30:
+    |
+176 |             bts[i++] = _utoa(uint8(n % radix)); // Turn it to ascii.
+    |                              ^^^^^^^^^^^^^^^^
+  */
+  xyzcompilers: {
     solc: {
       version: "0.8.0",    // Fetch exact version from solc-bin (default: truffle's version)
       // docker: true,        // Use "0.5.1" you've installed locally with docker (default: false)
