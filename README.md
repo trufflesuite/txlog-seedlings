@@ -2,6 +2,65 @@
 
 Truffle project to test `txlog-to-plantuml`
 
+
+## hardhat findings
+
+  - Development networks
+    - hardhat's network cannot be used with our debugger because it does not
+      implement `debug_traceTransaction`
+    - ganache can be plugged in as the test net for for testing by configuring
+      it in `hardhat.config.js` or by starting ganache on port 8545 and
+      invoking hardhat test with `--network localhost`
+
+  - Converting a truffle project
+    - Testing
+      - truffle 4 and 5 plugins yay!
+      - migration contracts and scripts
+        - move migration logic to seed files
+      - use `describe` instead of `contract`. According to docs this is to make
+        the test files compatible with other tools in the testing environment
+        as other tools don't know about `contract`
+
+  - Deployment
+    - No clue. Didn't investigate
+
+## hardhat workflow
+
+1. Install dependencies
+   ```
+   yarn
+   ```
+1. Link txlog-to-plantuml
+   ```
+   yarn link txlog-plant-uml
+
+   ```
+1. Compile your assets
+   ```
+   npx hardhat compile
+
+   ```
+1. start ganache in separate terminal
+   ```
+   ganache-cli
+   ```
+1. Test em with ganache
+   ```
+   npx hardhat compile --network localhost
+
+   ```
+1. Generate umls
+   ```
+   ./gen-umls.zsh && ./gen-md.zsh
+
+   ```
+1. View the `test.md` file output. I use gist with the [pegmatite chrome plugin (thanks nick!)](https://chrome.google.com/webstore/detail/pegmatite/jegkfbnfbfnohncpcfcimepibmhlkldo?hl=en)
+   ```
+   `gist -p test.md`
+   # click on the link and the plugin will render the umls
+
+   ```
+
 ![Transaction trail](images/pink-panther.jpg)
 
 
@@ -196,4 +255,3 @@ p1 -> eow -- : uint256 37
 </details>
 
 ![](images/gallery/test04.png)
-
