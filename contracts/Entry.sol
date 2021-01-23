@@ -18,11 +18,11 @@ contract Entry {
   }
 
   function test_a_revert(uint x) public returns(uint) {
-    return value = first.inc(first.inc_revert(x));
+    return value = first.inc_revert(x);
   }
 
   function test_a_deeper_revert(uint x) public returns(uint) {
-    return value = first.inc(first.big_inc_revert(x));
+    return value = first.big_inc_revert(x);
   }
 
   function test_a_catch(uint x) public returns(uint) {
