@@ -5,7 +5,9 @@ const Second = artifacts.require("Second");
 contract("Entry", async function (accounts) {
   let instance;
   before(async () => {
-    instance = await Entry.deployed();
+    const second = await Second.new();
+    const first = await First.new(second.address);
+    instance = await Entry.new(first.address);
   });
 
   it("tests a call twice: x -> 2(2x + 1) + 1", async () => {
