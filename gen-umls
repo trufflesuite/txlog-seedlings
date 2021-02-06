@@ -1,0 +1,4 @@
+#! /usr/bin/env zsh
+CPU_CORES=16
+
+cat txns.out |grep '^0x' | xargs -n 1 -P ${CPU_CORES} ./trace-txn.zsh

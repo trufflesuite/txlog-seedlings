@@ -1,0 +1,30 @@
+#!/usr/bin/env zsh
+
+TRUFFLE=~/work/truffle-ganache-3/packages/core/cli.js
+
+## clear out txns.out
+rm txns.out
+mkdir truffle-seq truffle-seq-short
+
+for test in $(ls test/*); do
+  md_out="truffle-seq/${test:t:r:l}.md"
+
+  ## start ganache
+  #g3
+  proc=$(tsp ganache-cli --miner.legacyInstamine  --chain.vmErrorsOnRPCResponse)
+
+  # proc=$(tsp ganache-cli)
+  #echo the ganache proc is $proc
+
+  ## run tests
+   node ${TRUFFLE} test ${test}
+
+  ## generate
+  ./gen-umls && ./gen-md.awk txns.out ${md_out}
+
+  ## kill ganache
+  tsp -k $proc
+
+  ## clear out txns.out
+  rm txns.out
+done

@@ -1,5 +1,5 @@
 #! /usr/bin/env zsh
-TRUFFLE=~/work/truffle/packages/core/cli.js
+TRUFFLE=~/work/truffle-ganache-3/packages/core/cli.js
 
 # options
 COMPILE_TESTS="--compile-tests"
@@ -10,4 +10,4 @@ echo "processing tx: $1"
 node $TRUFFLE run tx2seq \
   ${COMPILE_TESTS} \
   ${SHORT_PARTICIPANT_NAMES} \
-  $1 || printf("Txn failed: $1")
+  $1 || echo "TXN FAILED: $1"
