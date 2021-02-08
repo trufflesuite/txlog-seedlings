@@ -2,23 +2,23 @@ const Entry = artifacts.require("Entry");
 const First = artifacts.require("First");
 const Second = artifacts.require("Second");
 
-contract("Entry", async function (accounts) {
+contract("Entry", async function (_accounts) {
   let instance;
+
   before(async () => {
     const second = await Second.new();
     const first = await First.new(second.address);
     instance = await Entry.new(first.address);
   });
 
-  it("tests a call twice: x -> 2(2x + 1) + 1", async () => {
-    const tx = await instance.test_a_call_twice(9);
-    assert.equal(await instance.value(), 11);
-  });
-
-
   it("tests a call: x -> 2x + 1", async () => {
     await instance.test_a_call(9);
     assert.equal(await instance.value(), 10);
+  });
+
+  it("tests a call twice: x -> 2(2x + 1) + 1", async () => {
+    await instance.test_a_call_twice(9);
+    assert.equal(await instance.value(), 11);
   });
 
   it("reverts an entire transaction", async () => {
@@ -35,4 +35,5 @@ contract("Entry", async function (accounts) {
     await instance.test_a_catch(3);
     assert.equal(await instance.value(), 5);
   });
+
 });
