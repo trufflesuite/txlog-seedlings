@@ -1,10 +1,12 @@
 #! /usr/bin/env zsh
 
+#node txns.js| grep -v done |xargs -n 1 ./trace-txn.zsh
+
 for tx in $(node txns.js| grep -v done) ; do
   file=${tx}.puml
   svg=$(<./uml-output/${tx}.svg.txt)
   echo
-  echo "## ${tx} "
+  echo "#### ${tx} "
   echo
   echo "[SVG :telescope:](${svg})"
   echo "\`\`\`plantuml"

@@ -22,12 +22,12 @@ BEGIN {
 	svg = sprintf("uml-output/%s.svg.txt", $0)
 	puml = sprintf("uml-output/%s.puml", $0)
 
-  printf("Tx: %s\n\n", $0)
+  # printf("Tx: %s\n\n", $0)
 
 	getline svg_url < svg
 	svg_line = sprintf("[SVG :telescope:](%s)\n", svg_url)
 
-	printf("### diagram %d\n\n", ++diagram_count)
+	printf("##### d%d, tx: %s\n\n", ++diagram_count, $0)
 	# dump svg link
 	printf ("%s\n\n", svg_line)
 
