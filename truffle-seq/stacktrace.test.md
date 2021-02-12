@@ -1,115 +1,123 @@
-Test date: 2021 Feb 08
+Test date: 2021 Feb 12
 
 
 
 ## succeeds
-##### d1, tx: 0x7a6f1a3a5d8b5c11b9fd2911fe78b66f1e677e4d074b997d2b5c564344f55f55
+[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/0e1d57622e2550f3c79e053fbe2365c8768e8cda/test/stacktrace.test.js#L4)
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/dPHjJzim482_-rUSs9TD3CrEuhnKZD6NHEpJaE3xvCINOf4wLU9C1Sf_vnBQZWmqiLMjBhMT9tVFsJbldMfSjweOKvshRRVAiM6ilJLshHgrWWgNQFLC5RVBfkwidjTLtS27BCtIUShOQUlkAZnZx0QLnWOU6C15tPZxsZfLJIkpj2kqZZ2bewcCXfy9wwvPLxWRkZBt22AWVvTAQsEN83Xx9FgNFNxF_svRixnnBUHtSDrqPKaCveoh4Aut5YvKUpC1lebKM0hbAwdZN1P2v4cflKI84gCu3saEmoZ2GFCeo9CaqXwjac7W1q4f9Nt9Hk4eo_J755GBHnIF60bnfZ1hHVLSEJBY6bNWDRRk9nV3Chx9V8ozH6ePHeMlUH0lPC9bFFEZ6FCucKwJA8kpo9kC0MCuQSRIMDJ_mJtSEqREwdhrcyQv29HSU6KO-hxoajZtWfJxWXT9A28-om9TpiKYdFIt7J7MQpWvUwFeu-C95BLjNTFrlZv-WWVufQeE9zH13e_CrWw7vX-spEdkulCkdcs_WhjR8r2qQZN40G5RjeNEMEV94BQmeH-dCTgDq5CPUvqEvJXorwT7ER7Hu9k5d9nCu6tWtjnVIkqBtI_xH_fWjfzbxFcaiSiNNTFebAdQ5yuMVC4vxvtDwTmGp1saqSbfi6q7VzYOqg0cNQS7pSEpoE762_qqzx8vTLq5COyy8RdmFUg_B3DC_MaOP-XBWiAtCM5SmW1xxyPy3Jiq1SRNVophnGvFUk-ctI78vSueVSufzY-v9m00)
+##### d1, tx: 0x6f12115c2fdb0bcce439364ab8061934e6410b7aab0f82fe057f28978fb4a7ec
+
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/fPHDJzmm48Rl_XMZzjAAqjhEDw9Rilaed8e4KYzS7DjPBB9Ev3ZLBYp_lKusMi4MJhKKZJCpVlpEP1I4BdhBZ1tM3K9iiAqUrfKqg7zGkcE6hQ6HAwd5al67bMa7BRAsQGryB8koo0g4pdkxRUG2mRJk9HFImDFy2d3P6lNOQikQj54hlPRQEc9j3mcb2-wHtM2wHhuAtAX72SG_-AwP44glWE3PzJpPys-p23JVVwLxjRgtFLHRk3L3NJikiies4cut6YvPVty6U1FMX18IS5gB2bUSIzzBlD1dLOn3adY-37s2guYn2jSnhIKEefh6IHJNbSyYoP5h6RTEUl4h1TR31sS_8EJwPXLN7NErtbZNE6iObxUojrFIQzTH_h9jrrFMk76n2GcdYt-EmSd96V1MzzOCeuPFT_eEdS-VvSji5xllOBUT16SrMq_s3si6jndJTp0eRMaGmWusxi5xzsTuUW_McRQJncuFe9apGm5_nTCYyFDtSRN7FRigZiMF1KqLJcNyptL75-sXR_NhzFGCtb6ox_4KHsW_x-ZwnKSHqZBLz2yavZXtLOuICpUcZcOF_NKZQcJVJvAbKRMI0dQ7eulTD2nE-YQYSKQZq1Cq8oHcot0Pivma8Sr3oYj1UL2AX5BF9VzuJJWQgX4cOrpuIHpoe4YJCWWYJD9b6RbfzcWK97bQL2GLyHkmQU9610zy4cEUKnnx6HVSvqdDAgVBpuFIzqD6_2GDWsn6k2RDhKBemXdt1_aB)
 
 
 ```plantuml
+
+
 @startuml
 
 autonumber
-
 skinparam legendBackgroundColor #FEFECE
 
 <style>
-
-header {
-  HorizontalAlignment left
-  FontColor purple
-  FontSize 14
-  Padding 10
-}
-
-</style>
-
+      header {
+        HorizontalAlignment left
+        FontColor purple
+        FontSize 14
+        Padding 10
+      }
+    </style>
 
 header Insights by Truffle
 
-title Txn Hash: 0x7a6f1a3a5d8b5c11b9fd2911fe78b66f1e677e4d074b997d2b5c564344f55f55
+title Txn Hash: 0x6f12115c2fdb0bcce439364ab8061934e6410b7aab0f82fe057f28978fb4a7ec
+
 
 actor EOA as "EOA"
-participant StacktraceTest_01 as "0xF3e8295d567c3d048D59058B378eb89AA97F8F72:StacktraceTest"
-participant undefined_01 as "0xF3e8295d567c3d048D59058B378eb89AA97F8F72:undefined"
-participant Boom_01 as "0x0014a5D2f6633a298324E0310c96170BF4dfC1D6:Boom"
 
-EOA -> StacktraceTest_01 ++: constructor() { value: 100 }
-note left #FEFECE
-<#FEFECE,#FEFECE>|= type |= name |= value |
-| uint256 | x | 0 |
-end note
+participant StacktraceTest as "StacktraceTest"
 
-StacktraceTest_01 -> undefined_01 ++: () 
-undefined_01 -> StacktraceTest_01 --: 
-StacktraceTest_01 -> Boom_01 ++: constructor() { value: 0 }
-Boom_01 -> StacktraceTest_01 --: 
-StacktraceTest_01 -> EOA --: 
+participant Boom as "Boom"
+
+"EOA" -> "StacktraceTest" ++: constructor(\n\
+<#FEFECE,#FEFECE>|= type |= name |= value |\n\
+| uint256 | x | 0 |\n\
+) {\n\
+<#FEFECE,#FEFECE>|= property |= value|\n\
+| value | 0.0000001 GWEI |\n\
+}
+
+"StacktraceTest" -> "Boom" ++: {\n\
+<#FEFECE,#FEFECE>|= property |= value|\n\
+| value | 0.0 GWEI |\n\
+}
+
+"Boom" -> "StacktraceTest" --: 
+
+"StacktraceTest" -> "EOA" --: 
+
 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Contract name |= address |= verified |
-<#FEFECE>| EOA | 0x263Eb2FC832a480721501320315fFeE3A68Fe35e | ? |
-<#FEFECE>| StacktraceTest | 0xF3e8295d567c3d048D59058B378eb89AA97F8F72 | ? |
-<#FEFECE>| undefined | undefined | ? |
-<#FEFECE>| Boom | 0x0014a5D2f6633a298324E0310c96170BF4dfC1D6 | ? |
+<#FEFECE>| EOA | 0x728C2763d2C118aB6B8aD1962D62cbd2c5Fd9223 | ? |
+<#FEFECE>| StacktraceTest | 0xe80E4986c5EA9F55701ABF736432759DAEb1Ad83 | ? |
+<#FEFECE>| Boom | 0xc54180cD2083Ccdc4c9fabaB64D5F446a149A65C | ? |
 endlegend
-
 
 
 @enduml
 ```
 
-##### d2, tx: 0x0c40247dce0cc8d3b490311a44b079982f4a075f00e5e08fcfcbd769a5e1406f
+##### d2, tx: 0x6527487d58300dd728e8c932c3c8a86206afebf1880e056a734268b13fae7030
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/ZPDVRvim5CNV_IckkfTDNJLZ_fceoveceFPfbPhtoU1BOfMOo9WfQUbttmrDeqRRmtWv-1f-FlSUkEcyShxVD8ofthUstvJe6EkUZDqgfpRGu0gjlbNLqygrlTNpjcaTV2ho8f_dZ5rtVj_WbB4rAeqENXZ0NUlCSskzQcQDMTaDMa-OsjDMGUKtmhPtsmQFfKVpZ114j7fGMXkxWe2pLw9_UyU_y-zjPrPhtq6vXwNhwveOp1lV82nt5kvKjvu0t_4guY9ATOMyggGEooZZOH2eA2fvccLIr97YQLnpZZ5oMLTrLUeqoLICGSIJcgPHUNAP_vo1wk22z8BHGBofp5PHFu-U9kATgd29dV_5W_4nlYj2b2ABTPoaLQXv91TnncDv6wOIIvdDPbbQo28LatF01ME7ewwc_m1VNax0zVRp5tY1twhfaHg4LsPRZ-DOJs5S7s--7dKwV0U_toAGMhKPTGJ0m0ReZVKYJc20sjvhaa1GdRA60vcnlusGkz7arGGeaBSFWpry68f6hqpJVJ2ou0lE-S78d68cc3yveQ0TTjre2fsf3PA9qwlJOJnhe2n54kQbAEOo52gIF1L1p8DGK9vnNM0UpX9PO1WJ57wS4yvR667_cyyHHXqU-wJhXlJmf_m1)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/TLF1Sfim4BthAtRIIpjfMY4C28_h1jlG-DJCn3Ezv2AGi3N1WX6YOoVEltUDgITEfrmUxAuUxxq5GcvR9wphjXKXedErwRQvigHzqgOHLcoXKcjbv4mKJsjRTqREwwgsy25BitIU4Z9ftRvIKmBzjL52AWilmoF0NMtrSssSg99AhyrM6OUCfJiFPDWyKJQTRIfrqNZGpmgyqRbsBwJKPWqU7KglFKw-3YB8yFwbQVLwurh8zx2oNLaYBt7QLGfMEmDtejsCWUx2W4KZ7ic0-vHA6J6kU17xhF0BBdZ8Q2XAbPSUvrJH81IHFs8Xpps_52gYFYKOMU5GUlep0T725U8L8PYRquLk17fzS1YSiw9GAzMwVkYoXFFzCRYP_jE2w-insCvyV3IFP394_dd0wU4Rk7sZ0D68RO-_HTNXpN7y09qsZWKX7A0qIudWiLFh4xpyZx2nTQEisv_91gw16EWN2Zz-fSiJqIjgVo_vQEFavsOC610vVJ_a_aqeKZcXg_QDWWLTK4gF2kQuTcHpPq-uSglQjbUah2wrGY_dezD37pugs-7wvYmAVSdcdiV5B9nniV3Ya2r2LkII5K4cOyPy7Fv-oV1kIKSonMawYdbO16aIPq4GKI-PPP4VZdmM1V4YINClaVml6JeSV19oYu2_qny0)
 
 
 ```plantuml
+
+
 @startuml
 
 autonumber
-
 skinparam legendBackgroundColor #FEFECE
 
 <style>
-
-header {
-  HorizontalAlignment left
-  FontColor purple
-  FontSize 14
-  Padding 10
-}
-
-</style>
-
+      header {
+        HorizontalAlignment left
+        FontColor purple
+        FontSize 14
+        Padding 10
+      }
+    </style>
 
 header Insights by Truffle
 
-title Txn Hash: 0x0c40247dce0cc8d3b490311a44b079982f4a075f00e5e08fcfcbd769a5e1406f
+title Txn Hash: 0x6527487d58300dd728e8c932c3c8a86206afebf1880e056a734268b13fae7030
+
 
 actor EOA as "EOA"
-participant StacktraceTest_01 as "0xF3e8295d567c3d048D59058B378eb89AA97F8F72:StacktraceTest"
 
-EOA -> StacktraceTest_01 ++: run() { value: 0 }
-note left #FEFECE
-<#FEFECE,#FEFECE>|= type |= name |= value |
-| uint256 | fnId | 12 |
-end note
+participant StacktraceTest as "StacktraceTest"
 
-StacktraceTest_01 -> EOA --: 
+"EOA" -> "StacktraceTest" ++: run(\n\
+<#FEFECE,#FEFECE>|= type |= name |= value |\n\
+| uint256 | fnId | 12 |\n\
+) {\n\
+<#FEFECE,#FEFECE>|= property |= value|\n\
+| value | 0.0 GWEI |\n\
+}
+
+"StacktraceTest" -> "EOA" --: 
+
 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Contract name |= address |= verified |
-<#FEFECE>| EOA | 0x263Eb2FC832a480721501320315fFeE3A68Fe35e | ? |
-<#FEFECE>| StacktraceTest | 0xF3e8295d567c3d048D59058B378eb89AA97F8F72 | ? |
+<#FEFECE>| EOA | 0x728C2763d2C118aB6B8aD1962D62cbd2c5Fd9223 | ? |
+<#FEFECE>| StacktraceTest | 0xe80E4986c5EA9F55701ABF736432759DAEb1Ad83 | ? |
 endlegend
-
 
 
 @enduml
@@ -118,113 +126,121 @@ endlegend
 
 
 ## succeeds but fails anyway
-##### d1, tx: 0x319bcf765700c19e663f09ae98e124cc58b0a5b244e861477d2d17659eb0f575
+[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/0e1d57622e2550f3c79e053fbe2365c8768e8cda/test/stacktrace.test.js#L8)
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/dPJVRvim483V_LUSkfTDNJNR_8wwhWabwfvMgNcV31ofLM8YOwQqJV_t7ZJ9obfDtP3GWJ4VTz_PdBTEMTUjQiPKvnhJhNAqZBMtsgoLLIkeSOccdAdYTccRpfHfKpSMFiopUPPcZ9ssxgx6CyPkK9LeuO41N3PMtpV6gNfQwwLPeN64gHmzcjFmCs7TsNMDkw5hVOyWVBgxKcMfpH84Puz4_xB7x_dVJQkNDww5_0uMjgigOZ2dNOsms1YuLEtD1FZ64qbUL54OH9mN8i4mz2gUA4nY5D8lYY3EkGfowViOXyAFebAMWgOdcFCgY0AoKJZAClin1TN24SKZHaASBlHQKJtNZemugmfSOEj-SZ5CuvlOvx4gPZBA8Xx6XKpyE9YbVYJIC1P5xl4ib6eQUPCnO0mdpLXfW-L_S0_lZf6pfbdzfWNSJnESIZ_8KwyeayXFlB2KLOGycGNLb1p9q8lJIV_Q4MEzXfEpDue-Ffv0qPZMsQxtzV4JFC0lLNSueGvoU6IcSJWq_x1aJdSNdtVnRFiLtDqQWQ9Hgo4E2DYoBNJQE1c4i8KDdPp6Q3L2JsNiTJgKuyXTdnxbn4Q3RnPoSZA1ju5xStyfjIzqF-qVwOFP_YbZppkDNRteMebEwRfzuUo2Nt3EUsSfxHk2kOCqsZaMstRmXrPN6alITNhGF7oB76wejLakvsdiIUN7F98YuCAJt1D1DSVCcuRn7Bs0eF1jJ1YNCC3Ukp1VmmvDWV7r7zDwiSENthjeTmXokJDAnpd5_YVt1000)
+##### d1, tx: 0xad89362dab7443d21da09733b6f4c572fc6ad70e1dd527b22c282d87b5eecad9
+
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/fPJVRvim4CVV_LUSkfTDNJSmc1zLbpM1iFPfbLffBtqnzf6Y4eECcP8s_Tzd71IrwVOqI-ZCtVdZxnqd2Bdi3TTcM3U4yC6qQbYNg4d_MAkEQxw61bUev8ABnvLk1oMpjcarV2YMnJ9R4dBHcss3Cm9kFI2NgE5vUWMuQdNzr2h3ctbJhzGQbR74oXmI2XlS8xj1Tms-2TpMJmX-UF3TS2bhjGBVcrmlpbvydKIGwVvhrTUh1zD3kOKxFLILvH9JcmRXRgFWYlSFv-1jk4pI8AAIbt4O1fBwadjf70HbL8M2nRGI4PUnXxwKZCObfO8cL2PnoH05bocnBHF6Ib_-d0FluSJQ4q9itqmjwexRMc-DRPpHNE0TziOblNKTvI_QTksonesDEIISpTuTWzFJSn2jweqUHWqVxzKzkPW-o-V9pdRVm6mx16iLNplxcpU3tOpfEnXgPIYBO0SR-tXxzoTu_XUiqss7scmFe8apGS7xuhdbmuzVo-izxiLMSIn-BCXLwChud-kEBjf3_zQlixDp-8UIVOzTd93zl9ERLnz5ek5rqx-Ic7kvhNAKcDanjJHpwAyTKOrzxoIZhgiQ9UmEHsSxDonM-YQcIKRZoCvTvli9NqIBXET-6j4yegAKLB12ffG6DldxMyBHK8smjAmgAgG862lGZxCW3J1XLF0KlK3wKHRcGPO4x3tCJTo8oFD5cObvwB4ap32CmpHaZFgBmWjPKUJKY_YyeBYS4BP9Kwi8kRJ6_a7-0000)
 
 
 ```plantuml
+
+
 @startuml
 
 autonumber
-
 skinparam legendBackgroundColor #FEFECE
 
 <style>
-
-header {
-  HorizontalAlignment left
-  FontColor purple
-  FontSize 14
-  Padding 10
-}
-
-</style>
-
+      header {
+        HorizontalAlignment left
+        FontColor purple
+        FontSize 14
+        Padding 10
+      }
+    </style>
 
 header Insights by Truffle
 
-title Txn Hash: 0x319bcf765700c19e663f09ae98e124cc58b0a5b244e861477d2d17659eb0f575
+title Txn Hash: 0xad89362dab7443d21da09733b6f4c572fc6ad70e1dd527b22c282d87b5eecad9
+
 
 actor EOA as "EOA"
-participant StacktraceTest_01 as "0x8408acB27E7068c29485BC471C681cb30E62aA73:StacktraceTest"
-participant undefined_01 as "0x8408acB27E7068c29485BC471C681cb30E62aA73:undefined"
-participant Boom_01 as "0x504C9eA245bC3cd974936d2f7e09B5fA1242638C:Boom"
 
-EOA -> StacktraceTest_01 ++: constructor() { value: 100 }
-note left #FEFECE
-<#FEFECE,#FEFECE>|= type |= name |= value |
-| uint256 | x | 0 |
-end note
+participant StacktraceTest as "StacktraceTest"
 
-StacktraceTest_01 -> undefined_01 ++: () 
-undefined_01 -> StacktraceTest_01 --: 
-StacktraceTest_01 -> Boom_01 ++: constructor() { value: 0 }
-Boom_01 -> StacktraceTest_01 --: 
-StacktraceTest_01 -> EOA --: 
+participant Boom as "Boom"
+
+"EOA" -> "StacktraceTest" ++: constructor(\n\
+<#FEFECE,#FEFECE>|= type |= name |= value |\n\
+| uint256 | x | 0 |\n\
+) {\n\
+<#FEFECE,#FEFECE>|= property |= value|\n\
+| value | 0.0000001 GWEI |\n\
+}
+
+"StacktraceTest" -> "Boom" ++: {\n\
+<#FEFECE,#FEFECE>|= property |= value|\n\
+| value | 0.0 GWEI |\n\
+}
+
+"Boom" -> "StacktraceTest" --: 
+
+"StacktraceTest" -> "EOA" --: 
+
 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Contract name |= address |= verified |
-<#FEFECE>| EOA | 0x263Eb2FC832a480721501320315fFeE3A68Fe35e | ? |
-<#FEFECE>| StacktraceTest | 0x8408acB27E7068c29485BC471C681cb30E62aA73 | ? |
-<#FEFECE>| undefined | undefined | ? |
-<#FEFECE>| Boom | 0x504C9eA245bC3cd974936d2f7e09B5fA1242638C | ? |
+<#FEFECE>| EOA | 0x728C2763d2C118aB6B8aD1962D62cbd2c5Fd9223 | ? |
+<#FEFECE>| StacktraceTest | 0x9bff2cdc355Fe17C393e852ca9e03d16C4D3C835 | ? |
+<#FEFECE>| Boom | 0xDDBbCcA40584Ce474945521BF045FFD206aAF2eE | ? |
 endlegend
-
 
 
 @enduml
 ```
 
-##### d2, tx: 0x6542d3c1db3d3c1c71837cde6ea0ee9212565cbf3884f2e54a3ac8b3c0506e5b
+##### d2, tx: 0x62539c7fec6a62fa4caf9a9ab3cdf77f79dfcbec3949a3bc86f5fc9d3bb2def5
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/ZPDVRvim5CNV_IckifTDNJLZywzHbpMXeFPfbPhtoPXBOfMOo9WfQUbttmrDeqRRmtWvOE3dSy-1cyuhv_jDmvZgVMlxJOcEiUx9sAroQWCDhj1M2wMVLgxjRPMrJUlWKv4NUPOpTjtvVOCpnjQeAdJmmW3kMcUUM-jLCs_CocxGUiBKdcuLjFn6sFPks-1nwT4y8mGXNJsegZ9s1G5dhqJ_zev_vz_RpgpMleDo3qlNrpKnc3U-GLZkBDofRZq5lekZK5HI1rKf3wAJ89M9hZ16nH6lH22YED9bBTCqh0L6eP9AfwNKFE8nHYMbeJsvp7_EGNKm8Pqm2iGRRRQAvddqb8XtIkCIE_-B1-DZV9U6F5Lw8P8yuN6gnLMOHeiiJ88iJWDTIfx7GiqJEJq7J1WxR7Kv-mVuuc8AhhUVly0B_5PDZpGWl3BRUXnZFPLnVJpvUjJPy1tyVej0QjLcr1400nkWDzPJ2Z10RUyhaa3GEdKD1p9ZVniXTwF9oobG8MyV1dlu44g5Nfcc-s3abjzopWz6CggPOFxaX8fss7MZANIcDaWcJg_EXd6lWReKiSnBKMIf52fCUIA2Y0TIS1b4TO6vdCTfWJ8YAFmu9voFCCB-jvyZZ2Oypad73UdXJ_a3)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/TLFHRfim57ttLrnrBvkwRc07YACiQqEIDK-hr4XxwOknhnEhn21ZfgPD_xqEGL7JQRmSkFVwSCwvGCXruuNpxROaHBI-ikssG4UQHsDhuSGMIboZLLCX7zUkQgtAgx9oy6anNyppEI7ZnkzAd13ehWqAXGvU-aU0sygPvyfwKTwKPcstQ7rWrFuqi0ZD8sNTkhh4iyQzUKQ81wVQdL3As3N4KLzwxN3ylHT1-lSlRMFM6zz0iOELQxKElCGRNoAidYpSYcOpWkWffGdZCjCeKv5IBGPIQ2wuA9XKEijqnfMM1Kh61romGWvJdMZ95IiAgb0d94GcVP0-_tq3ee6BW1U4XDoyaQOMmUkz3y5v9oIkiF7Tq7afp7V7u6hoJmikBqVWMllvmJwGSH_vrnud-n_WTpL2G2ks7VuLPHjk3kDxQ8trD4bX3zekLO2O7bjVuEL_XBMhQdH-ToBhkNfYYBv5yElFV7aaUWtQFqe-s3ZwkHf128WSlnzozouKXLwOidcdO1RDeYWwACZ3sWERFtaAAtVOD9qYT4OR35vEHoVxBloWx2cZmvncALCqZ-EXcARJePZ5FAMpbCf2KPai5AUKXU6VvmmVbdGWuuNML2h9acI1SPOppd2OK2auHap5QJwOiNp8afuiEEnz4d8T8FnERm00)
 
 
 ```plantuml
+
+
 @startuml
 
 autonumber
-
 skinparam legendBackgroundColor #FEFECE
 
 <style>
-
-header {
-  HorizontalAlignment left
-  FontColor purple
-  FontSize 14
-  Padding 10
-}
-
-</style>
-
+      header {
+        HorizontalAlignment left
+        FontColor purple
+        FontSize 14
+        Padding 10
+      }
+    </style>
 
 header Insights by Truffle
 
-title Txn Hash: 0x6542d3c1db3d3c1c71837cde6ea0ee9212565cbf3884f2e54a3ac8b3c0506e5b
+title Txn Hash: 0x62539c7fec6a62fa4caf9a9ab3cdf77f79dfcbec3949a3bc86f5fc9d3bb2def5
+
 
 actor EOA as "EOA"
-participant StacktraceTest_01 as "0x8408acB27E7068c29485BC471C681cb30E62aA73:StacktraceTest"
 
-EOA -> StacktraceTest_01 ++: run() { value: 0 }
-note left #FEFECE
-<#FEFECE,#FEFECE>|= type |= name |= value |
-| uint256 | fnId | 12 |
-end note
+participant StacktraceTest as "StacktraceTest"
 
-StacktraceTest_01 -> EOA --: 
+"EOA" -> "StacktraceTest" ++: run(\n\
+<#FEFECE,#FEFECE>|= type |= name |= value |\n\
+| uint256 | fnId | 12 |\n\
+) {\n\
+<#FEFECE,#FEFECE>|= property |= value|\n\
+| value | 0.0 GWEI |\n\
+}
+
+"StacktraceTest" -> "EOA" --: 
+
 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Contract name |= address |= verified |
-<#FEFECE>| EOA | 0x263Eb2FC832a480721501320315fFeE3A68Fe35e | ? |
-<#FEFECE>| StacktraceTest | 0x8408acB27E7068c29485BC471C681cb30E62aA73 | ? |
+<#FEFECE>| EOA | 0x728C2763d2C118aB6B8aD1962D62cbd2c5Fd9223 | ? |
+<#FEFECE>| StacktraceTest | 0x9bff2cdc355Fe17C393e852ca9e03d16C4D3C835 | ? |
 endlegend
-
 
 
 @enduml
@@ -233,160 +249,188 @@ endlegend
 
 
 ## fails! hahahaha
-##### d1, tx: 0x4bb79b79092f544793eb3add313e8c16d0d3c2c48ca276985b2ae16da274c0d2
+[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/0e1d57622e2550f3c79e053fbe2365c8768e8cda/test/stacktrace.test.js#L13)
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/dPJVRvim483V_LUSkfTDNJLZypFgkgO4r3sjKli-6NoaLec9m4nfb_xlEsYIbRMQkg6W0sC-ttq-SjuvrRf-LJEcUjVOVbLWorXtP-nQjMe5DIxHwWjLtYtRfhSwRUgcXNTvbcTfnjXfv-vhF6Fi5fN65duoWCkcDG-DTQgUrsPfLsWTOIf7Zt8QVYAi-tPTusxesZmWU3xTNIcjZLs2nzaZqJ_jyNl-LzkPvQtheBY7cxQlAc8mProDSBEnSAcwsndmZLyKKK8_deWgyFqeaLX8GajFObnweUPQbgBqurA9A4pYe10AQPZk_99hGJPAHrbct-QWEZYYUCH8Y3EbMIkgvzgH4TUg4c-mSz-vDqwZXPCu3GjFUN4U9acUphKN-0K6qLpp8FNzFE5nwebYDWLCuQGPAsDH_mVtyEuKUT4qgzyqAZDHOSX5Blr2nMMyy3B9uqhmHPI4iefKB2EjqzdmsX5ZWuQJirUAFZwUGTdOphNzuElz1_W9FrJTuunsaCCZiut3SVCFBNEwk_YuYsVRp-3krmWKhLgDSKJ0bcsXDzQ988GjREZaD4RT20ELiPVfK8uJTqDwb1ER3BvQoCd935u7xitzfTIXqFsqVwIFPeUdZ3rzQUpgsQvfTChKtJDd2xxWd0_EKlfk2EOEqgYzM-owqH-sfZAeITVfGVEu5ZdSY51cXSZJM0hbnpmINi0zARZqWYh7JCx3E4SP41I-J0dJ4aROMnlp9UomAJ2z_cFQ87PSwQrDkqEGovrHEiuf3dzolm00)
+##### d1, tx: 0xea103f77644cc26572f333dfd9df8b49d194e6a0801a26a5edb8f5cbbb1c1b41
+
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/fPHHRvim4CVV_IbEtSkchfjjmE2govf0ilPfbLffBtqnjabHYK76J4cRVlSQWg8cNPzc2PsvE__yl-C4GfUj4zPrgmeXqRdQTAjSMzG-bgOHLgoWqajjr4p8nwMjEwFIkgejV5hC5_DqZj15wpQLdY0OreCMIbju7by1hcfRFjN6YMfQbKkpqiPvOk7s2GiVt26RpZQLFWZSbayQIBZttGYbIhC4WaVNos0lleyYq7Z_jMdBvODh8T_0dUsAmdEHArsbuMvju4gq3-U0rreG71HnpC9GIigYc1P14AX2SLKaUSWLuQ5c0YUO2Cf4f5MU597Cyvn8aeS4-PP9vwNFVqz1j73YxGb2lc-kb6KZVAstpZVEMI7rdMxTa7JeEigVrVLgoEetFZOWuMpoxXYSdfw3h4thRDTh-7nlxj75-5c-ZdQo_G5kqsZmreZLOF-AglERFdqBNMaSZHXiOUqVl7D_WUUFO8sj6stTPWyQEICKy3SyB0A__iolTxWNNyMn-BwWeSAXZF-vxkYY7VHV_JexEuSFbEnwFCGHsiqxkddpKPHsegpQDn8pdFagUucf7rDFS_l--X6rkcq7oTgMHQaLRFT79zjXMBpqTKoJbCOiK3Gb914pDaj4HZYZ6QCoLrH62yKf3NpopqF2qL3ri82G84mmnGaFOnObOXgbb9E8HzD444vnpE8iYEXxs31nFK8KCfmMZ0TPnBDKAIPIGIF9GyxPV8hZT84vamaP4Rv9OwiGklJ6_q5U0G00)
 
 
 ```plantuml
+
+
 @startuml
 
 autonumber
-
 skinparam legendBackgroundColor #FEFECE
 
 <style>
-
-header {
-  HorizontalAlignment left
-  FontColor purple
-  FontSize 14
-  Padding 10
-}
-
-</style>
-
+      header {
+        HorizontalAlignment left
+        FontColor purple
+        FontSize 14
+        Padding 10
+      }
+    </style>
 
 header Insights by Truffle
 
-title Txn Hash: 0x4bb79b79092f544793eb3add313e8c16d0d3c2c48ca276985b2ae16da274c0d2
+title Txn Hash: 0xea103f77644cc26572f333dfd9df8b49d194e6a0801a26a5edb8f5cbbb1c1b41
+
 
 actor EOA as "EOA"
-participant StacktraceTest_01 as "0x498C6b1a18F699FCAd154be57Ad05C44F908C12b:StacktraceTest"
-participant undefined_01 as "0x498C6b1a18F699FCAd154be57Ad05C44F908C12b:undefined"
-participant Boom_01 as "0xa279a6602F34ba8c8D1E308f20D7963f7a837ddC:Boom"
 
-EOA -> StacktraceTest_01 ++: constructor() { value: 100 }
-note left #FEFECE
-<#FEFECE,#FEFECE>|= type |= name |= value |
-| uint256 | x | 0 |
-end note
+participant StacktraceTest as "StacktraceTest"
 
-StacktraceTest_01 -> undefined_01 ++: () 
-undefined_01 -> StacktraceTest_01 --: 
-StacktraceTest_01 -> Boom_01 ++: constructor() { value: 0 }
-Boom_01 -> StacktraceTest_01 --: 
-StacktraceTest_01 -> EOA --: 
+participant Boom as "Boom"
+
+"EOA" -> "StacktraceTest" ++: constructor(\n\
+<#FEFECE,#FEFECE>|= type |= name |= value |\n\
+| uint256 | x | 0 |\n\
+) {\n\
+<#FEFECE,#FEFECE>|= property |= value|\n\
+| value | 0.0000001 GWEI |\n\
+}
+
+"StacktraceTest" -> "Boom" ++: {\n\
+<#FEFECE,#FEFECE>|= property |= value|\n\
+| value | 0.0 GWEI |\n\
+}
+
+"Boom" -> "StacktraceTest" --: 
+
+"StacktraceTest" -> "EOA" --: 
+
 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Contract name |= address |= verified |
-<#FEFECE>| EOA | 0x263Eb2FC832a480721501320315fFeE3A68Fe35e | ? |
-<#FEFECE>| StacktraceTest | 0x498C6b1a18F699FCAd154be57Ad05C44F908C12b | ? |
-<#FEFECE>| undefined | undefined | ? |
-<#FEFECE>| Boom | 0xa279a6602F34ba8c8D1E308f20D7963f7a837ddC | ? |
+<#FEFECE>| EOA | 0x728C2763d2C118aB6B8aD1962D62cbd2c5Fd9223 | ? |
+<#FEFECE>| StacktraceTest | 0x3113480208947658aA5C291595A8a1920767D352 | ? |
+<#FEFECE>| Boom | 0xafc4Af693D59DCdd6aCa25c94996EA07CF096c81 | ? |
 endlegend
-
 
 
 @enduml
 ```
 
-##### d2, tx: 0xded9e42dbfdba48714653bef54c3e96c9f1b3c69805bf8d290048d0060a12622
+##### d2, tx: 0x405c0cdf7f108a4981e31e926dd7aa16f5c3c26643cfb9cfc711c9d30065ec5b
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/pPPVJzim5CNV_IdksCicLitEFvAATNIX4JnC8D7toOblYaNgLBQ32fJlpcqe2CI4q3QqvkKcjdFoEpTMJWwSbzPtyuOnsVdMTFCIBMFkGfk5j78E3SxGg1-okfZPjZCgRvlMmiTYKapo2MFxpbyrE6Bi7AL22pSCuAYr-herNZRZHi_C78qdcThJL473zmgBpYuQt0oTwMi44T7LgLHAcna8pcv9_Uk3_8F-iN5wTkuTb5SmjLrTamRpsZS8qwM18-dEXy2N2bM6KQ3AMfKoIlT4bCHXYNKSLI5cIPNLeWoh94jvNDQf2ZBEerHndd0fWYG8g1kL9yh9oHYaWnsgEumQudMb5vByd7dgYBUomYaw_ukBVXbVHbcQ9wMG8YsIB2loiH9nL6AyDrOypgEeo7YQYw0SFXVOOMpzgC7eDyAxkqEmdVdq6MxWKZOTaa6uPQRrsBVryMNiRqw-REfezGtyrGA1gf7pllO2i68hwBJnGPp02cfphAW4D4ol6jR2ZBtaU0qk-DTqPTisnEIwga9SqtdRp_mfe230hOFwYSx96MuLsc0mXF-zTjEUyDqtLIqRXt-vxRUFIcmbrNjkzhUmBGT4Hn_P8Poq2_U1AQHFlBwKXF9YyUkJZDs78Zjz4WWAlTIDU-Baa1zopjTESeeu4l2FLYZaBBMZTuLMrthjul7MqQhFdHNbM924ap8eyZGCACRuNY1YBiA0XoAk2vo4uoGjC8n95Bu_LtYEtOkzDPisOkHmuvEE0whhluGx)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLPDJnin4BtxLqpfWIAQrlPcloAQ4l9HSgX08b8lN1pR6omstfNjHGc4_rvdiuq8g3rK25hsydOzu-TvRsND87Hi7JEkckS8iSeLkffFfK7sMkcI6JQ7NCwa5YUCNyzCKMdHB_B2mFlHS3Ji3n4wicwPoow2-hcIJ4W3Tyqdm6bXr6sX7SjxkPhfkTJECsPkcp3omGrbMPaobpk12tKhWRItQ-TC2ALdG72pT5_ZqUUc2DISFzPMpQwSXUaI9gRACi-Bd7AvXCb2mocpLnt0YpOEEUOYYpE24zPE4o838bCQ2H4pHg8iv06dKTGEU3PDUSPZGdWg0eoZKF9mYhnbtFdIXsSzO1RsFEuXv7rpYgkIUQqNpXld3EDo8gshatQNV7wz3LhT9o4uFEo0gVI7Its9ZXhBFpRONNq1jombUDHiNkCDool_iavVGQMqes44AyZqM7YWcyW1tFsEhpH5AOrRRhaQgeONy2SCttuCnnkYUr_wuuh_e8B-dOnfKUJ-Q5jnBkLQXZE_Wg-bXBmP9T-bjMmc_tyzhLO7NZMrCJHu9YipbblvDkxhFo25l1qfptjZNqhGehMMLFUv3koV5QLzju-GaBvzgXlcvDEk-D8nX3Q33Zf_qBs5T4pbze4f0pp06AzDwVlvn6ztMwVzR6BypwbDaaPbQktmTcjtLKy9tgn5J9C-ZQD0q3uX2Jk9JX8s86b41n7bKq5vE18ffO5F_hhBy6YQM9C5X0Jj15ESfEqu2XFM2_iq9M4QzX96KehZA1u48Mt8lC969qB77lpSznC0)
 
 
 ```plantuml
+
+
 @startuml
 
 autonumber
-
 skinparam legendBackgroundColor #FEFECE
 
 <style>
-
-header {
-  HorizontalAlignment left
-  FontColor purple
-  FontSize 14
-  Padding 10
-}
-
-</style>
-
+      header {
+        HorizontalAlignment left
+        FontColor purple
+        FontSize 14
+        Padding 10
+      }
+    </style>
 
 header Insights by Truffle
 
-title Txn Hash: 0xded9e42dbfdba48714653bef54c3e96c9f1b3c69805bf8d290048d0060a12622
+title Txn Hash: 0x405c0cdf7f108a4981e31e926dd7aa16f5c3c26643cfb9cfc711c9d30065ec5b
+
 
 actor EOA as "EOA"
-participant StacktraceTest_01 as "0x498C6b1a18F699FCAd154be57Ad05C44F908C12b:StacktraceTest"
 
-EOA -> StacktraceTest_01 ++: run() { value: 0 }
-note left #FEFECE
-<#FEFECE,#FEFECE>|= type |= name |= value |
-| uint256 | fnId | 2 |
-end note
+participant StacktraceTest as "StacktraceTest"
 
-StacktraceTest_01 -> StacktraceTest_01 ++: run2() { value: 0 }
-note left #FEFECE
-<#FEFECE,#FEFECE>|= type |= name |= value |
-| bool | succeed | true |
-end note
+"EOA" -> "StacktraceTest" ++: run(\n\
+<#FEFECE,#FEFECE>|= type |= name |= value |\n\
+| uint256 | fnId | 2 |\n\
+) {\n\
+<#FEFECE,#FEFECE>|= property |= value|\n\
+| value | 0.0 GWEI |\n\
+}
 
-StacktraceTest_01 -> StacktraceTest_01 ++: run1() 
-note left #FEFECE
-<#FEFECE,#FEFECE>|= type |= name |= value |
-| bool | succeed | true |
-end note
+"StacktraceTest" -> "StacktraceTest" ++: run2(\n\
+<#FEFECE,#FEFECE>|= type |= name |= value |\n\
+| bool | succeed | true |\n\
+) {\n\
+<#FEFECE,#FEFECE>|= property |= value|\n\
+| value | 0.0 GWEI |\n\
+}
 
-StacktraceTest_01 -> StacktraceTest_01 ++: runMessage() 
-note left #FEFECE
-<#FEFECE,#FEFECE>|= type |= name |= value |
-| bool | succeed | true |
-end note
+"StacktraceTest" -> "StacktraceTest" ++: run1(\n\
+<#FEFECE,#FEFECE>|= type |= name |= value |\n\
+| bool | succeed | true |\n\
+) {\n\
+<#FEFECE,#FEFECE>|= property |= value|\n\
+| value | 0.0 GWEI |\n\
+}
 
-StacktraceTest_01 -> StacktraceTest_01 --: 
-StacktraceTest_01 -> StacktraceTest_01 --: 
-StacktraceTest_01 -> StacktraceTest_01 --: 
-StacktraceTest_01 -> StacktraceTest_01 ++: run3() { value: 0 }
-note left #FEFECE
-<#FEFECE,#FEFECE>|= type |= name |= value |
-| bool | succeed | false |
-end note
+"StacktraceTest" -> "StacktraceTest" ++: runMessage(\n\
+<#FEFECE,#FEFECE>|= type |= name |= value |\n\
+| bool | succeed | true |\n\
+) {\n\
+<#FEFECE,#FEFECE>|= property |= value|\n\
+| value | 0.0 GWEI |\n\
+}
 
-StacktraceTest_01 -> StacktraceTest_01 ++: run2() 
-note left #FEFECE
-<#FEFECE,#FEFECE>|= type |= name |= value |
-| bool | succeed | false |
-end note
+"StacktraceTest" -> "StacktraceTest" --: 
 
-StacktraceTest_01 -> StacktraceTest_01 ++: run1() 
-note left #FEFECE
-<#FEFECE,#FEFECE>|= type |= name |= value |
-| bool | succeed | false |
-end note
+"StacktraceTest" -> "StacktraceTest" --: 
 
-StacktraceTest_01 -> StacktraceTest_01 ++: runMessage() 
-note left #FEFECE
-<#FEFECE,#FEFECE>|= type |= name |= value |
-| bool | succeed | false |
-end note
+"StacktraceTest" -> "StacktraceTest" --: 
 
-StacktraceTest_01 x--> EOA: Oops!
-deactivate StacktraceTest_01
-deactivate StacktraceTest_01
+"StacktraceTest" -> "StacktraceTest" ++: run3(\n\
+<#FEFECE,#FEFECE>|= type |= name |= value |\n\
+| bool | succeed | false |\n\
+) {\n\
+<#FEFECE,#FEFECE>|= property |= value|\n\
+| value | 0.0 GWEI |\n\
+}
+
+"StacktraceTest" -> "StacktraceTest" ++: run2(\n\
+<#FEFECE,#FEFECE>|= type |= name |= value |\n\
+| bool | succeed | false |\n\
+) {\n\
+<#FEFECE,#FEFECE>|= property |= value|\n\
+| value | 0.0 GWEI |\n\
+}
+
+"StacktraceTest" -> "StacktraceTest" ++: run1(\n\
+<#FEFECE,#FEFECE>|= type |= name |= value |\n\
+| bool | succeed | false |\n\
+) {\n\
+<#FEFECE,#FEFECE>|= property |= value|\n\
+| value | 0.0 GWEI |\n\
+}
+
+"StacktraceTest" -> "StacktraceTest" ++: runMessage(\n\
+<#FEFECE,#FEFECE>|= type |= name |= value |\n\
+| bool | succeed | false |\n\
+) {\n\
+<#FEFECE,#FEFECE>|= property |= value|\n\
+| value | 0.0 GWEI |\n\
+}
+
+"StacktraceTest" x--> "EOA" : 'Oops!'
+
+deactivate "StacktraceTest"
+deactivate "StacktraceTest"
+deactivate "StacktraceTest"
+deactivate "StacktraceTest"
+deactivate "StacktraceTest"
 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Contract name |= address |= verified |
-<#FEFECE>| EOA | 0x263Eb2FC832a480721501320315fFeE3A68Fe35e | ? |
-<#FEFECE>| StacktraceTest | 0x498C6b1a18F699FCAd154be57Ad05C44F908C12b | ? |
+<#FEFECE>| EOA | 0x728C2763d2C118aB6B8aD1962D62cbd2c5Fd9223 | ? |
+<#FEFECE>| StacktraceTest | 0x3113480208947658aA5C291595A8a1920767D352 | ? |
 endlegend
-
 
 
 @enduml
@@ -395,161 +439,193 @@ endlegend
 
 
 ## fails with extra info
-##### d1, tx: 0x8bd2cf182f82908a4548d55884314f0f166521745572da2f20036c20523d21b8
+[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/0e1d57622e2550f3c79e053fbe2365c8768e8cda/test/stacktrace.test.js#L17)
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/dPJVRvim483V_LUSkfTDNJNR_39HrpKbGTtJAZNlay4cjKfCPCoKjkd_teCcMLchgHiIEZ3cu-xpcVFMI-UxLKs8x7nZkrMX7I7jhR5hwUGAQhtKLbt8ydRfciwghAaR1n_oUJxFveISjlwkrcU4t6Yfj8C70d3PE7FVM2_hQMsMTgMjHqpbyL6Emy-4TUVMjTuDNPjx3Ip4kokfbB5BO9Gy8ltB7h_dVxUjMTxu5eexMBYkgf11lF6rXiN6mgLiRoP0Dw9GlAoOu9NWAHKoZ4AXeaY8C61XHIiMnn5dIHX52LUILvpI82uvZNYWE2i4sYWzPZd_CGNPmX768u92l2dDMc8zrnwDU2TBlT2j_qdPC8rkKb7cFA2QPkbCXA8ePe58WdanpMAMYPbYKnQoFEQJCM0CHyswCbQh_-0UtXqZBvfczPkMnK6IS7h111CLZU94qZGiPagpB8rfLGh6qYGDnAH_xOYGNiF9sHj57nzFe6niwrtN-_hu2HxWbwmxFS4LfF18REFriFY7bZdTNNpUnRFjL_1tQmqOhLmDSK30bcoXCzRpA8OjRF2aE8RT23sLaDVfO8uZTtrwc1CP3RvPoCd91Du6xitzfTI-qFsqVwGFPlkdX3plD7BrOjMKzjBKxGjdCpgZbFRECjmt2FC7QRXpd6xRmPzsfZ9QeQxJW-RXM-XmmsDi79vd8k0o53JXBA8iu3HWKPNhUJ2DHQw32A7mRKmObp30tjkOhs67HO7nzH_JUh73bzxRj3i4kjmPnUCSO_-JUm80)
+##### d1, tx: 0x9596884578efda5489f6827af21f56707f7143b928c8a5c207c935b8d9ff9e99
+
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/fPHHJzim4CVV_IbEx6KJOtESEBOHwo19CtWQ4aXxuSL9x1AHEfNZJ2sKxuwJHXMKyJHBqJbtvv__Tpa5eVFEIUlwPOEGx5rh-cMXBEeUQhEILYwXKGjbgaIM3mlRzgPAswQry2cVv_DqZj1PvpQDcY4OrxsIbRBmDBq2NBQsVcoDayr5Ko_CKXddYThj4t8Vt25NlLqrwatWfdvK44HxtxMigjei8C2JwtcqPzyd4MYw_yfqzUBUTL1iuDRsMdikShLh5Dok3LpAxluKy5fG4NCUKSQLhYIDkD0n9qng4cWQCymq2wAm48INNDAIO5QAa1Qy4beB9GJoBIkTbpx_VG6oWoDlZn3oVNDrMQ-ah_N6-SOvAqjrgpet9hrr7UGdRRiSiuQDZur8E9czEmR7nwTGjgPpjXyqVBupT-Xi-YnV9plR_W2tMIdmriZbQF_AflUR8NqBVMqSeJ5iOUqVl7D_WQUFO2lRhfHrcpreuanGmD_mk0BuzMT-jSCz-oeEnGy5ZHMEPVpFTGSNxQ3_wjV9oIbye6JNup6Eq6xUqVMhZr8f9-kcUoKnmvclSf2O-Z7rDBVlhnzHgxfkbAnihMjLmNP_TBOTXyLBNpF2KyBYi29f472Pn0cNMI1YaiMaB2fIqhmIX8G--UTRmi5G3R2CX9ZoX92A9bWBZdETnL6Sq4Y7Z1FEL2ZJbAdti77Y1aH24nKp6f1Cv29XcAfOXImhU8QbcAUu24WaH5vE2D-agLK8dNlZ_o0l)
 
 
 ```plantuml
+
+
 @startuml
 
 autonumber
-
 skinparam legendBackgroundColor #FEFECE
 
 <style>
-
-header {
-  HorizontalAlignment left
-  FontColor purple
-  FontSize 14
-  Padding 10
-}
-
-</style>
-
+      header {
+        HorizontalAlignment left
+        FontColor purple
+        FontSize 14
+        Padding 10
+      }
+    </style>
 
 header Insights by Truffle
 
-title Txn Hash: 0x8bd2cf182f82908a4548d55884314f0f166521745572da2f20036c20523d21b8
+title Txn Hash: 0x9596884578efda5489f6827af21f56707f7143b928c8a5c207c935b8d9ff9e99
+
 
 actor EOA as "EOA"
-participant StacktraceTest_01 as "0x98cF230e0C9D848bbD3873EbAC61C8Dd1A141F62:StacktraceTest"
-participant undefined_01 as "0x98cF230e0C9D848bbD3873EbAC61C8Dd1A141F62:undefined"
-participant Boom_01 as "0xC637720B1818f0567a094bDde1C960fc81197938:Boom"
 
-EOA -> StacktraceTest_01 ++: constructor() { value: 100 }
-note left #FEFECE
-<#FEFECE,#FEFECE>|= type |= name |= value |
-| uint256 | x | 0 |
-end note
+participant StacktraceTest as "StacktraceTest"
 
-StacktraceTest_01 -> undefined_01 ++: () 
-undefined_01 -> StacktraceTest_01 --: 
-StacktraceTest_01 -> Boom_01 ++: constructor() { value: 0 }
-Boom_01 -> StacktraceTest_01 --: 
-StacktraceTest_01 -> EOA --: 
+participant Boom as "Boom"
+
+"EOA" -> "StacktraceTest" ++: constructor(\n\
+<#FEFECE,#FEFECE>|= type |= name |= value |\n\
+| uint256 | x | 0 |\n\
+) {\n\
+<#FEFECE,#FEFECE>|= property |= value|\n\
+| value | 0.0000001 GWEI |\n\
+}
+
+"StacktraceTest" -> "Boom" ++: {\n\
+<#FEFECE,#FEFECE>|= property |= value|\n\
+| value | 0.0 GWEI |\n\
+}
+
+"Boom" -> "StacktraceTest" --: 
+
+"StacktraceTest" -> "EOA" --: 
+
 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Contract name |= address |= verified |
-<#FEFECE>| EOA | 0x263Eb2FC832a480721501320315fFeE3A68Fe35e | ? |
-<#FEFECE>| StacktraceTest | 0x98cF230e0C9D848bbD3873EbAC61C8Dd1A141F62 | ? |
-<#FEFECE>| undefined | undefined | ? |
-<#FEFECE>| Boom | 0xC637720B1818f0567a094bDde1C960fc81197938 | ? |
+<#FEFECE>| EOA | 0x728C2763d2C118aB6B8aD1962D62cbd2c5Fd9223 | ? |
+<#FEFECE>| StacktraceTest | 0xD23058B22d5B0f980FfD646B54f378287e3aCC7e | ? |
+<#FEFECE>| Boom | 0xB5Be67512D9F9B705e6e37Db8D0a9EC0b12499Fc | ? |
 endlegend
-
 
 
 @enduml
 ```
 
-##### d2, tx: 0xcba35b19844b0768f13c3b255b5c6f6b16e2000f61b75bfdea665dab29b33a15
+##### d2, tx: 0x839582226e2a22012d072995375c68500380a3c55975efbbe80a79a6a52f74b0
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/pPPFJzj04CNl-ob6S6b5GtUziUD4D2LrOi6faU1MLTMkFGuhd7MqNgC4mdVln0G40Y7K5ZMvJB9_VddpFChBSUsLyysyP4mrlhBDNADZhBuqTg6ScaE9CxJvDvLTpbpLs3ofoih1VZf99yc4iQFQhqeSCdQ1AaS7DmpWf7Bckh9UbQFIpEmShITCuMahfUKxmg9nYnAtIsVc6a5qwTDKvRcnCn2StHBzypt-ddzgQpExy3Ne5PoxfYY8mRpn9SBvqiA9gYy6m9UPLZBKeXztkvhtehWGCfCw24CTPb4HQH5Xm3al8g5xeIvoL54Kvae7VIsb4Y6vaNbIEVa-0bN37jKzHePuavc5edxEF3dYdShm76l_Yuls65_suomD94UUzCTnDzPwBEEUdEXH4eaa7kTY9BeYZOB1Ky0UOvklwWnV01yS3C0rziD7k84hLJP83S8jivN7rjQ7Xt6qVVDfMuVhB-1N2mIgLitRsW9WpTRG6Ek3C88r5FOqfzAbPNhKi04pzbp7Q-A2VwrELrL9ckecon0twhnhT_vKe221EoTggbOx9QlJ6S3_FhkrHhxxG1MghF4lHtxtL8cTLFLUW_ucNJ_sPmxH_dnHu00U3vgWGNj-PjcXg_JpJAtW5Jf_U7Z8A34oRwuKDVJimkkRZDr5Afi-YfCSlJ9b_SYFCHzJG6tyI2WW2U0V3A68T5ZNhJVeJ64sNZnS7QxRr5fJ2WOH9K-G9h4CL3VclK24NCY0In4MAKxaA8fJb251uUjJmbFPBUojoRQ5KOVRFkbrJ7Np7-Ct)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/tLR9Rjim4BtpAmR9fKNgbg9CBKRg9fRjngS6I80UcXueQUGGaIc1eW8xSVwzbAmQMRe0RP2quML8pl3Dl4SG748EAYEqgHSv8Q8sXQeNCMfINKXL2YqMaECSLJeIoSLS5xLAeo8lDEnE9zD9D25alpAh78S4sd6E8aKDrzqIuAZGygfGHkI7kPoh1IfZ4JEp3PXQvmQoh7MPunt7YRn2SFhRlMEHfbBDmQ7TrarhzzzrHP0k_qnLSdvkAeXNSAhhBBEun4YJ8vmk5Ho9wdm0T1cu8GyOOnuomHXrM4fz5eRSzNdY1PnIDw32JJWFVOvP7ADT-g7m16UPtuyfiP8bnfO--NG8ee8TQtS8iRePcSXIMAudnWfdj4Zm52lJ1jtTil7jCUWD7xXWRsy0kbQlpjGPsUyaVzFPuVezc5M9OAqIYzPUYhosaoPy3RLKXd4Frf2fMMfDV-Dv3TS_mojrKQ8sgorM1zNX0drBuUFdoMm3T6DBlr_nBrYmFwCH5qLkKrTraY0sD8p-xdmk9iwBON8iLly_brvl0CyQsedfFfAKcSWhV1blzH-WuhmSAe_tMf-Cp9VTkKPKNt_4Ql1NcRlX_AQ2PQz9tVwmpNjEqVxOyb8OVFWHFxMFa4rlHOvlDGmf6Y7pwfOgOpgsF1jL8jiIsUDcUycs7T9OLQrAg6KccylT7XsksyR4ghNqMH0nttDJ5ZbE84RUA11Z9_JOs6D9dBA4JzEGCTS6VxYBSA-1QS36pAKy636MyX7Dme1Eix7NzqQydxb-m08VNH55FdPWbc77av03Qsoh-Gq0)
 
 
 ```plantuml
+
+
 @startuml
 
 autonumber
-
 skinparam legendBackgroundColor #FEFECE
 
 <style>
-
-header {
-  HorizontalAlignment left
-  FontColor purple
-  FontSize 14
-  Padding 10
-}
-
-</style>
-
+      header {
+        HorizontalAlignment left
+        FontColor purple
+        FontSize 14
+        Padding 10
+      }
+    </style>
 
 header Insights by Truffle
 
-title Txn Hash: 0xcba35b19844b0768f13c3b255b5c6f6b16e2000f61b75bfdea665dab29b33a15
+title Txn Hash: 0x839582226e2a22012d072995375c68500380a3c55975efbbe80a79a6a52f74b0
+
 
 actor EOA as "EOA"
-participant StacktraceTest_01 as "0x98cF230e0C9D848bbD3873EbAC61C8Dd1A141F62:StacktraceTest"
 
-EOA -> StacktraceTest_01 ++: run() { value: 0 }
-note left #FEFECE
-<#FEFECE,#FEFECE>|= type |= name |= value |
-| uint256 | fnId | 4 |
-end note
+participant StacktraceTest as "StacktraceTest"
 
-StacktraceTest_01 -> StacktraceTest_01 ++: run2() { value: 0 }
-note left #FEFECE
-<#FEFECE,#FEFECE>|= type |= name |= value |
-| bool | succeed | true |
-end note
+"EOA" -> "StacktraceTest" ++: run(\n\
+<#FEFECE,#FEFECE>|= type |= name |= value |\n\
+| uint256 | fnId | 4 |\n\
+) {\n\
+<#FEFECE,#FEFECE>|= property |= value|\n\
+| value | 0.0 GWEI |\n\
+}
 
-StacktraceTest_01 -> StacktraceTest_01 ++: run1() 
-note left #FEFECE
-<#FEFECE,#FEFECE>|= type |= name |= value |
-| bool | succeed | true |
-end note
+"StacktraceTest" -> "StacktraceTest" ++: run2(\n\
+<#FEFECE,#FEFECE>|= type |= name |= value |\n\
+| bool | succeed | true |\n\
+) {\n\
+<#FEFECE,#FEFECE>|= property |= value|\n\
+| value | 0.0 GWEI |\n\
+}
 
-StacktraceTest_01 -> StacktraceTest_01 ++: runPay() 
-note left #FEFECE
-<#FEFECE,#FEFECE>|= type |= name |= value |
-| bool | succeed | true |
-end note
+"StacktraceTest" -> "StacktraceTest" ++: run1(\n\
+<#FEFECE,#FEFECE>|= type |= name |= value |\n\
+| bool | succeed | true |\n\
+) {\n\
+<#FEFECE,#FEFECE>|= property |= value|\n\
+| value | 0.0 GWEI |\n\
+}
 
-StacktraceTest_01 -> StacktraceTest_01 --: 
-StacktraceTest_01 -> StacktraceTest_01 --: 
-StacktraceTest_01 -> StacktraceTest_01 --: 
-StacktraceTest_01 -> StacktraceTest_01 ++: run3() { value: 0 }
-note left #FEFECE
-<#FEFECE,#FEFECE>|= type |= name |= value |
-| bool | succeed | false |
-end note
+"StacktraceTest" -> "StacktraceTest" ++: runPay(\n\
+<#FEFECE,#FEFECE>|= type |= name |= value |\n\
+| bool | succeed | true |\n\
+) {\n\
+<#FEFECE,#FEFECE>|= property |= value|\n\
+| value | 0.0 GWEI |\n\
+}
 
-StacktraceTest_01 -> StacktraceTest_01 ++: run2() 
-note left #FEFECE
-<#FEFECE,#FEFECE>|= type |= name |= value |
-| bool | succeed | false |
-end note
+"StacktraceTest" -> "StacktraceTest" --: 
 
-StacktraceTest_01 -> StacktraceTest_01 ++: run1() 
-note left #FEFECE
-<#FEFECE,#FEFECE>|= type |= name |= value |
-| bool | succeed | false |
-end note
+"StacktraceTest" -> "StacktraceTest" --: 
 
-StacktraceTest_01 -> StacktraceTest_01 ++: runPay() 
-note left #FEFECE
-<#FEFECE,#FEFECE>|= type |= name |= value |
-| bool | succeed | false |
-end note
+"StacktraceTest" -> "StacktraceTest" --: 
 
-StacktraceTest_01 -[#green]-> StacktraceTest_01 : () { value: 1 }
-StacktraceTest_01 x--> EOA: revert...
-deactivate StacktraceTest_01
-deactivate StacktraceTest_01
+"StacktraceTest" -> "StacktraceTest" ++: run3(\n\
+<#FEFECE,#FEFECE>|= type |= name |= value |\n\
+| bool | succeed | false |\n\
+) {\n\
+<#FEFECE,#FEFECE>|= property |= value|\n\
+| value | 0.0 GWEI |\n\
+}
+
+"StacktraceTest" -> "StacktraceTest" ++: run2(\n\
+<#FEFECE,#FEFECE>|= type |= name |= value |\n\
+| bool | succeed | false |\n\
+) {\n\
+<#FEFECE,#FEFECE>|= property |= value|\n\
+| value | 0.0 GWEI |\n\
+}
+
+"StacktraceTest" -> "StacktraceTest" ++: run1(\n\
+<#FEFECE,#FEFECE>|= type |= name |= value |\n\
+| bool | succeed | false |\n\
+) {\n\
+<#FEFECE,#FEFECE>|= property |= value|\n\
+| value | 0.0 GWEI |\n\
+}
+
+"StacktraceTest" -> "StacktraceTest" ++: runPay(\n\
+<#FEFECE,#FEFECE>|= type |= name |= value |\n\
+| bool | succeed | false |\n\
+) {\n\
+<#FEFECE,#FEFECE>|= property |= value|\n\
+| value | 0.0 GWEI |\n\
+}
+
+"StacktraceTest" -[#green]-> "StacktraceTest" : {\n\
+<#FEFECE,#FEFECE>|= property |= value|\n\
+| value | 0.000000001 GWEI |\n\
+}
+
+"StacktraceTest" x--> "EOA" : 
+
+deactivate "StacktraceTest"
+deactivate "StacktraceTest"
+deactivate "StacktraceTest"
+deactivate "StacktraceTest"
+deactivate "StacktraceTest"
 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Contract name |= address |= verified |
-<#FEFECE>| EOA | 0x263Eb2FC832a480721501320315fFeE3A68Fe35e | ? |
-<#FEFECE>| StacktraceTest | 0x98cF230e0C9D848bbD3873EbAC61C8Dd1A141F62 | ? |
+<#FEFECE>| EOA | 0x728C2763d2C118aB6B8aD1962D62cbd2c5Fd9223 | ? |
+<#FEFECE>| StacktraceTest | 0xD23058B22d5B0f980FfD646B54f378287e3aCC7e | ? |
 endlegend
-
 
 
 @enduml
@@ -558,62 +634,68 @@ endlegend
 
 
 ## fails on deployment!
-##### d1, tx: 0x032009579da15ca7f67c5626140a1fb269d8ea8b8d72aaafcb67ceae2f61fde6
+[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/0e1d57622e2550f3c79e053fbe2365c8768e8cda/test/stacktrace.test.js#L21)
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/dPHHJzim483V_IiizhA9bTbEuYGLOq2QY3qD2TudDxuKYzIf70SLAFzzbz1sP22DhL9rgNl-UlvyrzFMA-UxPKs8wdnZk-KS727jhR4hvTIIrh00gyzLURjmJMTrrjIDen-AlCYpd93Zrj_NS4B83IWDZZuIIYyQPnuQwrLzLfk5NOBrYAayVbNWyZDXrRbL3TkbA_C0b8VuwL9fRUo2SaQUaFvbXz_nlzlMB6vyI-VtzDfrLOKCueslWLwlBRrGxSsKiZKB16Df5ATQyQXKSINZCf92yf0fNis5J7K2AfadEXPAgQgSOm8e49NabGQ9DagFLUO_pgXgwG760u92l2dDIk5vhZmQyKwLS0sj_yduaCRMKPHb0Sp2MH16BD4PHX7d8etpC4w2A1GpAO9vN4t7W34SDKDbBEZ_uExtZf7dJRFyJKjv4UL5nED4pgMCqZpdCinPBDDKn9dcISWJdiHYscyx8AJNC3bvuz27XrDQDhRrhkjzVVn47-cTgZl0Iw1Fn3OUXglVDypnzk7pDfvilb9_lmAAqQhb40S0tP0DxOpr8f9qGzVu5hY6lKXxAY6lYy4AH-Rwuh0YCbfyynYJoPI-3Tnv-yj1Tsd_GbzFC1lDJgc3Et3-wEY8QC2-CtSAjRtQW4FmF8payiN5Ql3ArEqBiJCsOuprOZCSBGJulLaSBWTjEqW6Poe36fqUx-zYwFSDpe-GGJuNHPO4GeK9YmMF6CUP2dXK5P07Pp8f88WGIh-D2UEo1zXxU_SrR7zpTFpyHrflV_Ybz_Rr5e4kjqRnTOgn_n_y1G00)
+##### d1, tx: 0x87e5ef10a1e70a0829c6113d9e77643bf8267333f79669199b817dbe07c5f3e1
+
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/hLHTJzim57tthxXYBvjODt-qJbAn3jAcWwSXWRGNNXpRAHQf4paEQg7yzpbfL45XRuiKNUVw-EJSSs-2q7dZXVFjkaH8jBwoxJhN3ZKFnjR2YJMKUgMjIeLyMBcgjMfUbPM3JyjicSqpXCuQlotr345_tMkXj8FduH7WidBcgR9Ub1UbMTcrjZum5lu0M8RDFMNTkhhKRpPkp9C6CZxaheLIngw0u27rqiUpxuC8DBp_oZPcTUyRoBTmwzgY2Bp86rzgkDrOk1JD_HJm9exqH1S42w8ZB71C4ya9OIhHKSJ7B2zYoYF6M14bd2SaIVAOH2hNE9AJWcc2WcNI1-dPxmiG3Po4U89GyCqRQMeHQhtnmJZlXDItkl4zw6tg29zMrRf7TOkmrrF2QFRk69oUJa5Mjl6kxJHylhDtw6neozSXpdO_m6zh3I5QiUxZeoZRiEZWEsYDzNJ2OGURSDDz-Wiy_ukiTbMjdTyUY0QUWHJmDmo__cHNUwANeFzOTbTANrjVm7zyqPxq8wT6eobye6Gpwi2zlrC8lLGwDDCy2gy_w17QVmRe-bMlbFR2bCqh_Gkym1Xt-kTXUiDnVx0zJAxJJTFNevqfZ5QmEnoTxVeP2dLj8XhFQSIPedD2Of7oD1OBad2wu5JcYih9KYMKiW3--PRXQDOwCicOOfWH7f6OO2u59r6OUfdA62TZGbAQHOcAy7koVX0x2auJckM9OempdNET4N4HZrbC9md7T9AFUSnI8kL04KmQh4BeF8JmO_aB)
 
 
 ```plantuml
+
+
 @startuml
 
 autonumber
-
 skinparam legendBackgroundColor #FEFECE
 
 <style>
-
-header {
-  HorizontalAlignment left
-  FontColor purple
-  FontSize 14
-  Padding 10
-}
-
-</style>
-
+      header {
+        HorizontalAlignment left
+        FontColor purple
+        FontSize 14
+        Padding 10
+      }
+    </style>
 
 header Insights by Truffle
 
-title Txn Hash: 0x032009579da15ca7f67c5626140a1fb269d8ea8b8d72aaafcb67ceae2f61fde6
+title Txn Hash: 0x87e5ef10a1e70a0829c6113d9e77643bf8267333f79669199b817dbe07c5f3e1
+
 
 actor EOA as "EOA"
-participant StacktraceTest_01 as "0x55CC3eD4D34508dCD3427E297E4783542D623b7f:StacktraceTest"
-participant undefined_01 as "0x55CC3eD4D34508dCD3427E297E4783542D623b7f:undefined"
-participant Boom_01 as "0x91F5EF51786b6659EE164E0769927Cd184181872:Boom"
 
-EOA -> StacktraceTest_01 ++: constructor() { value: 0 }
-note left #FEFECE
-<#FEFECE,#FEFECE>|= type |= name |= value |
-| uint256 | x | 2 |
-end note
+participant StacktraceTest as "StacktraceTest"
 
-StacktraceTest_01 -> undefined_01 ++: () 
-undefined_01 -> StacktraceTest_01 --: 
-StacktraceTest_01 -> Boom_01 ++: constructor() { value: 0 }
-Boom_01 -> StacktraceTest_01 --: 
-StacktraceTest_01 x--> EOA: revert...
-deactivate StacktraceTest_01
+participant Boom as "Boom"
+
+"EOA" -> "StacktraceTest" ++: constructor(\n\
+<#FEFECE,#FEFECE>|= type |= name |= value |\n\
+| uint256 | x | 2 |\n\
+) {\n\
+<#FEFECE,#FEFECE>|= property |= value|\n\
+| value | 0.0 GWEI |\n\
+}
+
+"StacktraceTest" -> "Boom" ++: {\n\
+<#FEFECE,#FEFECE>|= property |= value|\n\
+| value | 0.0 GWEI |\n\
+}
+
+"Boom" -> "StacktraceTest" --: 
+
+"StacktraceTest" x--> "EOA" : 1
+
+deactivate "StacktraceTest"
 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Contract name |= address |= verified |
-<#FEFECE>| EOA | 0x263Eb2FC832a480721501320315fFeE3A68Fe35e | ? |
-<#FEFECE>| StacktraceTest | 0x55CC3eD4D34508dCD3427E297E4783542D623b7f | ? |
-<#FEFECE>| undefined | undefined | ? |
-<#FEFECE>| Boom | 0x91F5EF51786b6659EE164E0769927Cd184181872 | ? |
+<#FEFECE>| EOA | 0x728C2763d2C118aB6B8aD1962D62cbd2c5Fd9223 | ? |
+<#FEFECE>| StacktraceTest | 0xc33d30316718106ca61787ecBc809411B2E79d70 | ? |
+<#FEFECE>| Boom | 0x6292Eb9d3363eb6eE1aA84382596025b4683B1cc | ? |
 endlegend
-
 
 
 @enduml
@@ -622,176 +704,134 @@ endlegend
 
 
 ## SDs on deployment!
-##### d1, tx: 0xcd0b19eea1747ffc96039c6f1ecf95075ceae809802d7704f96cd6f60bd5044e
+[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/0e1d57622e2550f3c79e053fbe2365c8768e8cda/test/stacktrace.test.js#L24)
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/dPHRJzim583V_IiiUDd4gZat9waOemc9sDEGu6sQ9jS-BXQfKoNELA3yzvsabv61DBPArKbT-_CvduzptZhHk6vP4I8wLzjkEOU6aFREs9Len99Mi02hCY7l5atTMPNNLTtGux8eYxmWvBHrznMS4N8BGa537mcbbtLZ7chhH3MhpC8kmJh4Q8T_bJYy9QowPbN1RkZQF03rGlnr9PGoTa4zHfwG_d6Ft_E_sDOiRbrBv_VqfkcqHWPnnbL0RzQMNehsTahPMYeszr80uSLXhBLCEGjIoRK7KgSHYoC90XAM9inNSSn2dNAfkEPihY8MXiWKqc6MnTSP5IqzmdX4K8Wpqgm4rdFjq8XhX8GRQDqFvWtJs3fc6MT5Deko0D8PPi6pC4uX2GjVPr4XXGwqNtZHT0mOmr4pQ6D1_GVti7QCpEfw-PkccIz3oT5EwLt4NfBBaWSHb2hNEWm2dOg41poVJVjbHuJq6YPdhnHzSZAbihQjQxhUrxltz97-55K7U0ZqYTZQmN3qXuOvtJrysCMppIVgxbT0CLgn7E80e1koePsnpeyutT0rVZqSmrwaFPMGbybWXYDpVNAO4HaDlbh6P3AbhmFttlvIw7xQlz3Nas_7TIFi0hxZCbGyfIrKMi5s4-pvxTqZLy_EKO4JfcgVURnW5uontcEEDmatS0UHU9SQQDl1AJH66r2eyFIWVcZl3LuNdmV5t2_p9F15cB3OzoBc1JuBl4YNK0GpdfI03OAJFuy9ux86s5jRzINiS51q_Fp7j5xsiDDRstY7G9Sxe_WvnzY_zdu1)
+##### d1, tx: 0x8e28c6be1ec62ded75cd99940cbf416caf45579c65b0ba03ed667fdad658bfcb
+
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/hLHTJzim57tthxXYBvjODt-qJbAn3jAcWwSXWRGNNXpRAHQf4paEQg7yzpbfL45XRuiKNUVw-EJSSs-2q7dZXVFjkaH8jBwoxJhN3ZKFnjR2YJMKUgMjIeLyMBcgjMfUbPM3JyjicSqpXCuQlotr345_tMkXj8FduH7WidBcgR9Ub1UbMTcrjZum5lu0M8RDFMNTkhhKRpPkp9C6CZxaheLIngw0u27rqiUpxuC8DBp_oZPcTUyRoBTmwzgY2Bp86rzgkDrOk1JD_HJm9exqH1S42w8ZB71C4ya9OIhHKSJ7B2zYoYF6M14bd2SaIVAOH2hNE9AJWcc2WcNI1-dPxmiG3Po4U89GyCqRQMeHQhtnmJZlXDItkl4zw6tg29zMrRf7TOkmrrF2QFRk69oUJa5Mjl6kxJHylhDtw6neozSXpdO_m6zh3I5QiUxZeoZRiEZWEsYDzNJ2OGURSDDz-Wiy_ukiTbMjdTyUY0QUWHJmDmo__cHNUwANeFzOTbTANrjVm7zyqPxq8wT6eobye6Gpwi2zlrC8lLGwDDCy2gy_w17QVmRe-bMlbFR2bCqh_Gkym1Xt-kTXUiDnVx0zJAxJJTFNevqfZ5QmEnoTxVeP2dLj8XhFQSIPedD2Of7oD1OBad2wu5JcYih9KYMKiW3--PRXQDOwCicOOfWH7f6OO2u59r6OUfdA62TZGbAQHOcAy7koVX0x2auJckM9OempdNET4N4HZrbC9md7T9AFUSnI8kL04KmQh4BeF8JmO_aB)
 
 
 ```plantuml
-@startuml
-
-autonumber
-
-skinparam legendBackgroundColor #FEFECE
-
-<style>
-
-header {
-  HorizontalAlignment left
-  FontColor purple
-  FontSize 14
-  Padding 10
-}
-
-</style>
-
-
-header Insights by Truffle
-
-title Txn Hash: 0xcd0b19eea1747ffc96039c6f1ecf95075ceae809802d7704f96cd6f60bd5044e
-
-actor EOA as "EOA"
-participant StacktraceTest_01 as "0x70B60EBA5B3e9Ad0b6B479e84E2fB5Ecaf3f2E15:StacktraceTest"
-participant undefined_01 as "0x70B60EBA5B3e9Ad0b6B479e84E2fB5Ecaf3f2E15:undefined"
-participant Boom_01 as "0xf02c4c6a17F1D718CcF635eFdCff433f9a8636CA:Boom"
-
-EOA -> StacktraceTest_01 ++: constructor() { value: 0 }
-note left #FEFECE
-<#FEFECE,#FEFECE>|= type |= name |= value |
-| uint256 | x | 1 |
-end note
-
-StacktraceTest_01 -> undefined_01 ++: () 
-undefined_01 -> StacktraceTest_01 --: 
-StacktraceTest_01 -> Boom_01 ++: constructor() { value: 0 }
-Boom_01 -> StacktraceTest_01 --: 
-StacktraceTest_01 x-[#orange]-> EOA: selfdestruct
-
-
-legend
-Participant details
-<#FEFECE,#D0D000>|= Contract name |= address |= verified |
-<#FEFECE>| EOA | 0x263Eb2FC832a480721501320315fFeE3A68Fe35e | ? |
-<#FEFECE>| StacktraceTest | 0x70B60EBA5B3e9Ad0b6B479e84E2fB5Ecaf3f2E15 | ? |
-<#FEFECE>| undefined | undefined | ? |
-<#FEFECE>| Boom | 0xf02c4c6a17F1D718CcF635eFdCff433f9a8636CA | ? |
-endlegend
-
-
-
-@enduml
 ```
 
 
 
 ## succeeds
-##### d1, tx: 0x2cabd784a8f5972f3662499d8134743a276551034aca67c2d18b04544f3cbba6
+[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/0e1d57622e2550f3c79e053fbe2365c8768e8cda/test/stacktrace.test.js#L4)
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/dPJVRvim483V_LUSkfTDNJN_mf2ewvfGekvfbThtoO2TMYKc0ZEbNVg_xw19LjPgweQ43epvkFjyvhmDkWdTgY94Tw7stIet3I7jdVDhtUWLL6PfV3dNnTsogJjVfdLLD_1kaIsoD2Faj0ttbJaZvDReqZJmam1Srerxg7tGrQnoIxyoFY361doqmE4dmhfhrfNP3Lsx1mDCujsLBaldby0eUKJwfpr-p__gMxUy3Itazt3JTDOYWmGNAWCt6m-NkhsT0jtmGkTbd4YTs6WISokKud8oAHCcP2o5vh6A8aQ5r8LMSS5BbkHKHb9QKUIvLcYZ29Xbzcq6keKZZ4S4XGHNkBN6Ugu36WcDBioDQSDtoePfTACdGXM2QvRbqjfPgk8eOHTnn3AM9Kecitb2UMONqp5W34VDnZflol_W7juT8-TrlVfDuuMAM9pFPSBpbAiauaWIUivKdaveH1DXOskvdFQl7H7IQpWvUwNeu-Cf5BLlGzFrljv_W9_mGrUTcU8AKdWalWvcMFn3ovpkBZxkujdsCuJxjG6CNg-6E21WIxRGEHzuf60B6pmfZc4tGaybv6KwcEF8NPyUvaH6WwyMSd8oXTU1UtD_ARKlT3_j7-c3sVuf8KyxZLmzMxNI1Esgzfcp2tf1AUsTfRXl41OEqd3dDAPj1t-cSTQP4dMT7ZGFtzhscqE9BEUBDC5-aWcDEOie4vmA5jc5oSHC9GiZ8eJ2bp5XNC80UsjZleGT5WN6rtzCwyK-fVt6fjqXqENEA1xd6FkVt2y0)
+##### d1, tx: 0xd6f185fab3ae5ca3040ea63fe62ac55e27e22bfbda160f07b9099e5450a110bf
+
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/fPHDJzmm48Rl_XKZUcb5QHqdzYQ8RjcFf70g4aYzS77yiKHadSXngbrO_diTRxI2fJtLKZJEpFZnEvDH4Bhi7BUkNzS8yTurfb-NogBkiJ8jjtmDjLef8-TSFAviqnkvQEh6meSYB_95Zj15vxQrcY88wq5ngImyZwy0LusjdXhZU3shgvLPA-CyKRj3Gk63UsJRsxPMRmAtrPE2A3duRhYKbLb1X4VNIx0NNqSHQBp_sdJLwi5rK6xXplPQUovobQiLt6qCNF7kuHpmHZ8TfLJpCkQA2XxZ12lEOgqOuO9IHIQAa5ANaaSCQpmfCvnbYYOKyoZ2fKQ-PS9vwVdF6V0EJhmzGSZtpLMYQhclzTRvnZdBXRfJdGj9Rrr7-VEcMOUiOUDZ0GbdqtV7uFJq74HZEcVxGSF7UtEFBiRFydcqqzqtSDjMWRU6huFzpUlURuRq7VILSOGosC76FtZl_WJF_uArjccLTTi3QEICKC1VS5WH_FYLN-znBxwAO_53GQ72KCR_N7TqqHxwjtwTdPt3FvJiUnpY2Etd7Tsy-YXIELxLtIk9IxpqLGuI5tvCFSqT-kj7rAgk2vALhNIb9EmEHwUxC2nU-cP2qWMPi5YIHHIbVCxcALz66IDBHaGfYQ25p0Y9VVBtjuIZeHfWSgBPWYOufunDnApCIP5IIjCqYJGcUPgnt8zwdBo7XOaR42cHcQ0fqJJ9PYbBYtaaPAoMyqoaEHMwfBaWHK96X6_Is2g4BhtnVv0_)
 
 
 ```plantuml
+
+
 @startuml
 
 autonumber
-
 skinparam legendBackgroundColor #FEFECE
 
 <style>
-
-header {
-  HorizontalAlignment left
-  FontColor purple
-  FontSize 14
-  Padding 10
-}
-
-</style>
-
+      header {
+        HorizontalAlignment left
+        FontColor purple
+        FontSize 14
+        Padding 10
+      }
+    </style>
 
 header Insights by Truffle
 
-title Txn Hash: 0x2cabd784a8f5972f3662499d8134743a276551034aca67c2d18b04544f3cbba6
+title Txn Hash: 0xd6f185fab3ae5ca3040ea63fe62ac55e27e22bfbda160f07b9099e5450a110bf
+
 
 actor EOA as "EOA"
-participant StacktraceTest_01 as "0xa936c32a1Eb4ffAC67581D751E1E8648AB802EfF:StacktraceTest"
-participant undefined_01 as "0xa936c32a1Eb4ffAC67581D751E1E8648AB802EfF:undefined"
-participant Boom_01 as "0x2c6517bB482bC268527513aB16bC905083f7ff24:Boom"
 
-EOA -> StacktraceTest_01 ++: constructor() { value: 100 }
-note left #FEFECE
-<#FEFECE,#FEFECE>|= type |= name |= value |
-| uint256 | x | 0 |
-end note
+participant StacktraceTest as "StacktraceTest"
 
-StacktraceTest_01 -> undefined_01 ++: () 
-undefined_01 -> StacktraceTest_01 --: 
-StacktraceTest_01 -> Boom_01 ++: constructor() { value: 0 }
-Boom_01 -> StacktraceTest_01 --: 
-StacktraceTest_01 -> EOA --: 
+participant Boom as "Boom"
+
+"EOA" -> "StacktraceTest" ++: constructor(\n\
+<#FEFECE,#FEFECE>|= type |= name |= value |\n\
+| uint256 | x | 0 |\n\
+) {\n\
+<#FEFECE,#FEFECE>|= property |= value|\n\
+| value | 0.0000001 GWEI |\n\
+}
+
+"StacktraceTest" -> "Boom" ++: {\n\
+<#FEFECE,#FEFECE>|= property |= value|\n\
+| value | 0.0 GWEI |\n\
+}
+
+"Boom" -> "StacktraceTest" --: 
+
+"StacktraceTest" -> "EOA" --: 
+
 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Contract name |= address |= verified |
-<#FEFECE>| EOA | 0x263Eb2FC832a480721501320315fFeE3A68Fe35e | ? |
-<#FEFECE>| StacktraceTest | 0xa936c32a1Eb4ffAC67581D751E1E8648AB802EfF | ? |
-<#FEFECE>| undefined | undefined | ? |
-<#FEFECE>| Boom | 0x2c6517bB482bC268527513aB16bC905083f7ff24 | ? |
+<#FEFECE>| EOA | 0x728C2763d2C118aB6B8aD1962D62cbd2c5Fd9223 | ? |
+<#FEFECE>| StacktraceTest | 0xd7f6C540E5667cAbE2F85558841f02E896E18534 | ? |
+<#FEFECE>| Boom | 0x82d9c582f549A868FB1cd3eDB9c8E5cfb5Ec2F42 | ? |
 endlegend
-
 
 
 @enduml
 ```
 
-##### d2, tx: 0xcfe941c752c0b6f80af30e22fa63af7ad161e752b632f0b76524e2ed8302d469
+##### d2, tx: 0xd9fdd718e1a6b4463f308e6835a4e2fffb76aa93195c1f646b453ed51d1b8818
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/ZPDHRvim58NV_IkkkfTDNJNRW4EYBckQWDgdLMhU9mFNYLLY8cEcfAN_VJSqZHfj3-Fbm3LyFlSUVDC6xKEtgHdJNMXSjodGCzO-MRVLNc-WnXMwwbQNJolVTAwQDtNZuLEUvTayO-ow3ViQfuojKLVeuOK1t3NUFZSkw7fMsvNRe0k4CO6MSYg_4RQTtzPuB3tQPmGHqzE3hYhhLY0uUoNwjtVyE__UjNQr3YqKUrZwpXXYi613ZR3SERZJxNe2V5SQ7CUY72Mov8KoATScuYYbqIhIPgGheGJIQg4YQNWnKecCKMALHbnMiHhJDCf0BhEVCz0jN91UC1f8iANTQkhdCT14WjSbBh4DlxWONkCxFOvK6KajiY8sPZPNeoGLYr4YCf6bAavdjocNcSadvu0BnWvRNKt_0Rwyd83ltESly0A_TTqXDGYlp3K1Xx6UmhW-tdmzwhJ_3c6_HI1rUZFe082UzT1P5sIYe0VZxYiI8QbEMSE1pDZVHiZTOF9g0XJ8su_17ZuCfSAWRTr-CBBW2yxvmSYSOYPOE3cXe3ssxM0AlJKMoSJfqsa_xDLJbb95MI7pUKfZZLC-aYBX8f8y4ed9COjcAiqnIWWAFyu9voqCiF_DvmYZ3ezzqdL3UZWfVm00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/TLFHRfim57ttLrnrBvkwRjY0Ow8kQvEGDK-hr4fxwOl1TcgL66JCbBJfl_U6eAZfD5uEt7jzEETS8EIg3TA7RbqH8hjGksvTQ4_Q9-iQwUKQAhtIJarb-RJoTUVKhAvg3vyM-IAVvOHSjc5RwGc1_dhKKcaFByCZm4tjxNFjWgokAxjoQ-q2Cffm75XWyq3PTBwfz4dZpZvheCcnTYkLicu5D1fAhprUVXz4aE7zIzVQrMDeeTZ2lU-CGLuIRAWqt6yStCZsSGpHHcL6gH4LcafU90cFJHm9pKMSoaGpOqmnub9cCStIaXgUu50QQvLIHGiXg20OMHbGUlxx6cGBPuXdX61kmPQsaUZrBc1mmSjIt-isz4Ed9PplZy75v9yMd9-FmNVkyuDx89T3v5y7dEn-GDWs6X2TNFVuLrOTtkp7Tz1P5rZAOGV6BHK2POVM5tZv7s7ZwqRxi3sI3Lm3CKJV8lZr9ryUY5vH-qV9Uni7FnTZm838uViXj-z2KJf8MxNl5CoZUHH5UmKpN3koXQCdNBdNRTihqjuQgz7ByUXaruUFoZOZ9cPin6F5PfGAEULJ8USquspEMLaeLgOBbJ4Mu_3FKuOFIzgJgP7XipI9yfJpKNbTv6mXqZGL8g4cOhd8U4v56YS36JeSV19oXO2_qni0)
 
 
 ```plantuml
+
+
 @startuml
 
 autonumber
-
 skinparam legendBackgroundColor #FEFECE
 
 <style>
-
-header {
-  HorizontalAlignment left
-  FontColor purple
-  FontSize 14
-  Padding 10
-}
-
-</style>
-
+      header {
+        HorizontalAlignment left
+        FontColor purple
+        FontSize 14
+        Padding 10
+      }
+    </style>
 
 header Insights by Truffle
 
-title Txn Hash: 0xcfe941c752c0b6f80af30e22fa63af7ad161e752b632f0b76524e2ed8302d469
+title Txn Hash: 0xd9fdd718e1a6b4463f308e6835a4e2fffb76aa93195c1f646b453ed51d1b8818
+
 
 actor EOA as "EOA"
-participant StacktraceTest_01 as "0xa936c32a1Eb4ffAC67581D751E1E8648AB802EfF:StacktraceTest"
 
-EOA -> StacktraceTest_01 ++: run() { value: 0 }
-note left #FEFECE
-<#FEFECE,#FEFECE>|= type |= name |= value |
-| uint256 | fnId | 12 |
-end note
+participant StacktraceTest as "StacktraceTest"
 
-StacktraceTest_01 -> EOA --: 
+"EOA" -> "StacktraceTest" ++: run(\n\
+<#FEFECE,#FEFECE>|= type |= name |= value |\n\
+| uint256 | fnId | 12 |\n\
+) {\n\
+<#FEFECE,#FEFECE>|= property |= value|\n\
+| value | 0.0 GWEI |\n\
+}
+
+"StacktraceTest" -> "EOA" --: 
+
 
 
 legend
 Participant details
 <#FEFECE,#D0D000>|= Contract name |= address |= verified |
-<#FEFECE>| EOA | 0x263Eb2FC832a480721501320315fFeE3A68Fe35e | ? |
-<#FEFECE>| StacktraceTest | 0xa936c32a1Eb4ffAC67581D751E1E8648AB802EfF | ? |
+<#FEFECE>| EOA | 0x728C2763d2C118aB6B8aD1962D62cbd2c5Fd9223 | ? |
+<#FEFECE>| StacktraceTest | 0xd7f6C540E5667cAbE2F85558841f02E896E18534 | ? |
 endlegend
-
 
 
 @enduml
