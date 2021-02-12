@@ -10,7 +10,7 @@ contract("Insurance", async function ([owner, ...accounts]) {
     await web3.eth.sendTransaction({from: owner, to: insurance.address, value: 2e18});
 
     beneficiaries = [];
-    for (let i=0; i<7; i++) {
+    for (let i=0; i<3; i++) {
       let b = await Beneficiary.new();
       await insurance.register(b.address, {from: owner});
       beneficiaries.push(b);
