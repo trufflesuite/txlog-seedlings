@@ -3,11 +3,11 @@ Test date: 2021 Feb 12
 
 
 ## deploys a contract without a constructor function
-[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/0e1d57622e2550f3c79e053fbe2365c8768e8cda/test/constructor.test.js#L10)
+[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/152a410baf2d76d60511fdf559e3219e7a4ffee9/test/constructor.test.js#L10)
 
-##### d1, tx: 0xcfd2e48546eedbb36ea505fd3b3bd4e0d24e0a5ac987dac4a16abb97c63ac390
+##### d1, tx: 0x7e6b5f7cafe166112736302220728012f1198bdf397a21509e1666d15e46f5f2
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/RLDDRvj04BtlhnYbnpJjyh7OMAuRWd6JInkfaNh9PM07UnMye6Mfd8JyzowOMabJ3imo7s_UUoiOksmj6jljAyQmixNkzZaPrZuetQ31FLIq9Isli7ZOchhJCgshsi27JRR9qeonPMiVAren69yTeIG3pzCdm7Ljr5EjBLP9fRPwJzewnDAU6ZQkU8HiEjDKzARmKpqHUE4fTujIAhq5Zq-fbp4kFqyasBJ_HhTgkxCjv8zmPxgoTBZCAbiHt1qqN6ExMm0_5ANqAPoBC2AIUHv4X8ABKWPvaCkGkFJT2mKMyNmciGZHYp3FuraH1LW4CMVEii8wwjcF1B25CnVF67E-MLMe1ftMjDQjDTtGzRrEhHdR_aswcN4KBbR_ASBv-GAUx_KzMqwkVvpYgly2ZQaRClOHtFatLXtrGsT_F4CF_1E7Rx-o6nZpBsxJ-mN3skF-YmKuKUnuv-psbH195bNLlkAmvclE-S318LhZd02DUng8k6iorBOZ9pAgL2IXFusk-j4mn-smpg8mNql9FIzUK-15ino5NoRpT2vz8I8CeZH9PzmrVtsByCxO0UvAP3EncM-4ZCCi3lp4I-E4boMbGU2BY9Fm2zyF_i8vZPDInYvTS3_17m00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/ZLDDRzim3BthLn3PiUj6-JCEigo9uxIzR0LMO9TUP9jEX3go8Sj3qhh_VR9Z1ErocIwK-V7U8oapTjCOeKsxBnaJhQbKkqz9i-PPgbfeiOUIjgJobSYUjxfgLHvNPQNXqoRP9772sBmnnv8M38Qp8v6JXjVn4-2kqlAbKaQKor9krPwKiOY5EITiRF04MRUwBkb3u9Ty8U3UsVSWybogBN0SNM-3dNyTHR2H_rurShip3QH7UDHjKLXSPgGf2HuF2kv4ivi17a8AKhy8Cr4G3mBEdT0DN7GS1qDdYjmfE8-cQLwuKIWSxcFKfmKvzyaB2hzmc1rPPgpqvESIH0CJQoUCsRaPcSbQs5xZIZL6jttMZoesUaZ30xguoTn8H9YBO8qyILCA0unvw2KhobTEj1Jn6cdsRxs57rZWUW6JYo1SNStWzKaziVcueC-ZNNJVeDPLJTeSmTx_YBAbhi_iJdVe0ByWtFvExc7mlrccIuAUziH_FGFRFpiz3_RmhkUSZ91byqx36jU8s6kmY4RReO4IU-g5s8rgQff14sbPICgXEvSkkc6sLjiX23Syyj3ZgO_STp2DFL74MJQrYt3394I7Xwxhsshu_X7XOWSztFzkO8IpFOwTCdPZZVrV_W80)
 
 
 ```plantuml
@@ -29,12 +29,12 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xcfd2e48546eedbb36ea505fd3b3bd4e0d24e0a5ac987dac4a16abb97c63ac390
+title Txn Hash: 0x7e6b5f7cafe166112736302220728012f1198bdf397a21509e1666d15e46f5f2
 
 
 actor EOA as "EOA"
 
-participant ConstructorNoCtr as "ConstructorNoCtr"
+participant ConstructorNoCtr as "0x030Fc39a90da6D01Ebbe760C174EBedB29AaCD0e:ConstructorNoCtr"
 
 "EOA" -> "ConstructorNoCtr" ++: {\n\
 <#FEFECE,#FEFECE>|= property |= value|\n\
@@ -48,8 +48,8 @@ participant ConstructorNoCtr as "ConstructorNoCtr"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Contract name |= address |= verified |
-<#FEFECE>| EOA | 0xDE64bDdd0119De3167ba52fA8C8d2556a36CAC70 | ? |
-<#FEFECE>| ConstructorNoCtr | 0xB5E75F8F5d94E932A1C9A0ffeC332560e52c2230 | ? |
+<#FEFECE>| EOA | 0x67F194041b501520bC4afCcc85f237E70217335d | ? |
+<#FEFECE>| ConstructorNoCtr | 0x030Fc39a90da6D01Ebbe760C174EBedB29AaCD0e | ? |
 endlegend
 
 
@@ -59,11 +59,11 @@ endlegend
 
 
 ## deploys a contract without a constructor function
-[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/0e1d57622e2550f3c79e053fbe2365c8768e8cda/test/constructor.test.js#L10)
+[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/152a410baf2d76d60511fdf559e3219e7a4ffee9/test/constructor.test.js#L10)
 
-##### d1, tx: 0x7409cb9db03a81fccade7c908484cc099e661d8b9284af732a52b9de0a5e8b0c
+##### d1, tx: 0x25155c7f9befc009693673e0906f3b0ceae79d296dbb5522ddf6db6c646971f4
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/RLFBRjim4BppAnRfCKrBFQo7uRgHzMXoQe06o2KNYgHi8Z8bK5HX9yg_ToKBHe9QboLtPsTdXn0XjvrbnlRxcX3MsqRt-r8QqhqetJB3zb3BhTHYm_ZBrZIz5cbJDmQ-57cHfpaXgyuUQxacC7qxoOGqy3PV0UuQeruRRLcTr6ghzr9RPApi6L1WyKJPzgQjvQV27_KgmV7FkGScXD9RSEYSUf_YwliiWippxtMdjZlRGNc4HzDN5V8IgsmjuV6WuOvrkoNGG-ZJc9UnAAd78gVY79j37jF8ZtpEQHpB8714LCPkvBCgz5osS14kALl8gAISe6NSelJyTmAiWokCLuIWRrPnrJBSDMrqPqq_efwKtQNMJC3_qzWtjSFD-c8Phg-NyFQidybgzlxh7DV33sXDqqfZZu3dlwpkvJ0YXzCP1g3VAFnwokzXoh_Zh4iZnj4d3JTBmEN8wUt9muU5XBHCrTq75HdDAAMZ2kIq1Xq1pVPob8BFPMJNJQgaKPMI0ePpwtgOZ4DrXomF_38JWZfEd4dF2S8IlQwIA8s4krW4p0lI90qfWdz-PhXWy4WOPWxtYY9ruZWf6MTPiCc3JSK3D_QPvsogJLML2NLdGjnotfMGMmpuE_m3)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/ZLDDRzim3BthLn3PiUicVyYsWYnhuZXjJokm0htq8bkI8zIH3LaUajRzxvCT8sYn7AOBQP9wxv6K4RffBJEssrS8iSxMkjldmg3sHUc66RQ7IfH2ypKhNafJTvgdTLKR-BBDjbcQ8RHexR4IImJZsGd6XO6twHFWhZRgjTQMLQjAbNelj7M8qfuBjYvvWcmwqrJYK-AtUXNWXUVO0-DSwH8yF8NUHxluFeb04_-zRbMviotaHtWqdPGE5rbbAm6F1mrthDtD0HzyuX5In9BcGXOOquW6KHm8J74aWnmNWecOSfz6FCy9yNtEfNEZ8WeZ6dioH6vaXNNIiryhO2tCd9qXvEPcLQ4QvdfDQzrQqmrLJyhkKcl6Gdp8_T2JcuG6FF8Zd7WhkavJGh9LiDuaNXxJ8l4JHjVpVn4SnSW4rqkONKZ3rTKStfxrCrfCQ_ewsMN_0nfJDyBO8pZ_3wiwqG-L_Sc77l0t3BTFsJsCyNV7TObYe3vfk9w3cmCwFHFqyA5tBYnJLVj1nGPlCCQ32eTfZHiUQBONWnItMIFQTbGbZ99ASEZFLvVzE6EdxX35Mu-6EFHoWZtYupmDcKoB8Y7I3-8inhuN1m5nj-7dPuGBknW0_tSJ4w3hSkeLeHjdt9_p5m00)
 
 
 ```plantuml
@@ -85,12 +85,12 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x7409cb9db03a81fccade7c908484cc099e661d8b9284af732a52b9de0a5e8b0c
+title Txn Hash: 0x25155c7f9befc009693673e0906f3b0ceae79d296dbb5522ddf6db6c646971f4
 
 
 actor EOA as "EOA"
 
-participant ConstructorWithCtr as "ConstructorWithCtr"
+participant ConstructorWithCtr as "0xb241fD893d626081A9BCC55EA3BD81b79c828a9B:ConstructorWithCtr"
 
 "EOA" -> "ConstructorWithCtr" ++: {\n\
 <#FEFECE,#FEFECE>|= property |= value|\n\
@@ -104,8 +104,8 @@ participant ConstructorWithCtr as "ConstructorWithCtr"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Contract name |= address |= verified |
-<#FEFECE>| EOA | 0xDE64bDdd0119De3167ba52fA8C8d2556a36CAC70 | ? |
-<#FEFECE>| ConstructorWithCtr | 0x7D1c3FFC199AbacaD6BE6Bfc6294a31BfBffbA02 | ? |
+<#FEFECE>| EOA | 0x67F194041b501520bC4afCcc85f237E70217335d | ? |
+<#FEFECE>| ConstructorWithCtr | 0xb241fD893d626081A9BCC55EA3BD81b79c828a9B | ? |
 endlegend
 
 
