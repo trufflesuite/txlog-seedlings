@@ -1,6 +1,11 @@
 #!/usr/bin/env zsh
 
-TRUFFLE=~/work/truffle-ganache-3/packages/core/cli.js
+TRUFFLE=~/work/truffle/packages/core/cli.js
+HTTP=http://$(
+  git r -v | grep origin | head -n 1 | sed 's:git@::' | sed 's:\.git::' | awk '{ print $2 }' | sed 's:\::/:'
+)
+COMMIT=$(git rev-parse HEAD)
+GH_BASE="${HTTP}/blob/${COMMIT}/"
 
 ## clear out txns.out
 rm txns.out
@@ -11,7 +16,8 @@ for test in $(ls test/*); do
 
   ## start ganache
   #g3
-  proc=$(tsp ganache-cli --miner.legacyInstamine  --chain.vmErrorsOnRPCResponse)
+  # proc=$(tsp ganache-cli --miner.legacyInstamine  --chain.vmErrorsOnRPCResponse)
+  proc=$(tsp ganache-cli --vmErrorsOnRPCResponse)
 
   # proc=$(tsp ganache-cli)
   #echo the ganache proc is $proc
@@ -20,7 +26,7 @@ for test in $(ls test/*); do
    node ${TRUFFLE} test ${test}
 
   ## generate
-  ./gen-umls && ./gen-md.awk txns.out ${md_out}
+  ./gen-umls && ./gen-md.awk txns.out ${md_out} ${GH_BASE}
 
   ## kill ganache
   tsp -k $proc

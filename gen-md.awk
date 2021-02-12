@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 
-gawk '
+gawk -v url=$3 '
 
 BEGIN {
 	diagram_count = 0
@@ -10,7 +10,14 @@ BEGIN {
 /begin-test/ {
 	split($0, inp, "begin-test: ")
 	title = inp[2]
+
+  cmd = sprintf("ag -Q --vimgrep --js \"%s\" | cut -d \":\" -f1,2 | sed \"s/:/#L/\"", title)
+  cmd | getline fn
+  close(cmd);
+  gh_url = sprintf("%s%s", url, fn)
 	printf("\n\n## %s\n", title)
+  printf("[link to test...](%s)\n\n", gh_url);
+
 	diagram_count = 0
 }
 
