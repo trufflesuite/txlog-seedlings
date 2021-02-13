@@ -1,6 +1,10 @@
 #!/usr/bin/env zsh
 
 TRUFFLE=~/work/truffle/packages/core/cli.js
+# ts on os x: brew install task-spooler
+# tsp on linux
+TASKSPOOLER=ts
+
 HTTP=http://$(
   git r -v | grep origin | head -n 1 | sed 's:git@::' | sed 's:\.git::' | awk '{ print $2 }' | sed 's:\::/:'
 )
@@ -16,10 +20,9 @@ for test in $(ls test/*); do
 
   ## start ganache
   #g3
-  # proc=$(tsp ganache-cli --miner.legacyInstamine  --chain.vmErrorsOnRPCResponse)
-  proc=$(tsp ganache-cli --vmErrorsOnRPCResponse)
+  # proc=$(${TASKSPOOLER} ganache-cli --miner.legacyInstamine  --chain.vmErrorsOnRPCResponse)
+  proc=$(${TASKSPOOLER} ganache-cli --noVMErrorsOnRPCResponse)
 
-  # proc=$(tsp ganache-cli)
   #echo the ganache proc is $proc
 
   ## run tests
@@ -29,7 +32,7 @@ for test in $(ls test/*); do
   ./gen-umls && ./gen-md.awk txns.out ${md_out} ${GH_BASE}
 
   ## kill ganache
-  tsp -k $proc
+  ${TASKSPOOLER} -k $proc
 
   ## clear out txns.out
   rm txns.out
