@@ -6,9 +6,13 @@
   "license": "UNLICENSED",
   "private": true,
   "scripts": {
-    "ganache" : "ganache-cli --noVMErrorsOnRPCResponse"
+    "ganache": "ts ganache-cli --noVMErrorsOnRPCResponse",
+    "txns": "node scripts/txns.js | grep -v done"
   },
   "dependencies": {
     "@truffle/hdwallet-provider": "^1.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.0"
   }
 }
