@@ -7,4 +7,3 @@ contract ConstructorWithCtr {
   address private _owner ;
   constructor() { _owner = msg.sender; }
 }
-

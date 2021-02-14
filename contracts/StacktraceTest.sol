@@ -123,6 +123,7 @@ contract StacktraceTest {
 contract Boom {
   function boom() public returns (uint) {
     selfdestruct(payable(address(this)));
+    return 0;
   }
 
   receive() external payable{
