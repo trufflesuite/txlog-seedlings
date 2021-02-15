@@ -29,7 +29,7 @@ contract("Constructors", async function ([owner, ..._accounts]) {
     should.not.equal(second.address, zeroAdd);
   });
 
-  it.only("takes a struct as a parameter", async () => {
+  it("takes a struct as a parameter", async () => {
     const gb = await GuestBook.new();
     should.not.equal(gb.address, zeroAdd);
 

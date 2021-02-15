@@ -10,17 +10,26 @@ contract("StacktraceTest", function(accounts) {
     await instance.run(12);
     assert(false);
   });
+
   it("fails! hahahaha", async function() {
     let instance = await StacktraceTest.new(0, { value: 100 });
     await instance.run(2); //leaves a message
   });
+
   it("fails with extra info", async function() {
     let instance = await StacktraceTest.new(0, { value: 100 });
     await instance.run(4); //leaves a message
   });
+
+  it("fails not enough minerals", async function() {
+    let instance = await StacktraceTest.new(0, { value: 100 });
+    await instance.run(5);
+  });
+
   it("fails on deployment!", async function() {
     await StacktraceTest.new(2);
   });
+
   it("SDs on deployment!", async function() {
     await StacktraceTest.new(1);
   });
