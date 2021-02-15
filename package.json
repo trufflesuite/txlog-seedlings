@@ -7,7 +7,9 @@
   "private": true,
   "scripts": {
     "ganache": "ts ganache-cli --noVMErrorsOnRPCResponse",
-    "txns": "node scripts/txns.js | grep -v done"
+    "txns": "node scripts/txns.js | grep -v done",
+    "seq": "node ~/work/truffle/packages/core/cli.js run tx2seq",
+    "seq:d": "node --inspect-brk ~/work/truffle/packages/core/cli.js run tx2seq"
   },
   "dependencies": {
     "@truffle/hdwallet-provider": "^1.2.0"
