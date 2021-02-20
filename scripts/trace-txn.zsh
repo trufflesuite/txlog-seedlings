@@ -3,7 +3,7 @@ TRUFFLE=~/work/truffle/packages/core/cli.js
 
 # options
 COMPILE_TESTS="--compile-tests"
-#SHORT_PARTICIPANT_NAMES="--short-participant-names"
+SHORT_PARTICIPANT_NAMES="--short-participant-names"
 
 echo "processing tx: $1"
 

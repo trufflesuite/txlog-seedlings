@@ -2,7 +2,7 @@
 
 #node txns.js| grep -v done |xargs -n 1 ./trace-txn.zsh
 
-for tx in $(node txns.js| grep -v done) ; do
+for tx in $(node scripts/txns | grep -v done) ; do
   file=${tx}.puml
   svg=$(<./uml-output/${tx}.svg.txt)
   echo

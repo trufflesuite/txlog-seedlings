@@ -6,10 +6,11 @@
   "license": "UNLICENSED",
   "private": true,
   "scripts": {
-    "ganache": "ts ganache-cli --noVMErrorsOnRPCResponse",
-    "txns": "node scripts/txns.js | grep -v done",
+    "ganache": "tsp ganache-cli --noVMErrorsOnRPCResponse",
+    "txns": "node scripts/txns.js | grep -iv done",
     "seq": "node ~/work/truffle/packages/core/cli.js run tx2seq",
-    "seq:d": "node --inspect-brk ~/work/truffle/packages/core/cli.js run tx2seq"
+    "seq:d": "node --inspect-brk ~/work/truffle/packages/core/cli.js run tx2seq",
+    "umls": "./scripts/make-umls"
   },
   "dependencies": {
     "@truffle/hdwallet-provider": "^1.2.0"
