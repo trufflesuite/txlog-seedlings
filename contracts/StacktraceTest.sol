@@ -18,11 +18,20 @@ contract StacktraceTest {
 
   function run(uint fnId) public {
     function(bool) internal[12] memory run0s = [
-      runAssert, runRequire, runMessage,
-      runDivide, runPay, runCantPay, runBoom,
-      runOutOfGas, runExternal, runInternal,
-      runInternalZero, runIndex
+      runAssert,        // 0
+      runRequire,       // 1
+      runMessage,       // 2
+      runDivide,        // 3
+      runPay,           // 4
+      runCantPay,       // 5
+      runBoom,          // 6
+      runOutOfGas,      // 7
+      runExternal,      // 8
+      runInternal,      // 9
+      runInternalZero,  // A
+      runIndex          // B
     ];
+
     if(fnId < run0s.length) {
       run0 = run0s[fnId];
       this.run2(true);
