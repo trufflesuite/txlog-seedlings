@@ -1,13 +1,13 @@
-Test date: 2021 Feb 21
+Test date: 2021 Feb 22
 
 
 
 ## pays out
-[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/4af7c9e1104b5a1147ba37abd1c5713b86598a3a/test/insurance.js#L22)
+[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/1d44e677781e9cf21f80c1c42ebf5a82a0cd8a22/test/insurance.js#L22)
 
-##### d1, tx: 0x7962898b9cecbbbc9039f71b28e121fe44c01e0feda96b1c84e1f6bf02459b3d
+##### d1, tx: 0x0141bf918b486f7b4592969cb60e7aa81eaa5a3c5730e645d896844e2ee1ebda
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/hPHTRvim58Rl_IkiTXURkcus1eEZBXeXiFQgbLPf5-iq6N-agCI9-DYIDlllEo4iIj8gKgLnmS77BmzlpZaEGf_hHbPDEoqHacqpS-qqDnMg7metbvMSuj9CZDCZgHucrQnrEfcLimgVPccM9Yb25tMpBCqGuUwwDrAR2Z_rIumlPrNnE7EDBEEocBYfSGqGRRCLPB2vGSxRQbwQlOslnQF1rD_cRgJMXPjWIlhKdovUVEnDeFxxLwuk9lTDZVCblgrQQu6Bcg8f3RvTE7mfw_i19ejGS2yIKIwKKNcUAq6Oi27DlSXGZrhZ-ufGGwpHKl2SgiWtrFBS4iyFHCuqWfAf1godrp6MDJw1U8AWR4sXYhc4dmf6saewPNuIsYbs4_lIaN76ma9Mot_Y_TGHkVTSxXsHi-ToTe9GPn-V3mzSuhEp0PxBvQnjtjwvEtJHz_vz7uUhJxXPpWs6wEIqYxzasSB3Mhx2RG46LjZ2yDGGkU1Yi_KEFs7oWU0ltz8hQEN1Py-_dqugOzoFjQE3Kk01VhDvUNrrnDT2lFy1OQ-0375VuFC1HcXphD3DJe-qQMHHrZi57fCnGDS5XjC3FOE718v51LEtBNMiTMLgsDk-Drnr0mdtHMCg9yjoYQz_EwDnh1GSuNKpo89AxId9oPXhEWe27e-9CZnYN1gV6yvz4mLX7j1zyDv0xomxP98OvdCLYTGFUPHOeZHBx8YbWSz9oiXOwd0KCtyVUJ3uUuaEcta2t924Knlvoa-fbcDc2Oa9bs0t23tYAPRo8rZl1QnAh8Wb5n4H2P6vPPa8Gie2AfWEFSlyXEK18yUmx0Lin28UM9xPm1-590EN0VDPHc7bUIaLYiSXqt40M1Y0VWpGPxZ3V_1V)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/hLHTRzCm57tthx0s7a1ZOCTER5UZ8iq7szCcCOa7Xf2Jt7JHKhTA76YtyjznqrArtLHf4dxmjQ-FZq_kHn3wt5hTs6vI8wGxEpNT98C6jG-LcUb6Jt0DOp35IESFusRQcIAQrjC6dwP9caG9GXUjNTGmHBWVzw0BQF3JPelnvRIf7gV6wZgigx6PWB6EiRHRGEeErvIphfdLi7VmjNe4JFdMTwEBeZ9ZJCd6zQUt5nyt8j3c_IlJLkDxs-9iWM-RhYmTBxALhG7VpWs-rEtz09CvePncfQ8oup8eHSPzvQb0vLb0G6WjAMZjQvRxWX48k5z85KZEmGEWa1KQkP3brabFhaEiMtpYx0boORDLNisq-rGdf6kqoU4deJrYrx4F7O61qcrqi_W7tdSTWNlFuTuHE7iEPoS8zVBn-V109Jux6-2PNamx-_REtA6BJUxVR-nm-GdRnGomiqPFUljBrvrRhE1Bt5LEm1ANhdXQPmCNulNHE_o4oGU2ltnBhbmg3vuz_tuwRW3CZvMYWr3W0NwplhmQFUDhIRp_GS9UGJB4cm2V3p12wxP2DpivAi3ggcvt0XoJs96k0kown-NCBIBN5eshkcsemw9ee7Ldstl3PL-GRfvRQ8okwmM-_csWm66UknPU9OFCqv5aGS1Kh5dY2Ieuo8HuILQc2KGP22eP8LJJVUAzWjxPzfIXdqS0HFg9IbaiHeaW4AU5YWJH8VKu0QKogRnzoeF2ttFqj4mHBJ99cPCK92JacliiZ3tNfHdraYZbBFLLne_GUY_GfZpCkGmvPOm8Fn0-vofcN1OqZxn05a4W22bLT8IMlK3BOn1n4CPQ-Kn02afxl1HA946cP9WBeUX8WdGjW5m1RCe0VNQp-mV_1G00)
 
 
 ```plantuml
@@ -29,7 +29,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x7962898b9cecbbbc9039f71b28e121fe44c01e0feda96b1c84e1f6bf02459b3d
+title Txn Hash: 0x0141bf918b486f7b4592969cb60e7aa81eaa5a3c5730e645d896844e2ee1ebda
 
 
 actor EOA as "EOA"
@@ -50,11 +50,11 @@ participant Beneficiary_03 as "Beneficiary_03"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x1ad2ca60D6d1B556AD0ce6836ae46e664e857b51 |
-<#FEFECE>| Insurance_01 | Insurance | 0xCCe346c89E4768Cf0cd3CfB3E5460E30Dad7BA34 |
-<#FEFECE>| Beneficiary_01 | Beneficiary | 0xF2964e0C61f84c4E1daD3f00A06a36a57202c3E6 |
-<#FEFECE>| Beneficiary_02 | Beneficiary | 0xcCf9Aa69809C0abf3F957135193d72f34C3b5306 |
-<#FEFECE>| Beneficiary_03 | Beneficiary | 0x83865f6Ff54B70F0A05343F14B722E19c6A73dA5 |
+<#FEFECE>| EOA | Externally Owned Account | 0xFB836639Da3E27174e8E02EbfFEeCbe7183001a1 |
+<#FEFECE>| Insurance_01 | Insurance | 0xA5cCee085E9F3D7BE70eDFd9C70aA1240e99b892 |
+<#FEFECE>| Beneficiary_01 | Beneficiary | 0x390a7b8131836E0A4a453AD260eb12ECF43F59b4 |
+<#FEFECE>| Beneficiary_02 | Beneficiary | 0xF4Ac48A4133075675449D348d1cC268d66700f9C |
+<#FEFECE>| Beneficiary_03 | Beneficiary | 0x4De7D6ADa9537eFe9a24f797E6b98Ac7791B8e89 |
 endlegend
 
 @enduml

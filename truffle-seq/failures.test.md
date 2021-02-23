@@ -1,13 +1,13 @@
-Test date: 2021 Feb 21
+Test date: 2021 Feb 22
 
 
 
 ## assert
-[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/4af7c9e1104b5a1147ba37abd1c5713b86598a3a/test/insurance.js#L29)
+[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/1d44e677781e9cf21f80c1c42ebf5a82a0cd8a22/test/insurance.js#L29)
 
-##### d1, tx: 0x91a417b6e1c5e5e0ef382a9ae22b3fabd738d7e901ea90de7fad3302cde74572
+##### d1, tx: 0x4656ad451787f74fac372fe87f05d4625c0c921cf4da7b2573bbfb3bfcd00111
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/TLDjJzim4FxkNt43QO8oXfqqJOAwYhuaq4yWXhOFOvgS-58YKhTo76YX---xfbdNeX55Fllk_DpTSsV6BaehZQsc1MEoiZDTJHCqh7pCzLmQEOK29wZLGAQF4pEhj1hEYfc1mpYAes74MBUqom9x3Ehl0QL20w_D4U1gPlANcRQow1VvH4zHMqBCxDOX9kC6SbwPUO5xXg_v2u9eRtKtKgbSJq3mHlMxbjsp9WdMn1_hCfyys1AI9ToPAii8bzdS5WXt2mrNidmu1xu8XMmBF-cWI3tqa6Fc1euC9JfEucOoKRuRA1z3Bb26NA6VIUMwt4bfs_PyXn5bgQNKe-i-o18EI1umeitcQJwNL6eiyw8oMFxYedROEHymLll3QMzV3oSdvv2HukXUtxDkm_IdHlPMNy0kvmWajPpMyaaM5MtMxYkeSegxWaoF5Gc-KH_3A_3F72w_HsCYRJ_UVnCmbUwN9HfxTFp6VN7wuz2W-hc-jYdWz1ow7v-bqTIR7dJJpOIGJw_Lkes-HRTt7rgjxbcjxy4xPVrDd7xH9CqK4h_vaxJuXhft3MmphkncfmaABRcKEp57VCGvNrD9KqbzeSsGniqGw9RKlb84IhRjFSfntMXQ5nQDbaMnXEjdZGhwQKfFOvqzNtIYWIiZbxSvR_kUxmsK268nw0m3r_CYuGZ5lIJCmdtWtK7vTwe1sudlyjYHVXHcdJ0DGk65d1EU4s3eXftEA1r6Jf0I85NUrCykQAL7_GS0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/TLDjJzim4FxkNt43QO8oXlFY9a5THPkcm2SGGzk7CKsENqf4wbQE0osm_xvhcdKj6b7ai-_EpzqzToRah7BSkdfQ4i9hDpFrD5UML0-5cNFBfr2gYJ9ooCN3nCvg8zDPEREmFyx6MPeHqglSibHz0irthxXK5bxQ8y35p1RFC-DuEIYBYPagun1Hkut368rho7bjvwNQCNmjdXLuuKPtpQKip0Gysgf-Dx9tqYP1slYNfYeczww2V0ctjjOQSOahNAdWTc7WWbVtfq0NOPTrkGoP5yMHZaBDHH3vMk61CXbsVIQeI7nFw53oAFTP5EIvpeDS2qcfvta4AHCEKy-k1i0hs4EvHv0sLuXYph7KCI_Asghg5_KQXwtp7Y6DFnptT_LmT7GA6XK7T-QEz5gcFxMo__e5t7Ak0ANXqqO-yhB6pShz5Ue2uxw2DfSI1Lsh3-45w6SAvz-pIoHjDzv_4x2r6LILikxWy8txulZ7lbNov-hQke3ZK-XzVEBMO6_wq1Fh2K6VVgTpattBRcu_T3gzaqRVXtVA-fiu_bwRD94A-IqUkLDlg7lNGDRZIgwtcY2LGvTgA-Q8ZYYbAofnAh4lk4bnt2o2RaWTI8cWQDlSmnnNZSPruPGrl2oNSFLab8I14FWqLjdJ1MK93v8uJRY7iwDroX8Hn3gEkrhWm56QfinZIR0Bl3qe_quD8CkyP1W7msWW1GlZQ3mUCPR5uT1NDFIJhixzo6FT606nyhP-SeOhFke_)
 
 
 ```plantuml
@@ -29,7 +29,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x91a417b6e1c5e5e0ef382a9ae22b3fabd738d7e901ea90de7fad3302cde74572
+title Txn Hash: 0x4656ad451787f74fac372fe87f05d4625c0c921cf4da7b2573bbfb3bfcd00111
 
 
 actor EOA as "EOA"
@@ -49,8 +49,8 @@ deactivate "Failures_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x6EB3aE3040047575Bd18F1B6C8355E121d05b9f9 |
-<#FEFECE>| Failures_01 | Failures | 0x4b730F2a7E9f69c89159006C828e93966DcCE28c |
+<#FEFECE>| EOA | Externally Owned Account | 0x059a398C9a1921ffC59c38f886fc46500CC51593 |
+<#FEFECE>| Failures_01 | Failures | 0x5E19B83B7Adc5487FFD55E84B2e04296fb271568 |
 endlegend
 
 @enduml
@@ -59,11 +59,11 @@ endlegend
 
 
 ## requires: no message
-[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/4af7c9e1104b5a1147ba37abd1c5713b86598a3a/test/failures.test.js#L17)
+[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/1d44e677781e9cf21f80c1c42ebf5a82a0cd8a22/test/failures.test.js#L17)
 
-##### d1, tx: 0x482fcaf090a53212fff7c7a15adc78d95470bcb1fe5e609a9c13e60423ff1f08
+##### d1, tx: 0x2cc50fffb3ac5a9b1a1a7c276e9324d7f17b84c5de2f49aa3a57ac55a9d46c33
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/TLFRRjim37tNLt0jCBJfkag-n7QH6St5MVlK8WksXtKO55rIeuwIoNARjDc_Zt6CB2asFuWYUNH47j64N9MEMrVD2a9uvUQccasK9ULZRXRSyXaKQggCx77nEBNpoiZ-l9XRE1vcmwoV4T8ftQfGAO7wUr1SAWklZGjmFRVvozmuNdIBV6fcoZXar6u7669oIxcexA9G1ual-Oi25knYTrpAt4o1qIRqkxQTYwO8qjn_Oyfy-k1AcAnWR2kjaPUut1KAnai3rxnyk0Iw369F2wvfGddeUypJMaSYuYpaKaInJC8WeXCnOLg5gaqJdWZcuoRmVAsPfZ51oOJ3qhFRBl0IZj0U4PJDvI9VS6nroFEYighyILaDsFEF2AdnS9uUnk7ix18q1axkpJtfD4f_Q6ow_WHkjL20rl1PRPzuKU5c0rz3bUEzQz3cHg9Xs_0fl0BzIE7pj-m6HJkyxvy5sCgCrAygj-haz0r-UVxzs2hvOtDksy7v9NJUFtDhy75Iw8ZjY20cRRL6sTTiD7xNQdKkwdXAf4BLyYVkr1j1_fiWso4aTtlIIkKGKku9DA03Ikb689mrL1itVHmYYwGxgRfI8YdcTkVITVryk2wTieONnGfkdusIq1K21tuZ9bssivxFCvy6b0PH68KzoU8XwxNxiH-66VEOfE4aqSaXyVxp__Lgmc0I-NJeyIXBT3iHSSB2X5BaysAL-4cxFH3zp8i54cBdJV_a2bVyLVy0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/TLDjJzim4FxkNt43QO8oXlFY9a5TH9kcWqyWXhOFOvfSlvI8rEqS1rhe_lkkQTIrQCi7dttt-F7TSnT2BYh7hQkd9I6yTZDJJyVAakgnC7Dk-HHADL563hXudDXPRMGsAsSM3aVvACzoGdgLMvOg9T1y3ufBPU6rFG9SpcpnCZEEb_soc9YfCWuPjTi2HXZSKCvhEo_LNk1ByQB02xU-6ovbOIRWqTRrkx6zipO9qhv_PQfYyk0g62_XpjPQ8oznXIiLt2qCNFBguHpemXU2KQtrEE22yMJiSOz7me-wAWdyK4RQYyPnA9XKlWuJpWFE8aGYL8PT4GG49HCEKy-l-y0hE41xG50sLuXYph7K4I_Asghg9_KQmCxvW9063wVflXzEJiv1e-FetjoJNglqXzQcgq_WbdC5Q0sVDlQ9bpLkrl0Lr0M-km9jhYGQR-C-XbUW7oby_fPVeMZxx_qp0LkRM_MhBgmwEdw3Nvn-FxHA_bZVsrHmUWwzzy_S6cnE2Zsn6H74f9tERVurlxrxr-dqpXf_IgH2rOedxjGRGVuR89iX93Sxqahb45Bj23IaGqhfMY2SDLGRDnaEaKNIhLHzAP4KOzjxwQff7wuBfwpXPRc4wsUZ9FI5m85VYqaNb2KyIE8iuLxYUrfdB151hEEugqNOPPHc6VDO4kmJxxR_xwaXPBcN3E9W4FMbO64SZKP3nl8u7FYAXdxIrMC_ybWtHaAilAsVNE2Al-eV)
 
 
 ```plantuml
@@ -85,7 +85,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x482fcaf090a53212fff7c7a15adc78d95470bcb1fe5e609a9c13e60423ff1f08
+title Txn Hash: 0x2cc50fffb3ac5a9b1a1a7c276e9324d7f17b84c5de2f49aa3a57ac55a9d46c33
 
 
 actor EOA as "EOA"
@@ -103,8 +103,8 @@ deactivate "Failures_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x6EB3aE3040047575Bd18F1B6C8355E121d05b9f9 |
-<#FEFECE>| Failures_01 | Failures | 0x4b730F2a7E9f69c89159006C828e93966DcCE28c |
+<#FEFECE>| EOA | Externally Owned Account | 0x059a398C9a1921ffC59c38f886fc46500CC51593 |
+<#FEFECE>| Failures_01 | Failures | 0x5E19B83B7Adc5487FFD55E84B2e04296fb271568 |
 endlegend
 
 @enduml
@@ -113,11 +113,11 @@ endlegend
 
 
 ## requires: a message
-[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/4af7c9e1104b5a1147ba37abd1c5713b86598a3a/test/failures.test.js#L24)
+[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/1d44e677781e9cf21f80c1c42ebf5a82a0cd8a22/test/failures.test.js#L24)
 
-##### d1, tx: 0x704b878a28572d52860d1764affc5344bdc4ada0e81545a787c8587c7c4fec82
+##### d1, tx: 0x4219009b5d7aefdd21bd420fb5dbdce95dcb48dacbec8843104caaaa19c34bd0
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/TLDjJzim4FxkNt60DA2CuQHvSL1NqHPtzCC4wj3sOKoJQpib8dMBuq0BtN_VDOsw5eqeyjbtv-VkdZiJSb4uOLqvoGaHfPkQSZBIbXGFcPa9AoQGwx4sgYlamzXEIwDwqtnguQ3F-xp72MaLRf7hDe7gkzT2QGklzH7WQcgpbwbn8k_asTXCj768cBgDGn-DQyXPQMUvtZ5yoruqUC56ToEKoimOF5gh_bIoTLOdGUhu0rDautjNm6W1jxPCKyGbBdEvXjkvWIjHt9y3dSSq6B6O2P-5iQz2dqLKUN4KY3ILOJC8Hae6GWcgcHS6eOXPB5c8Ioo3L4lc4wHCEaoTNtT05B2FSfyWRIwJsKnWgNsHvQNLnM_gLGvRvtr2AdyuRU_guUJa759K7DsPEzAgcVvOo_RoCxZ5J0DA8oQLV19vYPkL-nBA3ECk8JK3XS9Vgu_X5UWd2bz-y06IjXlllmdOqWprOvbP_LKNXHZhe-Ctr-QdFm-iLhzMrzU5d9v3wyEpi0Pxr8QMN4yA-hGRZI7_peUtUur6wwpIj-6Tyg1mTjNZ9U1_o37SWzWxhCiWIYFZsPDm-WsPxnh8Ue39pLPRb7ReKcn5lwINbD8LkJYds2dSz700BO9kQEueXQ1eszp3R5UjntNkj3KYpnTm_MoqWewK-5XMZQ3pY7URWZTfG6aGXt7OLHxhUzsenvfXo3tVKpGS9Mco2xmzElzE5M0mYfkqxukO9scKI9PuOK8fulbC9yqaYYvbZ_jC8Y1MNjTFBd35P_uN)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/TLDHJzim47xthpX06b36SDAaJL1NqOPqz642TMXx6DFas9SIaRh5SQ25xh_lcaPTYuOLvUoxytTttvqPkoYiCBQSv8o9qavrEKdGiE8XqpDXn0Ho7ADMVI4VncPQQXLDywc1Wq4yYAEOiKvX5pbs6LJh7eL20w_r4U1gQhANgROYx-NPM4zGMq9CxSPXGCOrvAmqinnt3D-o5mJ7s-XkX5AP7eF3QzMVIdREwYHO7N-eYsnyRmj85d1hoZGbN6OpcoFSpZLSYUB-7FZSSvsGyp3nLLjWgfJh9CfpUKgAH4aCVIKJBr129YY3m6iwt9E2bXFAffSepeWoQIdr-Be7ee1zalkCQBEPp6Q2IXs8B2yD5h-vKpbidVSPg_pXjBkhXvEJSqX9SNIdxrYdPlfZBRlBps0NCmIIMamg-IJoaZOhzoMK6SLTGgg7YeIxLX_3A_1F7BxyY8T4scwy_oPWIZt2np8p-1MBGepnwFZDjVdfpmE3wjVg-hgGqtFeV7WMHbEFkj2HwqaXdswZCOg_nwFRlKQZSrRfk_1EUL1Oi-hn4kWxZ2dSWzWxhCjW2ednx4bOV4FckmQs7c1sizKMXPPSYgteb_oISxuYb-QKEaMRY0RG4EY6vfvI14gspJtATjLw-iyj6YtoV07NpneLzAIanx9g19zpFnJDC8X26XpNITF8f_a9qY1efT9h-Pn7aU_uONCNU7jq_fqgG3zsmdxGxBTxIlfUq1uCBdq_3ho-YznpmrQQk6t7RmK4I9NNzRCB-jCp_mi0)
 
 
 ```plantuml
@@ -139,7 +139,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x704b878a28572d52860d1764affc5344bdc4ada0e81545a787c8587c7c4fec82
+title Txn Hash: 0x4219009b5d7aefdd21bd420fb5dbdce95dcb48dacbec8843104caaaa19c34bd0
 
 
 actor EOA as "EOA"
@@ -159,8 +159,8 @@ deactivate "Failures_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x6EB3aE3040047575Bd18F1B6C8355E121d05b9f9 |
-<#FEFECE>| Failures_01 | Failures | 0x4b730F2a7E9f69c89159006C828e93966DcCE28c |
+<#FEFECE>| EOA | Externally Owned Account | 0x059a398C9a1921ffC59c38f886fc46500CC51593 |
+<#FEFECE>| Failures_01 | Failures | 0x5E19B83B7Adc5487FFD55E84B2e04296fb271568 |
 endlegend
 
 @enduml
@@ -169,11 +169,11 @@ endlegend
 
 
 ## divides: tries going to the moon
-[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/4af7c9e1104b5a1147ba37abd1c5713b86598a3a/test/failures.test.js#L33)
+[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/1d44e677781e9cf21f80c1c42ebf5a82a0cd8a22/test/failures.test.js#L33)
 
-##### d1, tx: 0x3fb1f67cdc82fe3f3ad6f7ad2e7a57dc5086f5c2839bc0a9c12152c1984f3ba5
+##### d1, tx: 0xf4b9ab8374880472da05a5603c76135fd72e97a060983d92b29aad73ec925ead
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/TLDjJzim4FxkNt43QOAo3YTftb1NqPSK-0HYrVPXJ9FZbsAHkfNZG0lil--QPbsBHXJvxBlpStVFdGavBnsphfeLXB3ApKqrowKbvOCs2sRP30evbKOC67-Osdbbn71Up2qSZhDnDim8wPPkLSWUWVgxbqn82o_D4U1oRlNpt3XMz0izDJDf728gjtKOet43kQZief1xXg_wMOBNsUfkc13QJC6ZZUftBRkdJHAaYNzbIZszToNaAvZOIYd49KwxGi9aQU2IbVTdG9U1oZqLnLpmn5SoK04JaOgPy6NCmbZma2QH2hcV16dEAKkvvtkXpxqqwQWWPo51ohZ3rBFhFh0I3b0U4AJDQQuN34iTCrrKLfQ_g5Sxx9mF2AdzeTtRryF9oHaeL1pTcJlIRPZ-rCZUwnTmguK4b8RDQld8YWetQ_TNg3J6VGLbhWIAOAC-XXUWdobSVC-kaBJzUFzDm5Pcf1-ra4V7RzoNxH-7LegVwskR0jfdqFtunAp1tlIWopSJWZwzLkis-vRTJZwqMjtJMj-3TyhwcpZ-Nj9aJOH4WlKZS_8DT-yQo6PUoSrE5uHqw5Bk11tH4QLqpIME9JO6DqESDukWMrRxGY0eshRtCCbrft5TEcaDAueLN3yPAQ3FERwDTVfq6MM3W6K1xL3QYSCu70Wl6Nk3Q9W4OPZX20aQvgbAzu5t9-NVgGRiv750npwBirH5AKzIBqmfHJm_aMcGHj683pC_uGY8bJVratDSyLN_0G00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/TLDjJzim4FxkNt43QO8oXlFY94PTHPkcm2SGGzk7CKrkx1IBrAqS1rfW_ttNDEjQDAB8Pz-Tdxjxxap8MUM4TVMq94JKRcRgwLXPKZreCnTMJA5K4sNaGEGF4pkhZKndvSp2_YWRPMb6IBToorBr23JVlH9IMNXfZm0NCwkVPyQ9ib_gYPagun2nS1k74HhNaFFQpakrO_YgdnLuuKPtBQJKPW8URLM_6zazQPCWRVnBK-d9lQjWl8HRMnS5uXAdNQdWTc7WGbJtfq0NHJZcOfm4SPWaD8nzAIWJBA917aTUm0eP-uh7WaQK9u7a_jZdGiWuK3dt6KOYI5dkCFNigW-YWZsKUmHfSphNSu6bZeGkQwkgNzHh7BREUuGq_d3SszN3qT4f5AWuk3DtfDio_QcLlTSlu9Pp1IYDc3RoKPGrRbRkhr1hZFiAXRcKA8Ar-X1UW7wcSFuzkqJITkFzDm5Rcw5-r58T7BvnNnp_sBTA_bnTMnTmV0hTZq_26knD3xhvUaBGfzVft6JViflR3vrEzwJHz-2TilucZh-Nj5aJgP1W_IYSUiFTkmQodbTolTK5gHowL5j1XtH8ALrnYME9ZS5DYlDc4NJ3QbzA14NRvXuckUeqhWkdh15bkOIh9wCazFCStyOgVRgWZ8k09oaN7lUzeaWPpuEaI9AeoCE8KPgcp6Cys0NUdfH_fmQGPHuV9C4WxikSXKay6WqPov9mu2iQ-ZmgndxiiGX98rXvMpyvmnLVzHy0)
 
 
 ```plantuml
@@ -195,7 +195,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x3fb1f67cdc82fe3f3ad6f7ad2e7a57dc5086f5c2839bc0a9c12152c1984f3ba5
+title Txn Hash: 0xf4b9ab8374880472da05a5603c76135fd72e97a060983d92b29aad73ec925ead
 
 
 actor EOA as "EOA"
@@ -215,8 +215,8 @@ deactivate "Failures_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x6EB3aE3040047575Bd18F1B6C8355E121d05b9f9 |
-<#FEFECE>| Failures_01 | Failures | 0x4b730F2a7E9f69c89159006C828e93966DcCE28c |
+<#FEFECE>| EOA | Externally Owned Account | 0x059a398C9a1921ffC59c38f886fc46500CC51593 |
+<#FEFECE>| Failures_01 | Failures | 0x5E19B83B7Adc5487FFD55E84B2e04296fb271568 |
 endlegend
 
 @enduml
@@ -225,11 +225,11 @@ endlegend
 
 
 ## transfer: tries to pay self
-[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/4af7c9e1104b5a1147ba37abd1c5713b86598a3a/test/failures.test.js#L40)
+[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/1d44e677781e9cf21f80c1c42ebf5a82a0cd8a22/test/failures.test.js#L40)
 
-##### d1, tx: 0xf03d2b8ac753665584b81ff2a3dd0269245c1826c2421d2db34a0bdb3d156dd8
+##### d1, tx: 0xbbc2dd9f252d274bd55891a7ff0be17193d49c9b99a0e1c117ae225b4a32e6b0
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/TLFRRjim37tNLt3fCBJfkihNs45cD1TdpLE3BjWUrc6GBTarwiY1BBT9c_tx6Dl8agxJWoYHr25vI15oLMgcTBNC2M6LBcIrZ8GYvKCcLqon9UGY5PAFMFoGggAIV5paXOAJQJWDno4XWr9lSX4GgDUzO5meU6cl0DU5ofuBgLa-pBDKBeNKY9ZelSCKZGtagbAhN1mPlcRF0WnxhvippZEPWa5RrUzQ3YxR94WRVoRBBBtN9KGRMAWgIH2Nw4pd0XPh2TUilEy3NIVKucRaiRZdMAxhE9uTUKQIcCpYd9gkRzfER7Yc6vksQN2JHvRDQ8I26uxBkKUGibXZwk7D45W97PGTWhJfBCvM34kTiYolb2X_KQDsEBXt2AdzuI8uriFvUHyIL9pUoJioQ9d-sCfW-ndqPYK0fMJBMZwolCB3pdqBLOPnjv386KTXD-epU07wYSANx-4CIJkEzsO2gf9pjZazU-txuoHLGiYV_ppgm_icIBkCjuEj4K49Nhzloh_em-334rCIEnl086xc2ts2RlSs_1RUBjvrkuFBMXyGBf3ox95fyOhD_nf8Cy5aVj0NBZIwb0ViJkW4azwnYuEAhSB362TG8UYUvo7d28gs_RjWM_SUzxKMIh8yty3DanGSXd6ClsNN2Rfsmv75GelQbDezf-UCkE5DZP4xzYp72GsSBUf4Vk8V0n_EpjzR3MX7FOjEJTOB_SJrOyyt79zIn3CzuLk-wqxYSMXwCG9YvMtzv0ft_ET_0000)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/TLDHJzim47xthxZ1D44PmqxZ9gwwY3QaWoSGGzl3c2OdTaf4wbQE0orq_tr76dKjOtxmsNVdx-w-EnDoMZbfNJqj2P6rcvbwccfBgll2pAMLKoZrH1irajdznCvge-9PEREmFqx6IPmGCgZSijGHWMRTQQcqXUVs2d0-iyNJp3XP3ijYOgRQE4JCtSPXZCOrvBosyrBl6BuMJngOlz5TIQKACm56MzNlHWvEsYH86__2LCNapbMGBk76rdcEkCGLhjHmip1mBgkxFj15ccQUKYBtkAUym4yLvw5WCiXpcceMCD5LliX4AeIaccMC1L9x7azzsVLqBwK4ASiSffvS3a5Mi8ToZo1jhiYAkSHInx8eQwkhNvGr3bltFK8QVpYETlLmTDI771K7j-QM35gcFxOoMdq6jvnhG6daj94FigpnyEA-Whh0k2l8pOL2uQ_LX_0Cz1E5Bz-J2oHjDzwR2TZQNCdbmU5htn_x4wkr-VdFepwyNmTf5tixs08Hh5RD-tNvntqOV7YKrc1d8nXaw_b2dwZJkKw-9TStxpgTmKcZZuZII7dn89r-nUP_3MGzmUHggozAEtIfjjWzesUOz0kxEAZOAZp4E84MGJSy3vL2KBHjtaMhflUuBvosHfRb4YuVZLOmp3ByBI-Te0lAXUoAC1QI2O_bUSn5rWtpCEpbcT_ZbCOnPrnqTu6tP-VlhG7a2HEZi3iAXYhZVXYCnsUS9w4_yZJrFT7BKozWl1SY85RUrazESST__WS0)
 
 
 ```plantuml
@@ -251,7 +251,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xf03d2b8ac753665584b81ff2a3dd0269245c1826c2421d2db34a0bdb3d156dd8
+title Txn Hash: 0xbbc2dd9f252d274bd55891a7ff0be17193d49c9b99a0e1c117ae225b4a32e6b0
 
 
 actor EOA as "EOA"
@@ -270,8 +270,8 @@ deactivate "Failures_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x6EB3aE3040047575Bd18F1B6C8355E121d05b9f9 |
-<#FEFECE>| Failures_01 | Failures | 0x4b730F2a7E9f69c89159006C828e93966DcCE28c |
+<#FEFECE>| EOA | Externally Owned Account | 0x059a398C9a1921ffC59c38f886fc46500CC51593 |
+<#FEFECE>| Failures_01 | Failures | 0x5E19B83B7Adc5487FFD55E84B2e04296fb271568 |
 endlegend
 
 @enduml
@@ -280,11 +280,11 @@ endlegend
 
 
 ## transfer: tries to overpay self
-[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/4af7c9e1104b5a1147ba37abd1c5713b86598a3a/test/failures.test.js#L47)
+[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/1d44e677781e9cf21f80c1c42ebf5a82a0cd8a22/test/failures.test.js#L47)
 
-##### d1, tx: 0xacd366382dc760ac550320e7e829f002b3e0bd2937547e9e4b8d9f17dcda83e5
+##### d1, tx: 0x280ab8e9acb3a5b31ba342d2b81350869f53a86fc653d66c1e3b22a23fb27530
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/bLDDKzim4BthLsnXfWEX5DcElvZKGpwSmWc6CksXT3goj0uU72KZov10-j-xSJnfqlRGwg2LTf-Uj6zNZ5rKLXXRJql6H6rdkfvcQ5ZrMEYvC68A9KvGgu6GZnCpgxKQpigPWSDnEaw7AMEzoYvBJ1Wqum65GWElxHRWScQAbvcsekoNnKHFKLjYpEqMCARWXd9Uctc9Uu5FnGk2qztwReHIXPw0mrlNZyRspjf7iFR-ArqLamTRGRQ4ErFdEV4oMzWIuMwXuL9K3-V05q8gBmYyo5Ko3BYGliyzbsE8aHlddBkPXpnJRko5VZV46BjPfEBS2PLK8lBGPoIPjFJqzBeFee83iWUCPBE5BEQ2KXsBegmDLj-vqm1szWUCDNWuJVRzS79o3ZavZkxrFUkrIhzhRRBw07OvHo2hnRInJwAiQR66hw0kwDuLvFfAaV4txcDu1VwUmySlwHM9jd_VNnzWQZsa36x4ykZuN_1piRn4Wt-05wTV3msgR-j3ctHFpw7tzbaOJPLCe2St_KIOfDEvJJ-djtTlEftUMUDFc4AIk7WI5dzJx_y3RDFAx6QdG0ejGQeTcKTyn3bVoqmTIpMZnP1QqH3fLl2-KaHAiUsvPDKq0SqBYqQBibp2zRD61NqfwTkiIy8NGJhmHEhnBkVTq0_zWNAYiJC8Xf7d-wdZEehxMPp7-yIxJVHhrn1siz3ZOrU4QPm7iOnYnuyv9putmjYBWs0aXwaRIIAapDlysGNDzE5_0W00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/bLDHJzim47xthxY1D44PmqdgaA0keWtfu8cALTl3cAPBx9I8rAqS1rhe_lkkQTIrsnwsFEJiky-VVPy_CtPPMJIsdfQCOMrdkfwcoh3giT1pD3Y5KasKbWFC7YTcLciPpygPWSDXCapYXB5UPPUbYXWqtuD2gGoyjbE0wvafNcRQOjalYucUAcs9CRTRm92A6yfvRUQbsYjyAbuKEDrjReHI5de23czJFvhOEsiFmThzRtHLJ1vi1UaIngRES-9bjh2bWl52mpLM3nV05sx0CGrKY5dgeKWz9qMlwqet3HnFyC0FS-5XuEUPBppf-vcZlDHrqVNor3qN7cSaMMRfwCbj7x220ue7Z6IpHLRCaLeTOb7MHbNVkTC0TkO7Z3LuE8tsyt1oSW4v9OxkzJthjKg_QsEq-W1sELT0KUEqYKzOrZHOmrTG5xJl2d9z8oc8JVeONe6_v_3nIt93ektlzzS3c5h7rC48bqV7_uAVu_9Q6VK7U77wzT0e-MszQDFkwGNqtZwZqNIJ4VIoZPy84tKwTyddv6xyfjFfdJNvY4b54XTFQDLlwlr_WMsip4Ox5oIL9KYr8_CLl-AShsKcnzATqI0cAneYtGhUbv98gRPT5wqQ4z1_OPNHM9PBk7tMIa8_o-ZPhA-4BxW8qGk3E4GdT9qyZqMOUK4Uh3tMzGNdSImS4NhxnBic-ZLh24NYX8F06vptPIQwmVbmU2L44dG7hk9TD_JNHdM47n0XTTxspoxfJm_-9m00)
 
 
 ```plantuml
@@ -306,7 +306,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xacd366382dc760ac550320e7e829f002b3e0bd2937547e9e4b8d9f17dcda83e5
+title Txn Hash: 0x280ab8e9acb3a5b31ba342d2b81350869f53a86fc653d66c1e3b22a23fb27530
 
 
 actor EOA as "EOA"
@@ -326,8 +326,8 @@ deactivate "Failures_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x6EB3aE3040047575Bd18F1B6C8355E121d05b9f9 |
-<#FEFECE>| Failures_01 | Failures | 0x4b730F2a7E9f69c89159006C828e93966DcCE28c |
+<#FEFECE>| EOA | Externally Owned Account | 0x059a398C9a1921ffC59c38f886fc46500CC51593 |
+<#FEFECE>| Failures_01 | Failures | 0x5E19B83B7Adc5487FFD55E84B2e04296fb271568 |
 endlegend
 
 @enduml
@@ -336,11 +336,11 @@ endlegend
 
 
 ## boom
-[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/4af7c9e1104b5a1147ba37abd1c5713b86598a3a/test/failures.test.js#L55)
+[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/1d44e677781e9cf21f80c1c42ebf5a82a0cd8a22/test/failures.test.js#L55)
 
-##### d1, tx: 0x1e36d610cd1e4fc0dd4415f7e2e87cd864b886ee139714c616073e14b5847e44
+##### d1, tx: 0xdcf1dd9049e4647d640df26b49dde0b913cdcb6ecf561e784fef28a1fd1358db
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/VLHjJzim4FxkN-61D44PmqwSDzHLj6a2I9D0jDi-Z6boOgT4f4xbED12zzztJKDf4Li--Eoxny_Pzvo3q5bbk3Rrj428rwPKzJIH6bNtkPfnpQUua1Efn82dznDTrag4PL5gl1z7SHH627KhioXa3-7ckvDSI8sVsoN65wNEdqfbUD4lyecQIcM0CJCRG0p1DUMirhD2xWH6-PF4b6ryrro8N4qm9QthJsEx9-qXK9l_KbNvvCvKE5dWiQwp37YHoKqXyNYky0MlxauncLDfkyAb91LKiYmbGZ16dSoJblIzLFWkItpVbPBQWKTPwbANUBQaB75yvad649GiDN3qwAgFUONtmEuXA9l9qtp6uQenpujQo-eteGrWQxqBlERt8rw_m3QhFOGQKdpSszsCZuvESGQEWrjrYxgj79zQsrj-mMOnanYiujF6Fl2YXiaAliHr3ZcNE5EN0eoxTX_YPqm-4tp-8xg4okxcU_S0kbQ3ifmU7Bu3Vhr30qrQt9PxVlnpVwAbLBzMU5KN1UmyFiNTZuzSAz2vXxlfkjkq5BrEPnHzZOVHQ7ppBHntEjsJ9jXxatl52l26Srsw_r7UHD-Zc_67BJOXGTFyWHlvHgv_1j3wYQ3hBJs5D02fjfGPaY4XPAKCl0GG6IOXjBW6qer6VI6056ARVRrbqrmmpetKYXV50byzAYbmFqtXEQvK97Ct6jWyiWaZX7cEvmm4zMCwS4FVTfo8MbGG9mcoO9TukpbVLmqXIpoRn1RteY1pWzGFg1CG0doMBmCxSDrX6aQMd-uIlZRnoxmXaqbeUQ4VE87lq8GHr-yBGdr2-WFczgarY3CMMmow444PssAYCnZXh_GN)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/VLHXJzim4FtkN-61D8qoXfquQOAwYZPD1j8a4Ess3sEQdDWk4QbJEGwqmFxxhcaeBMABb9nzz_pEldSEGgULvSRMim8XNjjIrxDK6bJTvdhE3P_XGawb5aEUtKvDMMiHbKLfy7uI9t4K8zIhxBAGVOIRvqPo8Gr-RASOdvKcVoYrvSMWoATw9hK5HcKtW0I2QyfvRUQ5t0cCymU9ATluBhaGkPvYIbhNdyRsZjjDe3R_kQxowOsjSBh44rCh1Rp8vhQGUBBG-8nNDoUOB4Icg10XOQ5aFkiAdn6X73zbeH2If25rCv6blioKvrFP3PYIoWauLOAwNY1I12NBB6mzlXXWNk4zi7i8ocRpB9zpE6h2yw8silfDQ0FOcky2B_djcDVFiCri3w6651_rTnVZmyCJhC3nuLfVeruhnyVMzfy-OxkSImnMyrbZxtXHms05Vy9r3ZcViDBd0eo_TX_WHqm-4VpbHtmEbTtDz-O6JAs7PJdxSF06-EKC3JHjSLlknT7F_QcHKlzQuNLT5B3ow0Jttjzpeq7dFkvbwsupKlGxdN7yDHd5uydLjsZIwVIEcs3_LUuLAy0RpdNf_aTv5N-FhoRljjY414tpEsxbAxd-6K3hAu8kj_GKqWAasb9cH4Q4a9KoS1D0P1X4qE86I3SQ3OG0KeXjrlMVckQ2xy9AetbHBF75lPO23x8ChkDAHR8WNiZTC8X2JaE7AXLvOUO6AWXybJ7V8oIAFEg5xYxnTdE-p1f2BwRXC727tO78F1PqasJaUN70Xeuap0bzbJfTwld1Bk5B4p-F6p9AKqe25dLTdZ1VTQEXonXpA5EAIeSwWj4kl0cGGHdROg9J-C9VwIy0)
 
 
 ```plantuml
@@ -362,7 +362,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x1e36d610cd1e4fc0dd4415f7e2e87cd864b886ee139714c616073e14b5847e44
+title Txn Hash: 0xdcf1dd9049e4647d640df26b49dde0b913cdcb6ecf561e784fef28a1fd1358db
 
 
 actor EOA as "EOA"
@@ -383,9 +383,9 @@ deactivate "Failures_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x6EB3aE3040047575Bd18F1B6C8355E121d05b9f9 |
-<#FEFECE>| Failures_01 | Failures | 0x4b730F2a7E9f69c89159006C828e93966DcCE28c |
-<#FEFECE>| PakSau_01 | PakSau | 0xebC27C8959851b4068Ad01800AB46A12BFf4F246 |
+<#FEFECE>| EOA | Externally Owned Account | 0x059a398C9a1921ffC59c38f886fc46500CC51593 |
+<#FEFECE>| Failures_01 | Failures | 0x5E19B83B7Adc5487FFD55E84B2e04296fb271568 |
+<#FEFECE>| PakSau_01 | PakSau | 0x11b1084C73aF46f7CB3444214ff1e212d417d41F |
 endlegend
 
 @enduml
@@ -394,11 +394,11 @@ endlegend
 
 
 ## Out of gas
-[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/4af7c9e1104b5a1147ba37abd1c5713b86598a3a/test/failures.test.js#L62)
+[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/1d44e677781e9cf21f80c1c42ebf5a82a0cd8a22/test/failures.test.js#L62)
 
-##### d1, tx: 0x92f97d7c891d95f4e34e1b798297f58c8e3fee9b04ec921155fac25a42bb966e
+##### d1, tx: 0x5109dfb5593a78ea1b92147c752e18b2423b516c397a71ac9de933a59e94856e
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/xPpVRjem58Vl_HGUbQQLhgiJ4X9N31LeQ7j5rLNRnJfDJkpGgC51YTD2ozvz9Y06qnvW5pykSh2_ynt_kVSXvA8oeZJrB2T4rARGzInM9QcUCZqNfPZHN4sLbaEHF4tBejPoLEH5IO_6qJWQHOJqAhFCLP_GvlUeX5GbVTiEARqkokorq4RaWpoRwfdInbPCpIvXRE6cvBmkvxaw05-oLqKTRpTtAwJCz9GwR3lrguczi-qco7Rz6rrbqqTJqNX9xyiwJMrTOZAJAtg_qFHQL8_db2suc_901ad87Sdzr5CTJpbnm4EN1waV9g7gf4hnc7aguQxZ-7ug4jSNdXl7lDkrDOb8ZDrwD1bGKT6MZIrYhyraIJONzgXZaULrgQgVp6aIziOjGffyUje_dASd9-SqjHCV7lG3wMrl-kCszbUVgLdE5RLHYraJdqLUsp_hz1MjCxlkYgRwHjeGRAQFwHjbdnYz-XRTs4ixNE-V6oXhFQdD9BqIrOTZ210WG8000G84210WG8000G84210WG8000G84210WG8000G84210WG8000G84210WG8000G84211QT77w_QXKyiTQtBoCEJsdlVSlejIPdlPfBzayFR8v_NRxBleQtTs_QxTxPyrydqWb4fCz2wF-UcW300000000000000000000000000000000y7y2ikb5HsxtEgn9PMnAjTSdxP9TCiRMVT86UIQgTOEqKQ5DQOlkEgODfBH5BTjv_LNJnSr-5qQLMkJvaavUj99qa2H5tVHKOujkDEo8gCCynhp03_oXTCAnC-oEmexlHuxhIER7FEM7XVUxmFqPDGMzEEYmiIk2YATTlkv4vtF6R3qtLBp3kztBP1IvOM8BsfDlpqykxBUUvRy1)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/xPnTRzem58Rl_IiyAaqhNLVdmoIk62hGqFQAggksYtMQJEBGgC51YTD2o_xxJ40Cfls0NRnSv60_vpd-kFSXvA8oiZJrB2T4rgRGzMoYIb8zPNekIpcZkPegdGna_3GjYredmo8lIdeqYaRHC2AaMvbbhdg4Dhz79HDLqhVjaDBheinU2srati-pgPufRMp5rEmIHXPkIixhSfwh0_0bUrNKyNTpjp99CZsb3jjE_MfYzsox2R9T_qPNsVJHL7IofFTbdQQsBZ6PoHMzNsXwBQl7SyeMt64YIIUS2qy6ePBEHBYE7yG1TvKJJbpVzIRSwSIU26JWo5WaIdYUv489F-GTMvF8sDYjH-C-bHLjsTWYzjfC5cTpQOywabbUbwhwoPmcOM_S8gJ9fwUzmtbwSd9EKplnuK4_aExsfZzkOs_rcPhbN54RjPmryLdcjVspJb_HEhFhhcYgRn8RWitqCNsZx1EZLz-Y6tjfX-lzSmDbhSUr6QTNilfm304210WG8420004210WG8420004210WG8420004210WG8420004210WG8420004210WG84200052YovEln-LAlcn5ZSlOqxFQVVzYonrfgSzseqtJuziJg_Tlek-HdVtxzhjxbaptoE9ah79dgLHVpsq0G0000000000000000000000000000000FW_0TdqeYEtUntM4cLiIhNN9-sINJB6rdtI-dacgtM3j66XJMcBxZgczPF45hLiv_LMJHSt-rqOLMgPvqiwVj4geVquBkgcfnfRC2wa9yAXa8vmdJGTSX5xOHg6dJJsEvonuP0xN7Y7XVUxmFqPDGLvv8X1w0s2VX9pFmn6eqlEez0Vk8hvhkYa4pTmU2Uq1Ut9j-Sd5_PRp_BV)
 
 
 ```plantuml
@@ -420,7 +420,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x92f97d7c891d95f4e34e1b798297f58c8e3fee9b04ec921155fac25a42bb966e
+title Txn Hash: 0x5109dfb5593a78ea1b92147c752e18b2423b516c397a71ac9de933a59e94856e
 
 
 actor EOA as "EOA"
@@ -964,8 +964,8 @@ deactivate "Failures_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x6EB3aE3040047575Bd18F1B6C8355E121d05b9f9 |
-<#FEFECE>| Failures_01 | Failures | 0x4b730F2a7E9f69c89159006C828e93966DcCE28c |
+<#FEFECE>| EOA | Externally Owned Account | 0x059a398C9a1921ffC59c38f886fc46500CC51593 |
+<#FEFECE>| Failures_01 | Failures | 0x5E19B83B7Adc5487FFD55E84B2e04296fb271568 |
 endlegend
 
 @enduml
@@ -974,11 +974,11 @@ endlegend
 
 
 ## checks out external garbage
-[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/4af7c9e1104b5a1147ba37abd1c5713b86598a3a/test/failures.test.js#L70)
+[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/1d44e677781e9cf21f80c1c42ebf5a82a0cd8a22/test/failures.test.js#L70)
 
-##### d1, tx: 0x7fa1acfababa95f41f5c40b1fca04d19a4e544d69d37f847583950f737185548
+##### d1, tx: 0x8c4b1545b36b03ef4b08f3706537d38f346f760a025d60f9465b723d26cece41
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/TLDjJzim4FxkNt43QO8oXjsyLrr4NrpW4uYXxSEO9ZUssuZKhHm7MkZ--wvfrBLeIoIVxyMFxvux4t9PEc5TDIi84PMRcsesLfQKJxbP22jcKAY9Ch8ligU9dLT63kR5tCBnY8_uW1FIBTsgK2c1-fig8PM5jqO5k9xR_7Lkd2XwHJunCsKS8cgt2nYXSmkvgEoYK0UEh_ch0kRlR7T2ojnCWD76zBkMtOic2TBSVsFAV39r9OnNy60hhH6NkDmL2XwM1gv5EUq0NKPQC95fCSO_2RJFT93vTCnq9gWlMI9y5VY-31FfHJhseo3sae3go8jO70H-J92op67g_BO7eeGZb4S4QNDvbYy4bZeIUL5PLVwYh0xOquy8gUFXF3sqmzbP1pGQJXxD8-asJ7zgPBh-0cwrK83IY5ajdqLHuMOJleOgntlNeCsDH15lpQVm1lGpXQll_0P9ExpldmdOol2bKzQ8ukJqtO7b-OzZg-JFpS5j2USTw7vy4TPWTrBePjiPmPYqrRhdt_ZzmuTMgtjHsrCY5TAMFmkdtZ7oNmVPJY6vs-DMAeSXvHv3Gpgab6uOmc53kd4pm2co2BhZgYSbWg9lTovTr_t3jQctMC7jYr4IUbc64xzXaov3tlS4zwXFAGv25FGbYqUi7mvYBmWuQpD9Wt6YaqFW_Vx_rMf0VnnvTDGM4Kzqc6HnmeA4KiHhnohnaZ0SPWFUZZC4nCgR-iabhlXM_m00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/TLDjJzim4FxkNt43QO8oXlFYlA0kearJu1E8eUt3c2Odjaj4wbQE0orq_ttNDEfQjEM3xtntVknxxWaX5xNbnZRJYX3Us9bkfhaqf7ugzPmRFeLAJgGMGruyJSoiqIATLJC3X-DidAKP8VtQBYkP46Y_Hyc5DF3MRG6kPgPydMdBgq5LJlHKQek8ocuBnfZSGCuRCw_aNk9h-Ih1yRUnMov4gIVWq2xqkxNzi-uHfBl_MjVbvD7Ma2_XtZHA8IwnfQqat2yqNF7wyHpe8Yhyt64-oxqWfvvKVauZvOKqO5ueF7JzG8K1vTHb8g0gzWEMXwudtA2GXVGTWfGL5f-UtGo0rt20ze0WRROioZd7LiUyh1eZwr_KQGjszWU4jFLmckp7uUJa71G6ZXxq0-btJ7_gRBBw0dOvbu1MysbhdtdLeBCkNq5JuhqhKFfQe8asuMDu0_gPmkNtx1f9sx_ldmymZSuMLXhDgwFZTmSMfpyEZHG_rmStBPoUG__Z2pSQfvD0lzXe16kINkyk-vRTtN_ezVfdRJmXGY9jvJEtyXqZ_qsGZGh9xGwtGbeigNSO6j4HfNJD48eDwKOdHHKP1DroDH02GJ6tFPUisldXslLRBU7cHKi1Ww90nQ_Pf0lAOkx5KHfp9tOTfL8M5oYHA0fKWRgWD4sPms9l7tXt_dztBI3Bd7WOUSDm80hcH-5uF68iY_oXAwdlne7AtT1X0GwGOETT_-G2L_nN_m00)
 
 
 ```plantuml
@@ -1000,7 +1000,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x7fa1acfababa95f41f5c40b1fca04d19a4e544d69d37f847583950f737185548
+title Txn Hash: 0x8c4b1545b36b03ef4b08f3706537d38f346f760a025d60f9465b723d26cece41
 
 
 actor EOA as "EOA"
@@ -1018,8 +1018,8 @@ deactivate "Failures_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x6EB3aE3040047575Bd18F1B6C8355E121d05b9f9 |
-<#FEFECE>| Failures_01 | Failures | 0x4b730F2a7E9f69c89159006C828e93966DcCE28c |
+<#FEFECE>| EOA | Externally Owned Account | 0x059a398C9a1921ffC59c38f886fc46500CC51593 |
+<#FEFECE>| Failures_01 | Failures | 0x5E19B83B7Adc5487FFD55E84B2e04296fb271568 |
 endlegend
 
 @enduml
@@ -1028,11 +1028,11 @@ endlegend
 
 
 ## checks out internal garbage
-[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/4af7c9e1104b5a1147ba37abd1c5713b86598a3a/test/failures.test.js#L78)
+[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/1d44e677781e9cf21f80c1c42ebf5a82a0cd8a22/test/failures.test.js#L78)
 
-##### d1, tx: 0x7aa9490bab72ec972bcab266b81a1c3c90144b5c2663e4ef65c30d54e314f16a
+##### d1, tx: 0xa4676662a58aeba8cfa44d897929b4559fc67de049afd1339e25104dc2e1daf6
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/TLDjJzim4FxkNt43QO8oXfrtewwYBIdq4uYXxSEO9iTsIaJgLeu3BR3_lckQTIqQKUIpxyxFtJrt9kIiSiAwUbeI8cetC_KqqvPK3uMP2okcKEg9DceWvCF4pcgZXhDoPc5_b8xIOKf8jtBBKlS8DD-z5afRU6cF09SpMppFZ1DblomcPggDGyJSRHn6Q5n3pcixB_MEuMlnh8456zsrKAem4s2qLVrkPFUaJOAqySUcAYRthe9i2RUspdF49QvmfORRXO5BKTsV0bt4Gl20qqnaiQSbZxrCYioBeYnXWabVSig280ibgdmTw3mAfKzL66YV1JcB147AfCFKqwi-Y0hsKEuHfCqLifWBB7KaYhAsklf5MUEmTTuZfF67uzwk7ewEJY57nS6TkIFTbkbFhUozVW6td6j0QSIqaO-Yh76pSd-5ki2uhv2RiKB1r-f3U07wcSB5ztICfEt6-sy2jZPZuxGreZmuV7DXSVnZtshrStLnNSBnANG_FWbhi3izwChrZA1FhzEvIR-bDxSVEftkIQFlmJk5_KqT_uIrUHEbaUBYKJZzXhrt3MGziUHwgmzAEtIfjeAUqtDAwOfD74ni3Mw6E74MGJUyzfL2KBHjxc6IgrxZkbXpKoxXwibe1NqfyNMiqgUBA1tu8lLfG6aGXt4uK2mPiK4qJFmmJ9d750qpdlDTuErP-NTg08Cizkd84t7AyuZBXBEGKufuNgAvpwFeN0vJBv48Y9MtzPCpNF5T_m40)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/TLDHJzim47xthxY1D44PmqdZD4PTHPicq2SGGzl3c2Otjaj4wbQE0orq_ttNDEjQDAB8Pz-Tlxlxxap8HUc4TTMq84HKRcQgwLXPKZxcPYwic4AX9ih8WSWU9tPM6HdFYfc5mpH9apWXf5kwPQ5w1EhlGGcfBBmsHu2hcSrVPiQ9eb_a4pDLnY6YTbk758qRo7bbvuNQCtpDNnHumLPt8wJCpGGysgX-rx9xrYH1clWZK-QJ1rV2U0btjj8QSOdBNQ7WRc7WIfGFvq0N8WWxOHZwWaL2ZKMKQH44Ck8TxlDnm1ZNMTYHYWPSQEcrsrpvpAE1p7pbIQ53WfHb3bDFhliWIZX0UK2GDfTd-LnWgQd8YyggyXVrQeUTym4XjJ-SzlRrS79o3XeLH_VcddGRfZyrihVw0cuvLu3IY6ajdqHHuMRjle8gnxWhq6OaKV2D-XXUWNwcSFaz6I5f-_7-cu2jpCWuPOqeZexVN5YS_ZYqIlvSNzoKS7eEtO_FmXhiJW-wsMP6qAVNQjqctvBRkm-jLlUirlVWdSB-fev_v3Lv4wcGuln9EFM6lNSDP3Env6Qd3r8vT2btWWxfa5AwPXC74rk3cnWdpYBebjU-b0YAjkqzJ7BTQrmN6swA9Lm_6oMXdsNuEjRfqmLbNBHv57FXST_JEcOyQqSwYaAT1I6ZD8wPntXx7tXtLlwTQa2MU7mGjGUTlinO47NITCXO4WK37uVJvw4U-nsFXH42OkLD_UG2LtpNVm00)
 
 
 ```plantuml
@@ -1054,7 +1054,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x7aa9490bab72ec972bcab266b81a1c3c90144b5c2663e4ef65c30d54e314f16a
+title Txn Hash: 0xa4676662a58aeba8cfa44d897929b4559fc67de049afd1339e25104dc2e1daf6
 
 
 actor EOA as "EOA"
@@ -1074,8 +1074,8 @@ deactivate "Failures_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x6EB3aE3040047575Bd18F1B6C8355E121d05b9f9 |
-<#FEFECE>| Failures_01 | Failures | 0x4b730F2a7E9f69c89159006C828e93966DcCE28c |
+<#FEFECE>| EOA | Externally Owned Account | 0x059a398C9a1921ffC59c38f886fc46500CC51593 |
+<#FEFECE>| Failures_01 | Failures | 0x5E19B83B7Adc5487FFD55E84B2e04296fb271568 |
 endlegend
 
 @enduml
@@ -1084,11 +1084,11 @@ endlegend
 
 
 ## InternalZero: stately
-[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/4af7c9e1104b5a1147ba37abd1c5713b86598a3a/test/failures.test.js#L86)
+[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/1d44e677781e9cf21f80c1c42ebf5a82a0cd8a22/test/failures.test.js#L86)
 
-##### d1, tx: 0xd42e0a65086d1e3409edaa988a0bf41180f526cde62cf0fa6807a480720b3e32
+##### d1, tx: 0xb10b28ef58acd1d59145816f7ccb8a51cf4803024c5a7de83e951da7ca1e12df
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/TLDjJzim4FxkNt43QOAoZdFUcbHTHLlIqKyWXZPfOvhSs2aHgLCv3hJ0_lkkQTQrQ4IHpxuxFtVtt9cniz8AOwjvpfYeRA6h-LGPLjvdUY6Cc4EkPahBeKZkPwQej1mLUM7WS1oFur7CMA-qgrpr6TJVdH9I6NXkZW0NXScU2cr5FiYpcPuhRGanjLk7CHata8lAB7ArP_YIFIdWtbPt9QJCz0muDghVjUoTDacm9lv4bzdipfOmNS6DgTAKS9dDRAxWPgdXGfHtNS2bz1o58l0n32HNheUHaa94OIXmcdgSXvZwJf185JX9Yga8Gkm8ZnO7fwvo7KQK9PPIZoy784eu87d0Y3QR9Tb2KAbZaUMLKUKlvBN3plc0iTeVslrzFPoST24bnT6jlcMzXkaFZUo_V0AxMYWWgSMybWyYhsYpTd-1AgEuBv3gYIJ1SQC_XcV0ZmYVlyKJOcq_u7ypC9MUQAkC5lbtPOgZurUNbkqVXqR9d-lBcphQNUYzVnH6Kulwq4isWq8-_LRhEluQNz-yQxLwfxM-3szKzpT_-aFUvCwa8fwp1s7LAmhVDB3DsBAhdMP8PScbt0bwZkU8kAQKffFwGviHZPqXq2sv0oa9b6pRUvJakk6qBZVyv2kuVDHAmY19w8ciqyTb40zT4Rle8NeTl-CF9G_7V1YCGjVtO-vmYVuqIgDzuDs1-NUg0RrfnyMn8pfnb0PH4aRSZn09pmbLv4P1S9wCOYTC290gR-fdPxJIu_u3)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/TLDHJzim47xthxY1D44PmqxZra5THHlIqISGGvkqCKskxPI8rAaS1rfW_ttNDEjQDAB8Pz-Tlxlxxap8MUcbyzKi9qHMlh3LR68SAUypEvTEpY0tKsFrKAhxgIigg-CYBnpiZv9H4YU4z4g_p4sVGFtT6QcDW-Vc271HkEofi5xcWpoRsfcn7X5Jlt4OeN4DEQ_SF3SxXY_Pam4MRdHNKklCJe7HHlMxbhsJ9WdIn1_RCflU-H8cIxXnLPeYBl6PpmtSB2nSoFBk5EXYmkWa42RbGYhDD8zOo0Nhf5sb9a9ofj9Gq3ODGiLbLnlHDX5dMdQLP8O5EYL8cVAOUd8v05d27iezWhJvJ6LpYQMEP9PNpfI_AAiTjivxXDJ-SDpVrSFHqIcag3YujRUarp3zeP7zbq_WbtC3AAsSrV91vXLkLkulK6KOzmLIEzOe65th3-4Pw4SAdxybOsHjD-1_Ct2L7Ljld9NvT-EAWyDNbnR7F_QTqJzNbzTr79z2x_sZT1PRr8UUMWyA-lHRhUlaQt9zywxLwftK-ZwyKTtV_F4NhCcTQ8CyPm_IcrSKlcaWwx4bLrlDqCQZIxaLz9oUKqfNbE9qOdzm4-FOEGJTa3lG6a7Hjhc7IQuQZkjYpK--XCj7QpGCbC8diagVBYYFP3iISIHP5B0qZNcasY8LefEgiCCfZMFEUDJU1TuUc7-d6f0dB1gAzh0xq8g7eZiQdNEUY70O61e6KIUT15t6Em81iVAcVdA6ApxkFm00)
 
 
 ```plantuml
@@ -1110,7 +1110,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xd42e0a65086d1e3409edaa988a0bf41180f526cde62cf0fa6807a480720b3e32
+title Txn Hash: 0xb10b28ef58acd1d59145816f7ccb8a51cf4803024c5a7de83e951da7ca1e12df
 
 
 actor EOA as "EOA"
@@ -1130,8 +1130,8 @@ deactivate "Failures_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x6EB3aE3040047575Bd18F1B6C8355E121d05b9f9 |
-<#FEFECE>| Failures_01 | Failures | 0x4b730F2a7E9f69c89159006C828e93966DcCE28c |
+<#FEFECE>| EOA | Externally Owned Account | 0x059a398C9a1921ffC59c38f886fc46500CC51593 |
+<#FEFECE>| Failures_01 | Failures | 0x5E19B83B7Adc5487FFD55E84B2e04296fb271568 |
 endlegend
 
 @enduml
@@ -1140,11 +1140,11 @@ endlegend
 
 
 ## Index: out of range
-[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/4af7c9e1104b5a1147ba37abd1c5713b86598a3a/test/failures.test.js#L94)
+[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/1d44e677781e9cf21f80c1c42ebf5a82a0cd8a22/test/failures.test.js#L94)
 
-##### d1, tx: 0x10ed622c76dace311c736f1076b9d1591c84351040af41ecaadebeb6ba323e9a
+##### d1, tx: 0x82d2c9fc3d5478f9211d1209ba0d9420e0cead5623cbecfa12377577bdbe804a
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/TLDHJzim47xthxY1D44PmqwQf45THLjIw1E8eUrXJ9DZNqf4wbQE0osm_xvhcdKj6b7ai-_EtzrzTsRih7JIkcfQC2OhDpFLD4NBoeVSpAMLKoXmWaOFf7gOs5bbz71Mp2piZv9HCamOwvPkMM2FGVtTezHeuQKv0bpERFuyCquM_IAVc2aQHuYPspYCoBY6d5TsNk2EuMl-Z23Q6zsrr3et4n2yKVskPVUaIO8rySUcp2VtheHq2RUsoZB2PIvt1SBjmi2bBEzFWIy4Hnrwdef2BHNwGgZ83pF1ep2DjGXYeJfjFn2ypMNM5gWaWQUOXgdqFHzZoOWovIZrvAeFieGzadkCQ7EvokUIIXt9lAWibh-ug1sspdkCrVvmtDlLmz7HAMIaEBWpTwpRCFsfaRtNB-2MSmIIHavh-IYBYZOhzrUeSehx2faPQn92hFM7y0ByCuUBxycOMDiD-DyCR6N6HkFYuF2Dz-Bunxv5_NDrQrt0yIbqFpv9QwWtFUYgzOIGJw_Lkac-9JUt7rgjxacjxy4xPVrDdFw0DqapZKHm_YWTlk7kNGDRpokxtkg2HaSkvLRGStxEELznIMD9ZQ7DaERD4kY6rRxM14gspJrASjLfMXSEhP55iOIh9uCQ-ahHsrYbpnTXCl1bujFKy7OKHC50Yyv83C9Xnm-2H7X2yo2DitWNU7jI_frgm7OQ-NpaoIY9ip1MdPX6atF2ypeO-t4OdgjXudKK0LBbJVtiZ5PwrNy0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/TLDjJzim4FxkNt43QO8oXlFY9a5THHjIw2SGGzk7CKsENqf4wbQE0osm_xvhcdKj6b7ai-_EpzqzToRah7BSkdfQ4i9hDpFrD5UML0-5cNFBfr2gYJ9ooCN3nCvg8zDPEREmFyf6MPeHqglSibHz0irthxXK5bxQ8y3bp1RFC-DuEIYBYPagun1Hkut328rho7bjvwNQCNmjdXLuuKPtpQKip0Gysgf-Dx9tqYP1slXZKnMJUrT1leHRMskDkCGLhbHmkp1moQlxKw2Bs9U-IBG890kZM2U-vqdFfqdEgKn2doeg48zr_K3aIcZk-K4KiIZAPQvY6dA2b0c7gMTN0-0LxA7S8qYRAqGnvrZgY1TbRLNrYtgDmzPvZv367uxxkteuEZe5ZOg3EtD7UYtJdrhPV_q2RZbNWDBmQICVULdZPkN-2dM1SLz1cx54uNbh_I6y0FrCuU9xDaRMTWF-DmDRcx6HQd5m-CPxSVnZtohvStLhNS3nAVG-Fd5hi3Tzw8drXA1FlzEvoRvbDxSVEftUIQFlmpjb_KqSVqRRf8bKI73no9rwmzsx1hAULtAzrGMf7BfKMq7FwJcbTCKbZYKs1ZSfpfj5q0sh0oaH56sRUvZagjEuBfooXfVb4gwUZ98m40BVnYfzkg0iuK4IfmdtSAAqJbaYWbZ7SLUBiCieJLFciIJO1TwUb7-d1f1bNZACWs4qa8A5SJGQdJEMnU7GLpJqawxE_SXZtHW1iVAsVdA6AxxgFm00)
 
 
 ```plantuml
@@ -1166,7 +1166,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x10ed622c76dace311c736f1076b9d1591c84351040af41ecaadebeb6ba323e9a
+title Txn Hash: 0x82d2c9fc3d5478f9211d1209ba0d9420e0cead5623cbecfa12377577bdbe804a
 
 
 actor EOA as "EOA"
@@ -1186,8 +1186,8 @@ deactivate "Failures_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0x6EB3aE3040047575Bd18F1B6C8355E121d05b9f9 |
-<#FEFECE>| Failures_01 | Failures | 0x4b730F2a7E9f69c89159006C828e93966DcCE28c |
+<#FEFECE>| EOA | Externally Owned Account | 0x059a398C9a1921ffC59c38f886fc46500CC51593 |
+<#FEFECE>| Failures_01 | Failures | 0x5E19B83B7Adc5487FFD55E84B2e04296fb271568 |
 endlegend
 
 @enduml

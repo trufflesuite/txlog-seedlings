@@ -1,13 +1,13 @@
-Test date: 2021 Feb 21
+Test date: 2021 Feb 22
 
 
 
 ## succeeds
-[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/4af7c9e1104b5a1147ba37abd1c5713b86598a3a/test/stacktrace.test.js#L4)
+[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/1d44e677781e9cf21f80c1c42ebf5a82a0cd8a22/test/stacktrace.test.js#L4)
 
-##### d1, tx: 0x6b5c3c72be31c9683a75214cbb022f3f48391fed98026c88bbde2258184ba356
+##### d1, tx: 0xecf38810f43150db552f0cf64fc2a78b8fc0aff302c125b344f044a84ba8d324
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/TLJVJzim47xtNt5YBqECpKxYD46i8ctJmHELGDeBqkHVAH6fKpdEraBtl--QXa87M4hElZj__kxp9OHSD5uutougGaJhQzikf76aUIZjKZYnWChCZTKZeHxchcwj7jTLxU3JD9_cuvoGyyQlApCaq8rx8xHnyDGl0IvhLpxMreiggygvNHZh4R7m-uGf1dUGozOjAtCGk2aV3R1exvi9hKix1qPxrz_Edd_hIP3-_2lRbFDxtu1SmwrhYm9nYIzzPU1sPU5IDFTdG5Unv2fKWq2QaAaqJa8nu06Bb9Gq28gmY98mPONHQKA3M2M9bDe40KzO4aaHyfYWPCeZzVmw0z704TeZWhBvKfLBWQNUUDJDEw7ChMdyBygwj3VUmqqpyN0ZskVa_Ug8aEu0E1s-1m4d9sUWQjjursv9VRwpT-IylwSllHrkleDVBmsWjMBHsT-YQd6oJTz0MoA13QpmeJlVCJm1_KgxmU37p_mALN_l_2sj5x9lw1oJrz4FQZWzFOCFmNV5RpF8hYd9x9LgsdXHLishaYTqWfot9MFlePGu6MDJ8QxV5vzfxKo3iVs-uQQxJdoll75MLDKQhlzOeo5J2Z-0hJnq9GCTKHOLD1vmQi8qPZIEaY0THJeTqu9oBl8irEmG-6qx_E_hm5DEHpoXQI32WXTYAZYVvB7MsA05JyTf6BCeJAay17zfc-Tv1nP8Hek1JcMc9a4ucie1ZOfKCPRb77i_pFKuIgPcWc0eQIyikS0t_XF-0G00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/TLJVJzim47xtNt5YBqECpOcTra6ieatImHELGDeBqdJnZnAHkbNYR2rq__kSD1Gwm59ozjtvytUVBo7aedPOkMPH4eADMzfcaUkAr0-5NM652oZrN5irGVamhvQDLScoN5RmQPfDioGZvBnscrAF27JZNgFI5JprIu3BPLKyBgt3SbmMSxlGrdb4u_O9Kn_SGQwQQbNgWy1DyQWXu7lV39Kgx1m2shl-TlRyMq-2zETVsRgOtxiQyWtSLeqn7fUumfKQRjSMBh6-FmEwrj8m8G9gE0iYgl8e2WsLPi2D374eSc4aHMCO3MKGHZdZt53EKV0SXM8X9ruowJprx7eCMCEHjqV4o-OAMQpGbthZl6wkGgblTUr-qQ1BU-Czt3J3XnjidfFtgoD2kWFWTFGU19oSd85SsjfLJKlgyvsz8-VzFNtfxMZx7TncfS5RYulE_iQoyPCsVGjDuGbiOUqVklCTmnFGhxGR0VpucLrvrTyxlwNrGlODdMFoElf13QUdP_0X-AxuDeFicfBCNgccjCEYh5-LdDBKSsvBzhtdfVIJn3ULntNxuiTALRhsiVs-qRQxJlzUErrPBCiDNF-nMi5OIly1jFBGDGPomf9u4aQn622Zo5WKCa6fGXuDVRk4IOug6Hu2lss7_tqTU39aV38LQHZfXDCWIzD0CJsWaH2CCpg8fOaZmzWX-4lRFCyxCCx6CHscFDKiDKWdD1w7WGXf9bWeH9nD0nQhcBTWNj9UM7BXt_wVy0y0)
 
 
 ```plantuml
@@ -29,7 +29,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x6b5c3c72be31c9683a75214cbb022f3f48391fed98026c88bbde2258184ba356
+title Txn Hash: 0xecf38810f43150db552f0cf64fc2a78b8fc0aff302c125b344f044a84ba8d324
 
 
 actor EOA as "EOA"
@@ -47,17 +47,17 @@ participant PakSau_01 as "PakSau_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0xb2d4014f06750e3961064829B4d9C0f055aEA3d1 |
-<#FEFECE>| StacktraceTest_01 | StacktraceTest | 0x950B58092a3f5faFa55DE6dd83af59C93614390b |
-<#FEFECE>| PakSau_01 | PakSau | 0x2b10f7d9bAcD23BFb704f9c11AE5c723EdC48FeD |
+<#FEFECE>| EOA | Externally Owned Account | 0xa1cB3C9B25986a30a33523800da457c122CbadC7 |
+<#FEFECE>| StacktraceTest_01 | StacktraceTest | 0xC734BF8D25eC401EDD1d3e60588343069cf95f33 |
+<#FEFECE>| PakSau_01 | PakSau | 0x43A907D4De3Dfa0B09A21820E832889EF139d943 |
 endlegend
 
 @enduml
 ```
 
-##### d2, tx: 0x5008f3700c8a88dd556726065ea2bfc7171ea81200bc037f74bfdb3f4b0e0354
+##### d2, tx: 0x7bdd00b6ef52565ca69021ec6ec010f134f004ca10a11033503090849e4e5baa
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/RLFBRjim4BppAnRffKMQTlMW7ePhn0yvyIa1Og2N00KbahOGcJ8eghKJzz-xbWKZQQ83XzfT3cU796FNZHFMjPkACT6wshIRN5dMF9LcAwpOGALMoiY9A9vMjcwDdDPLRU7JF9jdquonOUFsbHenwBwr4b9PUEb_0MvhMpxNnebgN9Khir764QDsvu8v9K-KszPkA_KcyL0-A_32S-nUI5cQ5NZOX_vsEFpUYs3z_WlJbAkrQo3VmzAsMXClSwMh52nt1cv5inu0xZXYeeCOiKX4aaZ9UHJx4KPS2J_NHUp5dXA9voFc1GQnZiDSoppGOOuA0nuoignm93sx6uDeu8BmWf5jhYpAhQ1M7npvvgmer58rxXTwNTcxw0LZtLgu6dsKXSlB0TZMV7uqZspOM_-rnz7X1xZzLW6X4PiEVukgfScn_01jIK8EeCr24dZ-AVu5NW2_8Tpyp1PauqUx7iMSL5qDWB7JHM3thzgJoecoQbvfck4C4O-QwBofLvfCwI29rvtLZQMqgg7SUTteq5b8uyufQqHLxU7kZr4InaL1b-we7tUvBqFqGerHp545QUHX52P-EWbbEaMDd8ji74ZlBV7x8_W_rf6d72SymTGNWUPQp0NdiooICWc4vkaq3I8l35BCYPnSwBrWrpJIq_a7)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/RLDHJzim47xthpYnbqsCxHmdQODOHPksq2UGGDeBqdIrdHAHkfNZR2rq_ttNDAfWa0T_pjtvy-VlR24kwq0-DCjA26h2oZNBkVMYVYhTcZmjeR8Bwyo8zDF2hnfdybMryl1fEfbEyeaG5tNOLdOWeFqUBHdhuQNx1RXU-V9vvG9LmwfSkALrWHcBS2oOSl90kMxykh9l4dVbimKP7sEtP4pf5Y2n2_rjyU9x9q9q-yzSNIuUGmtpBTpxfYYOLuGoL1RkDmwkgNuy1zpqviOWpbDR956I9fhI32DfTMerIYoaYWl4M9D4aXALIb1XXlquix5DvaI2BTE1fKzkXa0rd32U2BOjbBfS4n_rBh1lmPEszxOElr2sPU-Y9qAqQ-5iy54MJa_FmJVkyuDx41UTzLyx7En-GDYkBJ0wMhRucwg69_lo7JGb2zb1uMQ6GKQ7-1Tu0Vo6SFLpCcCRFzfrB-QWwkmSX3XS177xwdZ61Ygh-fMcCOuHSQ-9-yrdvKdEZMJUS5GtDCRRcdF7TODTQo6Fcs2zewhQmiqVPmqCjUPBjzUF6v9wfF9i52LPFoM5n1s9L1_HK9pqj8oYV4ucxxqbVj-2_sCjUTvJyMZQ7qU9pMEKa_5O6cLJJFfz5IjCCrraIQ4KaxCBdHVYaaT-Ely0)
 
 
 ```plantuml
@@ -79,7 +79,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x5008f3700c8a88dd556726065ea2bfc7171ea81200bc037f74bfdb3f4b0e0354
+title Txn Hash: 0x7bdd00b6ef52565ca69021ec6ec010f134f004ca10a11033503090849e4e5baa
 
 
 actor EOA as "EOA"
@@ -94,8 +94,8 @@ participant StacktraceTest_01 as "StacktraceTest_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0xb2d4014f06750e3961064829B4d9C0f055aEA3d1 |
-<#FEFECE>| StacktraceTest_01 | StacktraceTest | 0x950B58092a3f5faFa55DE6dd83af59C93614390b |
+<#FEFECE>| EOA | Externally Owned Account | 0xa1cB3C9B25986a30a33523800da457c122CbadC7 |
+<#FEFECE>| StacktraceTest_01 | StacktraceTest | 0xC734BF8D25eC401EDD1d3e60588343069cf95f33 |
 endlegend
 
 @enduml
@@ -104,11 +104,11 @@ endlegend
 
 
 ## fails! hahahaha
-[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/4af7c9e1104b5a1147ba37abd1c5713b86598a3a/test/stacktrace.test.js#L9)
+[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/1d44e677781e9cf21f80c1c42ebf5a82a0cd8a22/test/stacktrace.test.js#L9)
 
-##### d1, tx: 0x5633e1a7dc18390c0640877e36cecf32ead0291dcdc3d121ab505091b404923c
+##### d1, tx: 0xb4829958b4b91041dcb1610f8583ee3365bc7e71e7fd98c120598824b673389a
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/TLJVJzim47xtNt5YBqECpNRY_42i8Ytfu0aaaFQ2D3csKo9IftAShONkVzyr3OKEi9ISVNV-_DtdImWvQxrqlflNXCZEDxQR5yQHzg6o2-da76epCrQFfNgOkQQpUjBKZODFqtoQJt92Jbk_gis8G3_kZTJ6mTEm1BXeNFNOM2_hhAvcTcwiHyJIxnAc6Dn2BZgtgCrUuAPwDC32dUzQQbtP6J0wkFxszlJRG88Cvr_QjfhT-nQA5TowhYmHb_ZArmPkbnOkP7j_0dGfeY0mJCPQiIH8gQ9HI9CuDa6aZ2e3Zc2KfqmhhGBDE9E5e8Ach0XfcF904PHCUQIUNsKWMpX0Uq1GDb-fQY6nr1kFkdadbRarhVz5MP_snhk_wLe-tCZkENctEY2aFm2EH-z1mD7H2QZ6jjvr6rAVx-mTEHtkwSjWH-llu5SB0sYjdFVsjwmxd6pIrz1LI60DItperdS8Jq2_qdum-F4plqJLtpj_G-k5x1iwX-Hrz8CQZezFu4FmRV6R3B9jIdBzIZLjlApgzbN9v_GSEMzAnjv3AN4omQP2NByhFjFQcHPZktsZTN-T-5vwuwoiwnLS_R56GwOKVW0RUUYou3gaB2nf50jgWZHYs3m9JyUXJYUqf4B8FCEcsGT-smx_-tfm5SPCX8pJh1HCyPXf8GGtef11RBZAqY3XumcFzy5VskPvteEnH4TKg2WVypnXeL1SYKWaWkNfkGwdPH6Q0D45Wg6aWx3a3D_uJ_W7)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/TLJVJzim47xtNt5YBqEicntd9s8LRPeEdgW4qbwGfalib8ZKgH9dQw7xttTDGsa7M4hElZj__kxp9OnTDXPhsovAnh2rbMaNgQvPyrYO9TQuW5BFjL5Zp1xdTTKQ5LTbLSEdQJ9DueInYyQkIpraq8q7ZKhNyDml0QwgkdYgZCLoL1Ppiz364c9kzmbJ2kuWbsszBFLHuBPuqY3SlM-6IXLc3eBthh-TlVZMas3z-TUcAUOFje5q3NTrc-U4osnXImrtAmDNs3oS0r-bRkX4aHUcRXe9xWgLfS8NF0-zK6ejfU-bMQ03eODSHM4c7Ev5OUYugHz86KR8IBBC4lNaPWJOm0dP4qQosI8hbaYbtbhIpTQOwJlTs5zST6bllCURPlXuY-rBydvrmbXt00o6xq70sTavP9LfRDrkINs-D_Vieh-dBxqTRhw3NIyra3MuwEnlB5kQRDCtq1P4O0ChUlZETmhFmB_oRWZuyJEv9jNVEtzBwvNi6pgdx33wGGs3mJby2BuhVfl1Tat9PWUgAMsnA9k3aYTyGfot9LFlaPGqYQcf2DVkYnyfLUk6OljzmqrtdVHUMLqRBCirtFmnMi4eo-W3sCh3LoYoiOoZiKCTuQFaAANdo91pXQuNKAiuSOeg3ew1txR3_xuEN0X7SJ-OIE5Wb63ew43wt7VqcAFZUR6KGQ1yEJa6VssRbta7Dd9JBt2JK4oK6ul9bDevasaU9ShDkHj7eHjpuQ8YC9Aq5vPTqfl-2Vy0)
 
 
 ```plantuml
@@ -130,7 +130,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x5633e1a7dc18390c0640877e36cecf32ead0291dcdc3d121ab505091b404923c
+title Txn Hash: 0xb4829958b4b91041dcb1610f8583ee3365bc7e71e7fd98c120598824b673389a
 
 
 actor EOA as "EOA"
@@ -148,17 +148,17 @@ participant PakSau_01 as "PakSau_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0xb2d4014f06750e3961064829B4d9C0f055aEA3d1 |
-<#FEFECE>| StacktraceTest_01 | StacktraceTest | 0xc47154120Af51c271d5552e5ba37e2cA9382BC27 |
-<#FEFECE>| PakSau_01 | PakSau | 0x18d605c6EB2E8145c2c565851E9Dd4Ffb4e35525 |
+<#FEFECE>| EOA | Externally Owned Account | 0xa1cB3C9B25986a30a33523800da457c122CbadC7 |
+<#FEFECE>| StacktraceTest_01 | StacktraceTest | 0x112d067D312a9Ea82e736062eB0a255C3377d63D |
+<#FEFECE>| PakSau_01 | PakSau | 0xA4b574E81Dd4C1DF71ec3bf9Ed4f04C984C014ad |
 endlegend
 
 @enduml
 ```
 
-##### d2, tx: 0x6c945b9cb10b963e546f496c9530d46b11b6b52c63c96f0e664a19d633915770
+##### d2, tx: 0x412dcf2d5a286b41a69b91704514bb611927379deba0447b2de03eb59b1943a2
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/pLPjJzim4FxkNt60DBQoRdRUIb1NKKeOV9X0K6qVnZGvyQL4f4xdED12zzztRRCA1fkqZMcD8fzpTpu_Vcpv2MExfPN6LiESCLdPGbV360qhBpCzaaOE8SS1QhKdayk1AIgjUaLU6DWuY0wYNiHOkxIJ73iCviy5IeK6RkjFWCF2P3U5jZBlvjb03r5RgfZQPS811HSbHvKPvNWlS9RT80XlwJkHIcLw08BNhgzpstvTWs3r_4Uwp0ONjeHu0drJfIdLPJQpEK9_hE5GbXSxmCT14df-72Qnu74OkEXxGUg5vFLThhmW5Y8EOjz90ZS9WvHZ47XIX2fmtL3uhHPdH5bY2Nfqt0LPmZhPTKQqsIp9HfAMUcQ9DsjaWdqixMSkvcaFlEkCpST2i_DO5BQsTi1K-lcvFcVjclgNjUrCtu2TZ138QZcSsokPLzIPfK-XoWZ8559zfCWu2_SBk0N-YiFR3z4HiVZOfB_6ulmPcBWeSa9HLac2ECDZpVVWNqCIgmVf5BzKcS5tM9PoW2k4hzdSWLNAh_boduYYLEObhjX9VqfCOWKn_PEp_di0nysF6mRLfndGnNrAnx3zx5eQJRBHWNQo42_AwJGQfz7xwBI_rcYqNy_z7VW9Q2YjcSdE5EZTZ2g3bt9jiqR55988P5VIugCt-_yCiuLuivCxagJGoYmlxonpd-zppcTxGnfD-aIT7ealLRBBNUegPMXZOReSHxJCP8_QiKMZPPvFuFXQqwvrauH-56QQmyUnepmkl9G7BP-Z6mQ21zws4-vvAkpnbFk-ZBgk4lSBFvJD7ttpuedN4hud7DvDVP4uBQ5yttVGZwNRGYVfXkwsizTpMbISMAYvOBlKqk_EDm00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/pLPHJzim47xthpX06bjPDyT9amPr5RGDWuS91DNsCARf4hib8dKwnu4Mkl--QvjLCDYaRKnh5FcSk_FvysVBNnZRAomQMuuonh2qkIv7iJAik4pr60sE85D3fMK7aykXoKijktcM6zWwY0wYRiHOgx3JJBKPB9uBXL8PkAq-0GvpazxascAsdwL3FLBQKiM1NIKSK71PSboQSQRk1SxI6mMEj_ATe9If7eB3AzVNXMszha2mQluZNQJ32rj0F8M-AGS3gijiQZC5_Oc6GomkTe5FF4V8P21a0qNJZpq7_J0EdO1x3SUBOzznGX6uGIXLZDppWbX8nLqLDyBO2JqN1IFA4alGe-Dzm08soMuoeiscIJf6MkgP9TwimKJrLM4_SsUHzi2xoTXYBDJRZqLXPsSNJAcVd-jprggeVrdPzkmDsEbO0LcDeuMzmgoapZnz1cLAG6Omq4UIZ5YwNy0jy5SStdw8ZeZ5noRzDHRnPs3YFCy8HL4cYL9pFDPy3_ur96Vz89sgBsLgr3jL53XKQuIlNj-5TSgl-7AVYA81PeLQivF-b9YSDSJqJyxwxm6Sr3zk6IK_pO4kxrCwXgrdrsWqoKORMibIl2YdNQkTHk-Zq_v6hTPwlV2tuIUWeR1cBZipe7SxAeswn8tj2XMJYaGWlKAh7htP_sUOBSMRdToH9AaifbbnPvaztkESp_U6D9hqYJfT4b-gP5Uxj2-beOs5sMeSqJANFMedLXcDMJQ5usjDkxQV9FIZCDSSFa4dwRZTi2CQOTD7bwFhDeJRv5oYrmWIHuXkZB8Rt2_yK3P_z2sAEwJVt0zwhYCmZB0fLE3wt1Ugmr4q6btN3GBfkpqgJYnKNB0zQkbtvni0)
 
 
 ```plantuml
@@ -180,7 +180,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x6c945b9cb10b963e546f496c9530d46b11b6b52c63c96f0e664a19d633915770
+title Txn Hash: 0x412dcf2d5a286b41a69b91704514bb611927379deba0447b2de03eb59b1943a2
 
 
 actor EOA as "EOA"
@@ -233,8 +233,8 @@ deactivate "StacktraceTest_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0xb2d4014f06750e3961064829B4d9C0f055aEA3d1 |
-<#FEFECE>| StacktraceTest_01 | StacktraceTest | 0xc47154120Af51c271d5552e5ba37e2cA9382BC27 |
+<#FEFECE>| EOA | Externally Owned Account | 0xa1cB3C9B25986a30a33523800da457c122CbadC7 |
+<#FEFECE>| StacktraceTest_01 | StacktraceTest | 0x112d067D312a9Ea82e736062eB0a255C3377d63D |
 endlegend
 
 @enduml
@@ -243,11 +243,11 @@ endlegend
 
 
 ## fails, try to transfer to self
-[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/4af7c9e1104b5a1147ba37abd1c5713b86598a3a/test/stacktrace.test.js#L14)
+[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/1d44e677781e9cf21f80c1c42ebf5a82a0cd8a22/test/stacktrace.test.js#L14)
 
-##### d1, tx: 0x882732bbd7ce6bf79a2ab31e594f7eccb6f9a1ffb8ae7d62341dac0874f58cb6
+##### d1, tx: 0xa89e19d4811a3670e14bbf5c8f0802279b115d9a3fed90d47a309a466021ecd1
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/TLJVJzim47xtNt5YBqEic_CxGQmYRTF14vL0sWlITB6T4f4wbUDiBNJ_-wvfAEq0IydPT-VFtts-XB7BngAnxQ9Y35jRwtQHAyEQnr8lqU02AZLNMevGFCvDtMevhglQmATfDit66MCNZLrNQiYW6myAfJBmt2y1hcfJFjNQOfLMvLmlbBQ4MDXzmfI2EyXbQvQLEWhSbayA77_lcw6KfPw3mtlNtyvUVEj9iFxyQzsKymVRGBw6EzCM1U4oMzfAmTrAmnKs3-V0Lt7iHfwRvp8IAioBA44NSyzHGU8NaH8Y3ui4dQB8OrIH35tFToGA7aT-4SGKPIIPi4Gzkqa16pWXUy98DbkASebKwgqbtQn1eUvKOtznfqjxuptUDCF7MsnValUh4yQw0s0mV0y2pixEGTIwiQRTalfyh-_PHNzFNtext7m7krug8AjnqTdVMBKqsQPle2s9m0PMzF2TxnIUWN_btN3Wny_icbH_x_mjhLUoR-YSiiFe1pKC1kVm8VYk-6q6spKbcnse9fN5iceEIfxm2N7UbaozHrBIP4nDHRXsNtmgfL4DnVRxXflkEkcziifehAertFpHIa8g17q0MtduAdUbpns_u64KSEKbeSD3FtQJaI-JCIzu462MUj8v1dxR3l_xEl38TOJdon7FqY3A8ZU9fF03plEnLmJS9LWrSNF9Zy5Vs-Pbte45oSZ9k9FuoIWAYedmfieFCfw68fc6Y56O2pyE4YGmahGNbbtIc_u9_m00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/TLJVJzim47xtNt5YBqECpSxl85RHfitWYKeWxGLfkjXEYKYTAd6s5hh_VPSq53h0KdBstVdpTvylOUoYiLZRTbaoXgsjJBlCTCsQXyAiiCObb7gXZPgWV5ZKLMjKKfLL3P_IMJfBPeoTDtPJwX63VjnhLBg6fs49S5dLnMDbB9RZibYOfJQM47ExJqWfk8DSjVMgr0U1c-9HW_3slZagLPW523wu_lRs_Dj0WWtdNvccMDpR1h8DtDPjdXCkiuKjDTok3LnYSty6V8rHh4Mil4W8T8EGQ-5bMUxBAESHTvmmpeJmLOnkhbNCbHUYosFqWe0xGaib64acBL6VNOy16pWYUyH8Dbl8OeLKweqbtMoDKj_gnlxYeazxuptSDCU76soVa_Uh8yRw0-1qz1u4d9oSWQnCO-ks8_Nvpjony-6UlWnsjFqEThFIGDRWihU_iMnfqgLleIs8m1RMzF2TxnYUW7_b_H3mu-ViYbH_x_oErWlPDtIEsUle1pMSdfx1X-2xuhiCjcjADd-bcj8MYx9vLVAKJubpLpBr7ab9auIQYd3jllYnKhLkABRVDzhsrqdljTMrmRBSmFKVenMCfQGFe9E7MaV8YPl44yUFeu3Q0btNTzo8SuMU7qhXE4c6AWaFWT-sm_--7bnmluEVSPcdwIHqdSoLpfHBpgbB7S5dKJO9_6Xo2FxIDi_p7cpiS3UL8jEkfyFGIu8WosAUf84KaGmTVpeDKQ6WssOawI0ikw0t_HF-0G00)
 
 
 ```plantuml
@@ -269,7 +269,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x882732bbd7ce6bf79a2ab31e594f7eccb6f9a1ffb8ae7d62341dac0874f58cb6
+title Txn Hash: 0xa89e19d4811a3670e14bbf5c8f0802279b115d9a3fed90d47a309a466021ecd1
 
 
 actor EOA as "EOA"
@@ -287,17 +287,17 @@ participant PakSau_01 as "PakSau_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0xb2d4014f06750e3961064829B4d9C0f055aEA3d1 |
-<#FEFECE>| StacktraceTest_01 | StacktraceTest | 0x721c34dB0EA57E7297dc4500bC3f5023d1eD2bd0 |
-<#FEFECE>| PakSau_01 | PakSau | 0x59B1E01949B75fDc3Fe45E0A6c9F6aa76bc4859a |
+<#FEFECE>| EOA | Externally Owned Account | 0xa1cB3C9B25986a30a33523800da457c122CbadC7 |
+<#FEFECE>| StacktraceTest_01 | StacktraceTest | 0x1051cB3E0cfFFB732b3c2D0c00367210E8bB658B |
+<#FEFECE>| PakSau_01 | PakSau | 0xA203Fc1be34e774C66bb90CF6c18c725DD7ada10 |
 endlegend
 
 @enduml
 ```
 
-##### d2, tx: 0xa8408d2e74ccb276c15da828a05a0c5d1aa4c12122c95111cd31e036a27ec2ee
+##### d2, tx: 0x5f7f08aecaaffb28d4eacab20225522960056665f4f0c60fce4c3fc0636b3b12
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/pLRHJjim57ttLtWmJQoCORj9qrPTH2bXy0I2QdiOq-JODoKYTIh7WHQwVzzjcbKm6D8sf3KFliczDySdnvPF2DahdBIk76U4oDBbfXp7O4bnbPg9j79CCnY1qVjINOriNXezoBFSqit3w30QH8Jq2ZVB82IqkYv1Qh3qhdwaz2YtwMrkdCpwMJeoOp0E4HEtQZZ4uX9oKjf91WyAv-ajKEwjSgTIwzICA6TrwdiLUxir2LBFVsoAT7Jf2XhFwD2MIOAunAKk0pgS6deaYyikPLFPzbXR2mWyfM8Hj1JtjMoBjcI-PChNN4fFSS65K1sVSwvqamDhjgG8G0b0J2ALG-hHIP_AWcvWt20ecqjLEf7ugUSETNDMAXX2uRunNhKzocuGKhrBTyAdgdHxkqjjQROkp0NfrTA_gsCu_q3TR08Kev7ZAbxBhCIRHVkSbYaIcTF476iCtZBzbjvHzfxHZv-ZOrJngKcVvoB-ZaoSvncoA4gb01PydFrP_6TAVFqedShP6f7QsUdITUglHMg-a4I9p0fOi-tzafpu6d9wkGt-Xwo-R8uiWFdw6tfT-de9Kb_yER0febdG5TRo6CQDt7jp8wr1jmbfJoqz3tl2HkCi-XIT3Lyr6htTAXyI3MW3wRLqyEJP_Z_BP6dVvFIUAMbmCisAUsjsm0vGeyMQeKkZG-7D0EqNaTngzVfQMoYmjdeld5V6X-FKWJKoosRqvCRWQlQLmb-5XUkmQIoqnxYNi5RWCsXsMforlBRex7kwCs09ytqPzPkQFmH-R9o_vYhmG73LzFG-Y_f-40MY4sZb-Op5WsRYCu6mS21YpH0SLQYr87iuuW_F3m00)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/pLPHJzim47xthxZ1D6rbR8xJfANg8jgI3fv0K6qFOvekZbCYKgTo76YX---xfba5Wo5jGrhpu4lkBf-_VBRyXR7zmgAnvIHZ34kRwt8IASEAorHFqU04CZLMEkwZl1oRlDJn8Czo0zl3S1WEGiQwXPrdAc1GNHSAOsNWjdu4ECnDUfDhYralIyTwehGbnCIk6uPKN45EIpFDrBt2MNgZm6ckSoSOnwaUWyFhrFSgTj_N95Wz_v4kql65BI2QmyYKIKAupAOsKp2QQJZ4ug83VEObhOItKKd498b4Esugb1W9BeJd2R7dS-xvlkybpOHBdoTIDQMRIEwxVkH6Zc0acRH4FJpk0HQmHN6BaMmsbUaKwLFFBEbc3KerKeNznfsgxK5sYx7gNTWD7gl2pau7JAbVd-jprgsbVrl7OF41x7ogWAB6IHMlC2lfPjc-W38b8Wj8z55CeRbAlu5RuEyuVFmS7f6AZqtwD1VnTsIYFC-8HL5AgTIIZpK_Y_zCoTayIYSuto1IkxiTsAJ-MYJtcIHAC2lKXctlv-JaR22dvzlWVyZgo_ROAAM__ePU1rwkGEhBUGfiHcX6nHNMwXYcZTnzTOr6azi4q9KhpwEUeD4u3J-5fwCNZKRtVPKFM4osOTChjEhHi_r_bjdAljd97LEAbSKqA-wisG4_88sMQqOkJGv5DmEoNqAowzNhnR5H1TNMxmMBolXed5bbD6RP78wlDQrcJqhwLLYw3f-X8_lkOAyllBssZov7r_M4s-OyngRNaeuGWmZZGUi-y4FZ_3LNWJlSMyA7N2R3OR_bYiYLue1Bpbs_9HmUjgE-xxNx14ugr5gmVHhfX-S7)
 
 
 ```plantuml
@@ -319,7 +319,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xa8408d2e74ccb276c15da828a05a0c5d1aa4c12122c95111cd31e036a27ec2ee
+title Txn Hash: 0x5f7f08aecaaffb28d4eacab20225522960056665f4f0c60fce4c3fc0636b3b12
 
 
 actor EOA as "EOA"
@@ -371,8 +371,8 @@ deactivate "StacktraceTest_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0xb2d4014f06750e3961064829B4d9C0f055aEA3d1 |
-<#FEFECE>| StacktraceTest_01 | StacktraceTest | 0x721c34dB0EA57E7297dc4500bC3f5023d1eD2bd0 |
+<#FEFECE>| EOA | Externally Owned Account | 0xa1cB3C9B25986a30a33523800da457c122CbadC7 |
+<#FEFECE>| StacktraceTest_01 | StacktraceTest | 0x1051cB3E0cfFFB732b3c2D0c00367210E8bB658B |
 endlegend
 
 @enduml
@@ -381,11 +381,11 @@ endlegend
 
 
 ## fails, invokes public payable method with balance+1 funds
-[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/4af7c9e1104b5a1147ba37abd1c5713b86598a3a/test/stacktrace.test.js#L19)
+[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/1d44e677781e9cf21f80c1c42ebf5a82a0cd8a22/test/stacktrace.test.js#L19)
 
-##### d1, tx: 0x8b4f8de0008532ce59da797b73b5f8e8f396cda1881aed31e6ed7e3c1dee42aa
+##### d1, tx: 0x3ffb6fcad1ad6077861622e67edbc26526feeae5ab1880a4e6681adb4c348b10
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/TLJVJzim47xtNt5YBqECpSvF1x6AqAQ39v10sWlIvCIN4f4wbUDiBNJ_-wvfA7I0fUJik_FdxpvVmjXPwvHrtRncJ7MkCTqyHylQXyeib5Lpg766Hf-huc5ccyxeSLCt5ZvDisaspXWxRTsgnX63VjoZqcZXQLW2N3IsUcoCKtLQLpCpH-C8iNIxX2a5jv2BpYvgt0lSL8y88jZvhfNMbPc1u8FhRszFlmqas73-fMchsRrh8L_1hUtAad2PgroDSBiqSA7Q-nFWIva7fTJ8EPUXxnKO9bh5IPp7VXwM4cNf9r6XbP1IADI-m0XrZ7uXD6BWASL8ii8HzUmg1TN20Ta3HhAvggWMYagzSQIRiwh0MspTBoxwj3VU_KtNwk56TS_9kzK1O_q1S3nw3mAEZawWQ4phRBSXzVdEtB7JuPw-37Qq_WvkjK0WQzIyjxzLtT5aaxw6hY82QrZImxU-GtW2_fNtGy2FdzabgVxU-HjQBsJVq3bahwCVr71yV08VWc-BtsImRLEowrUgQNIggjjN9K_uX3XlIgRU8obfCgQc8botApxLsc9BiTs-qRg_Jdel7LgZwde5LtyCQaYBWZw0ZJnycNiwu28eUHI77AbF18y2wINdWKx6lEHXgBBKrs8V-6qx_E_hmRD4njCq2C8mZV98d4yYNmQyA48CkL9II0pYB9ia--0lRVCyxy7y7ASYyQD8e9HZBug39FSy8MII9Zmav32D0-vD28ma7OHbP_IcVy8_)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/TLHHRvim47xthx2wbrLTDzk0SQekAX2ozgcHMcalbQO3cnILc0ZCbhJPVz-5qBHPMqjmzjtvytUV3mYvQ1qqhbjKX43dQjijCjEGzg6qIsXWGIipDrR7a3_CcxgpEgchkg6VfkaqJL92pbkthioOq7xS6z2ceK_3ajBBkYaVQ-kWYgfoRXV6EaGit3vXYi4TvB9hbfKv2DoKZuPoV--RWTQbdLFE1jVVtfv_6qYGuVmhsvRpUzVIR4rlcwue49UuqbM6tguilOJs_eoobLSKcInoq1oqP66e99T261aQdUL21a8Mne098EDACV2Db0fJCp_tV9KX2PGiTqWzlOuejFG8xH51sLoPbql0KcySwkOQoCsjQTqlnlkqDzx3JJDuk87kENc_EYAaFu2UZj-3e2SdPpIlRUkQRalgyvsz8-V3FNqPx7ZpdRhrqb2q5XQz_GrLXvDj-ePs9HBOq1K-RESxfa-KVMNzuFJ7p_GALN_l_2sj5x9lw1oJrz4FQZWzFQCVWk-AtsQGNLEIsIlLj75GLkshaYTiWfot9MFlePGuIR2f4DVjYu-qRaoBiVs-yQQ_Jdold6aiLDMQNl-nHjCep_43sCh3Li3ps4j6iGX6IeB7mFC2uId6DFX1c7CXaWnq4Xu2lss7_tqzk01V2oKYpeDi6iayYvIdGXNAi60y2w8ucx0a5l8G_ALjdkSzMEO7gH9J6VWY28EfRpJNGQWWLJ7t9YC_zMF1kJT2C9Hq49PSu1l_2Vy0)
 
 
 ```plantuml
@@ -407,7 +407,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x8b4f8de0008532ce59da797b73b5f8e8f396cda1881aed31e6ed7e3c1dee42aa
+title Txn Hash: 0x3ffb6fcad1ad6077861622e67edbc26526feeae5ab1880a4e6681adb4c348b10
 
 
 actor EOA as "EOA"
@@ -425,17 +425,17 @@ participant PakSau_01 as "PakSau_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0xb2d4014f06750e3961064829B4d9C0f055aEA3d1 |
-<#FEFECE>| StacktraceTest_01 | StacktraceTest | 0xE987FA4455A6b61BD63840cc5e50aa818e47EED9 |
-<#FEFECE>| PakSau_01 | PakSau | 0x3beF193661e88C26749b221189A9056385A7402D |
+<#FEFECE>| EOA | Externally Owned Account | 0xa1cB3C9B25986a30a33523800da457c122CbadC7 |
+<#FEFECE>| StacktraceTest_01 | StacktraceTest | 0x2a4d282A115bFA6cbA83878767f01b5ABbD0CB26 |
+<#FEFECE>| PakSau_01 | PakSau | 0xb45E82F6542575F4ed1d578aE8B13D94E4B21139 |
 endlegend
 
 @enduml
 ```
 
-##### d2, tx: 0xd0d4bec8624d8ef6f6b7971d5b55e68fa0d9da6a09f7715af6709ab56e8c0e35
+##### d2, tx: 0x48a6adf3bb52ed5a618faa72e214b47cbfa6b44cc69dfd51b6d6ba890efb1982
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/pLRVJzim47xtN-61D45PXzFc9-egIfiEda1GRGzZcYxnfKIaJkKuq4Btl--QPXMCQWzR7vg7d7DtFd_vVF9dnauB0zgKaumnA4skoac4cXNtgPg2XWdFS8nAda5yFzPvgMG_ptBDzuVXCEo7Z7KACy-motZrt258rFov_kJyFDVfKwuCPBqi7Qi9AaCL4xDE659mLN9Qwcc6hm8twHDoorxxha3AL8sv9MhNpyfsZciGh5x_GXNf-CuKF9hpaIwJXEeoaveC-MYc-3aKToTSpAIGTeInxxPiwMFY9cxa1PubdSXnqFKJ43AGu8884i-p74XSJmGGEIxwiS2smuYos13qyBB7eU1xPFSOqMRIE9q2_UgD8TwCXXX7M9WVmghItdZt6AlcycPtKvGV7PrmNQg3MtNBEZNr7shRNNpYPZv5JbR1fB8Fa9KqMAOlU9aIa0LFr8KauwpSX_oPYu-2V_uQNX2BcnRzEvRMlu69yZmZ54KPnuXBF4R_3lut96lt8FMf2QvWlaF0ciqJlalvDL7jBL6KG5RWZhNuDZ5PEuXfkqs-DMHJc9-ZneF3ZHDdpM_x6kNtPO7LqKkDstd_25gHmdHv9rxf7ELq6uthy4juFNhNQ7IEAt-NIQIZFtq0WnlFynqEivMYiwiNEYNHG9eLBxPl80P2YENsaN2JQD6WJufCbSnw8tjIQYmejfxNNLHQIE-PGQqWo-Ryyb7HnlRYc6uFIo4IiwWbRM7PYN0zXtGqS2tXsduhEBDbq1U9S1m8UsrflIxyLal_z5N5my3tXZtRTfoU6xdMsS1j-xQ8OmST0U1RFjfU60u2Aauir5omKthJ7UWN)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/pLRVJzim47xtN-61D45PX_EpAUegqf0Eda1GRGzZciwnKo9Ift8SQA7xttTDimf6jOUj3yr3phaxdxzyFlap8QUb0MsgIKu8LAPGrOHBJShxJ4r1muJcSYoL641oFzP5fKHKv8Mc-yDu64Sn8RtIp7FP9xH-xYG8gUbpyqdfUQ6pfq8PoCCy6wk9L0OhfcQTCCJWgkIqqjDSlWhSP4-IMkxQTmL2P6fCBTQuVjQsTzo08Ctw5whCndUcf7nEHxfAKwnBJ6PoIKSpHS-Xl3kXREO6u8D87SuzMmeFV2j80Jgsj2sNkvs4f-1prqqIlojIuLdS5pw7eCjaogrkO1EaB348FRuCAPHq3-qUGTfCbcHJm5-zCSYRqP38aIpD3sRLQM-yUuJKSscxlobAZuvEgAxKmQsw9Rs6-W-DxIy-KJEVIefMmQIs3v1NE5YcBsYL8P05JTM5GEEjt8VqcRAFZ7x-6byWYviM_JiM-z_0yAB84KLP9OcKIpn6_mx-DoHhzo15s0HNCDyXOEts2Tsb_8OePqiKfP2NSiTQV9kOh1t4jDqctngoASpFfPO7XnidpjhVzhKKtvS5LaSlDcxl_IDeXGhJfxrafNEOqs-rhkClyVNeNQlLEwxzVI8a7ltP0nYvyJpVuJ1PAJgvUg5JGXh8ylB5zfsnCyROSljGk56qS12X8cCbizx8K0WjIuojv_KNjHRYUsQaLf3dSthvg71ZmoJ1syDIYDWCh6JWHDs1xNK37nm6ZkFPJi2O0DVh99PjHnn4r7bT-AsM_kchYzlW2ZkmGylo-33q4nu6Jj09EdudPHRtmW4_Oz70zh4uij1mGKxnZNUWNm00)
 
 
 ```plantuml
@@ -457,7 +457,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xd0d4bec8624d8ef6f6b7971d5b55e68fa0d9da6a09f7715af6709ab56e8c0e35
+title Txn Hash: 0x48a6adf3bb52ed5a618faa72e214b47cbfa6b44cc69dfd51b6d6ba890efb1982
 
 
 actor EOA as "EOA"
@@ -510,8 +510,8 @@ deactivate "StacktraceTest_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0xb2d4014f06750e3961064829B4d9C0f055aEA3d1 |
-<#FEFECE>| StacktraceTest_01 | StacktraceTest | 0xE987FA4455A6b61BD63840cc5e50aa818e47EED9 |
+<#FEFECE>| EOA | Externally Owned Account | 0xa1cB3C9B25986a30a33523800da457c122CbadC7 |
+<#FEFECE>| StacktraceTest_01 | StacktraceTest | 0x2a4d282A115bFA6cbA83878767f01b5ABbD0CB26 |
 endlegend
 
 @enduml
@@ -520,11 +520,11 @@ endlegend
 
 
 ## fails on deployment, asserts out
-[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/4af7c9e1104b5a1147ba37abd1c5713b86598a3a/test/stacktrace.test.js#L24)
+[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/1d44e677781e9cf21f80c1c42ebf5a82a0cd8a22/test/stacktrace.test.js#L24)
 
-##### d1, tx: 0xa88c72b9959a96da7940c6e273bfe2ef8f17272d14f50e97f524dde42d261e48
+##### d1, tx: 0xb1e2f64de636dd761838d59445a8449dacd2f3588ff8d510bb1e88fd32750865
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/TLHTJzim57tthxW3QHfbtPp4-J3gAaAQ3fv0K6qFOvhSs2aHgLiv3hJ0_ljkqr3eA5MRwrnV7n-VUrn2ZYihZAsd9I6YjZDTJyVAaEgsq7DXn1HADL5QdeZiTc9cjPR9h9mPs1-cmpH92UbLTbcgFe7cSwE4L0OUsrU0qvaf7cRQYZ8kYucUAcqHCRURWY5EhY7djPcNQclYgdXGuB1Dxa98MUW9EBHD_MrYxsjBWhJxd-cgcDpO2iPB69awpn6NsCAM2aOB3QUYkZa2kX1Hb8Nkc7EV2nv84N96iq2veJVEbQloA7T2DtIbmtAVAXxclikaLCoLRk0e5X6KBBD8FJsFGLImXt6Fe6oso8gvmADUMTJD6f6faQhi7-eqPM-osuiknEsLg9-BDszxX3GRGBU_2m8E3uyWc-dAcdf5wjErlYQzja-VszX_-WPsELU0KOjf4-z4MUDWLVu4TO44dc21FtUTEu17e5yeVF-Pdg7UktPU4NgX-OR80Naz-mxxRlS8Te8lkh_sZPA_L-lMnyVAtiTxOJHQeG-zR6r8hEbtEfVfZ_HozA7JwNrjydruHuVda-BNQGzAfC9s5dV2gfqz8kkhG2vUzKegAugoUhN1W0uefIkXqV7OG1maQ6L4iXl9OocDgd1kimu9hKo4puLLHekoNCBvlLOIuYp3QxUYIXTZLpAARgH1Y8RqUE3GW4KkFs6I9pIdlY_Is9FEDl1R4_wVQy3TmGdpmYWVCigzWKy7gUS5QHeenGBNLrmaWYOiejlWBsPz7ZTWZFF0Hpvn5F4eJr9_FEInd_80xrGIEv68_2nddeTWA6ahB3d69_uJ_GC0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/TLHjJzim4FxkNt43QHfbtPpNfgYhQ4Cw-0I2QlimfkbYEoKYTIl7WHROVzyr3OME4ZKv-tpt-F5pvp9sN5eqjfeMZ65bPxgQfigmyZRNSpGuXK9Db9P35BSJCwkqZ6V5pC3-A1abSS9OhxJBGlKPrC-DGgaCF3PJWDEPoHzcsc8nAFA9dYfj2J6pcu0HBQuXvvMP5sfhuIf_KE3u6zy5Ifdh2JYySVsjRUzhGu8r-v_fCf_Ss1BI9OnDbMM4osnk2mNZXOPJB6-EW2zIHxbPw4iLUg6KdT29l4W6NTyFCFBzhaGXtSmBeYZBoE_mb19e8Zst4_0e31X99YnHJyu7W2NiaTrZ99lDHJv7EkgL9TsiGQ76ghH_k5E7lV5k9rtWxHLMpy6RsHvZzGRGxk-2WCF38n0pNLfJhKXzkjRNhDVKwNDZ-q_Vm2xd2iXgdDRs3ekA1glm9wXo8l042thTjUy07e5_uV3zPt96Uk_QUKNeXUOR8WVizUexxDlj8zW9lcZ_sZTA_bxbhOzFaRsFzsWqjK8VUcBTa1JJRxKkan_9vVX3gzNxMllxy8uEpoUbdzCSb4b5vSplqAgTDMBhgy0kNjLAAejvKRxQu8IVSCvNGbF7Km5f45Ch4vBTI3wGqgYIrZPvH6ZLHFHTM6Kq5iKIpk-raZ0GWgxTYYfVe2E6NjmTka4t2j7Zw7c1wqMSI_I3Zd1SDqvHnfrjuBTD-B-l1e-ugpoUXJoCwG8agSCJ4QNke2iY554Odg0lHgZuDlXBipwFQp2NO28lvabd4FenzoFF7_cX4oTPryDEa4H2ydJeK1OZIHjXsJ5zwP_e7m00)
 
 
 ```plantuml
@@ -546,7 +546,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0xa88c72b9959a96da7940c6e273bfe2ef8f17272d14f50e97f524dde42d261e48
+title Txn Hash: 0xb1e2f64de636dd761838d59445a8449dacd2f3588ff8d510bb1e88fd32750865
 
 
 actor EOA as "EOA"
@@ -567,9 +567,9 @@ deactivate "StacktraceTest_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0xb2d4014f06750e3961064829B4d9C0f055aEA3d1 |
-<#FEFECE>| StacktraceTest_01 | StacktraceTest | 0x2DB4378fF4093D50DE336EE6ee4625e9aCa0C480 |
-<#FEFECE>| PakSau_01 | PakSau | 0x49965055A8898fCE5bF9A5E968f1CA18a85cf433 |
+<#FEFECE>| EOA | Externally Owned Account | 0xa1cB3C9B25986a30a33523800da457c122CbadC7 |
+<#FEFECE>| StacktraceTest_01 | StacktraceTest | 0x802e30f606C45aEb10Ec8b2A9c8ac866Da4cFae0 |
+<#FEFECE>| PakSau_01 | PakSau | 0x260683C0E7A64C04834F461CEf93a75E8cd0bB11 |
 endlegend
 
 @enduml
@@ -578,11 +578,11 @@ endlegend
 
 
 ## SDs on deployment!
-[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/4af7c9e1104b5a1147ba37abd1c5713b86598a3a/test/stacktrace.test.js#L28)
+[link to test...](http://github.com/trufflesuite/txlog-seedlings/blob/1d44e677781e9cf21f80c1c42ebf5a82a0cd8a22/test/stacktrace.test.js#L28)
 
-##### d1, tx: 0x8b0f5155707783cf17187b7d27f10bf3d13e84a4a37ff3504f86efaa0db362e8
+##### d1, tx: 0x0780bc417142eea804cb226b89cce15e9e8580acd8e0dc30ea7e35fc7907be26
 
-[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/TLHXRvim4FtkNs6rqhIcoth444YLHKs0h9KcDLeoxSCwJGRRAIenaJ5hqcR_VHT2qsRjaF3PT-Vdn-C18HUbvSPMYvmGNjb2Luj46bBUPNh93L_GNCwb5YEUtirDKMaH5dbXwF4u7iTXJ4Y_jEjS3WYjhrl9XJJqiLbIUbcOxA7GbkV3F9lhXTGM4PNTDuonk8DSLcQPouF2D7kGr77tkGaN8jDpwa2J-bF7_bb3WZJdN-aocz_QaYPhEZELKeXBR6PpIMShJIzvUNjEOHKae3p7ytpm_O2bol6Tm4zyqV6L0ubYmc4oSBdBcQyKyy1LGLSgpa4ahDkH0K79KelKu-iXvIKzmdX4K3QRfTcIuwDEBUfc3K_bJ9Rs5pXrswliuQO9lvlowgbvlpeYf3w0jWTlGT3JqtEQ5hgqfjgIUd-ZRqY_UKyVcZZOVA9slPGKe-QBElxcUOMJRVk6LXaIsD0LtiukTq8VANm4-lbxV8LwltNobj0ppLT4JiZBwd_Ojzldz4tmLVl7yTn8gNzkT-u4mDx-ktjkD9fXGFlfpf96Ya6hDOs_ZADuEllwBPorMlspkeZMsFcOJ5u8BQJbMLw-K2c2202sAg5TKNsSXEX396JtUWs5CBB4sdxVO5Cx0CULbKRpF5_Jwtij1HscANupMqLXbNI42uwheEjx85clwq3N3JgzaIjw8IZmF1uFqNE7mAyTz6-k1k-5oeUH5uHZxlZ9g1T58pzMhfzq0f00F0RMGtEpG_1dfptDQp06p5EUr_EP4C0T64iNt21ommu3ZtMuoo9acqG8Xf8smf8B7F4tyXS0)
+[SVG :telescope:](https://www.planttext.com/api/plantuml/svg/TLJlJzim4Ftkl-84qZJAEfnVJOAwYfAc0saIQEsq3sEQ7FjQ8bAtSfpHGlU_xvg6GWUBb9nzTtv-Vda9OsUb5SPMiu8nKTcvhcOP6bRUvNeXZ9X1WLFKwbp8kwcPLrebys9ku72O3jCaPQnRsbM1FGRrTOj2eO77PWfmCJVvmrnRKVIBVAfdg2qXJkokOKZ5BUIYCei2zmgZ_071yNUvQw5KhgVWy2RrfuxTauO4Q_Q_r6K-lRKbP2iOcseo8LncSriWZ9SQBaHvUmfyoSE8Pz9tGiTt4KN4VPcvRYUBOYdH2J36A8Yua2f2hgJ7KOJe1HCPnZpCqEqmaanQefvUzK6KS43nW95iDfVvGj1HHvPqiqP876DfVt6dRdkLtLzqBUv6edfgtiqE6AitW7RlBGWuFZu5ETUbDTM6rFiRVSEwpNlwqCJU-XFOrGA1eXQpEluMHKM3JViQgfm8h659jxFD7S4Zy8ySFdzFBqdljtRU47gc-Oh84NjP_G_xTliKtWHVjdySJWsY_hbPkHM0UhllxeNHP8OUTENMaWPLhzKQfL-6WtGq_lej6RTQtPEwIDRO-fXTln1QeHLvKRvGQS07dFEDIcHNKfy62VcG2DcTNdsb39PKswthhMi7q7DfqMXH52kukjUee2ybVJCRHVbIEFBSI-9pDuYZZl2uyBp0zIBEbV23K3gkcsH29U4-y6i7_PkhmMFNzIR-m9baYH_B2G-zZk_pmO1td4pvvDdOK-HpPn_ysMbFuorOturSF_Oy4N2Vk68OUgxloXXHoO38HiCewuHqOaQIDiAoCthIR-Gl)
 
 
 ```plantuml
@@ -604,7 +604,7 @@ skinparam legendBackgroundColor #FEFECE
 
 header Insights by Truffle
 
-title Txn Hash: 0x8b0f5155707783cf17187b7d27f10bf3d13e84a4a37ff3504f86efaa0db362e8
+title Txn Hash: 0x0780bc417142eea804cb226b89cce15e9e8580acd8e0dc30ea7e35fc7907be26
 
 
 actor EOA as "EOA"
@@ -622,9 +622,9 @@ participant PakSau_01 as "PakSau_01"
 legend
 Participant details
 <#FEFECE,#D0D000>|= Alias |= Contract name |= Address |
-<#FEFECE>| EOA | Externally Owned Account | 0xb2d4014f06750e3961064829B4d9C0f055aEA3d1 |
-<#FEFECE>| StacktraceTest_01 | StacktraceTest | 0x9Cf70B58CFa17bB9DDB7Ef47b280e00aE0391873 |
-<#FEFECE>| PakSau_01 | PakSau | 0x3035f55973dd0a10Fe4048D4C230532a43D055bD |
+<#FEFECE>| EOA | Externally Owned Account | 0xa1cB3C9B25986a30a33523800da457c122CbadC7 |
+<#FEFECE>| StacktraceTest_01 | StacktraceTest | 0x9223f4D1fbC49cf0736440DD061bd45fc93d1711 |
+<#FEFECE>| PakSau_01 | PakSau | 0x9A2824933a50486ae773242c9eedc54578F8b67A |
 endlegend
 
 @enduml
