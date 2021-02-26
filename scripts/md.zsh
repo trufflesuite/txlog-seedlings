@@ -1,6 +1,6 @@
 #! /usr/bin/env zsh
 
-node ./scripts/txns.js| grep -v done |xargs -n 1 ./scripts/trace-txn.zsh
+node ./scripts/txns.js| grep -v done |xargs -n 1 -P 16 ./scripts/trace-txn.zsh
 
 for tx in $(node scripts/txns | grep -v done) ; do
   file=${tx}.puml

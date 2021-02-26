@@ -1,5 +1,5 @@
 #! /usr/bin/env zsh
-TRUFFLE=~/work/truffle-node-12/packages/core/cli.js
+TRUFFLE=~/work/truffle/packages/core/cli.js
 
 # options
 COMPILE_TESTS="--compile-tests"
