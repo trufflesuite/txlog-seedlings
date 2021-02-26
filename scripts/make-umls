@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 
-TRUFFLE=~/work/truffle-node-12/packages/core/cli.js
+TRUFFLE=~/work/truffle/packages/core/cli.js
 # ts on os x: brew install task-spooler
 # tsp on linux
 if command -v tsp &> /dev/null; then

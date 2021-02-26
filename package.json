@@ -14,7 +14,8 @@
     "seq:d": "node --inspect-brk ~/work/truffle/packages/core/cli.js run tx2seq",
     "umls": "./scripts/make-umls",
     "bn": "./scripts/bn.awk",
-    "md": "./scripts/md.zsh"
+    "md": "./scripts/md.zsh",
+    "check:node": "node ./scripts/check-node.js"
   },
   "devDependencies": {
     "chai": "^4.3.0",
